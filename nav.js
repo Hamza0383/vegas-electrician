@@ -13,8 +13,8 @@
     // Get elements
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
-    const dropdownParent = document.querySelector('.has-dropdown');
-    const dropdownToggle = document.querySelector('.dropdown-toggle');
+    const dropdownParents = document.querySelectorAll('.has-dropdown');
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
     // Exit if elements don't exist
     if (!navToggle || !navMenu) return;
@@ -35,17 +35,21 @@
         buttonText.textContent = isExpanded ? 'Open menu' : 'Close menu';
       }
 
-      // Close dropdown when closing menu
-      if (isExpanded && dropdownParent) {
-        dropdownParent.classList.remove('active');
+      // Close all dropdowns when closing menu
+      if (isExpanded) {
+        dropdownParents.forEach(function(dropdown) {
+          dropdown.classList.remove('active');
+        });
       }
     });
 
     // ========================================
     // MOBILE DROPDOWN TOGGLE
     // ========================================
-    if (dropdownToggle && dropdownParent) {
-      dropdownToggle.addEventListener('click', function(e) {
+    dropdownToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(e) {
+        const parentDropdown = toggle.closest('.has-dropdown');
+
         // Only work on mobile
         if (window.innerWidth > 768) {
           e.preventDefault(); // Still prevent # navigation on desktop
@@ -55,14 +59,21 @@
         e.preventDefault();
         e.stopPropagation();
 
-        // Toggle dropdown - explicit check
-        if (dropdownParent.classList.contains('active')) {
-          dropdownParent.classList.remove('active');
+        // Close other dropdowns first
+        dropdownParents.forEach(function(dropdown) {
+          if (dropdown !== parentDropdown) {
+            dropdown.classList.remove('active');
+          }
+        });
+
+        // Toggle this dropdown
+        if (parentDropdown.classList.contains('active')) {
+          parentDropdown.classList.remove('active');
         } else {
-          dropdownParent.classList.add('active');
+          parentDropdown.classList.add('active');
         }
       });
-    }
+    });
 
     // ========================================
     // CLOSE MENU ON OUTSIDE CLICK
@@ -82,10 +93,10 @@
           buttonText.textContent = 'Open menu';
         }
 
-        // Close dropdown
-        if (dropdownParent) {
-          dropdownParent.classList.remove('active');
-        }
+        // Close all dropdowns
+        dropdownParents.forEach(function(dropdown) {
+          dropdown.classList.remove('active');
+        });
       }
     });
 
@@ -104,10 +115,10 @@
           buttonText.textContent = 'Open menu';
         }
 
-        // Close dropdown
-        if (dropdownParent) {
-          dropdownParent.classList.remove('active');
-        }
+        // Close all dropdowns
+        dropdownParents.forEach(function(dropdown) {
+          dropdown.classList.remove('active');
+        });
       }
     });
 
@@ -133,10 +144,10 @@
           buttonText.textContent = 'Open menu';
         }
 
-        // Close dropdown
-        if (dropdownParent) {
-          dropdownParent.classList.remove('active');
-        }
+        // Close all dropdowns
+        dropdownParents.forEach(function(dropdown) {
+          dropdown.classList.remove('active');
+        });
       });
     });
 
@@ -147,15 +158,20 @@
 
     function highlightActivePage() {
       const currentPath = window.location.pathname;
-      const currentPage = currentPath.substring(currentPath.lastIndexOf('/') + 1) || 'index.html';
+      // Normalize path: remove trailing slash and .html extension for comparison
+      const normalizedPath = currentPath.replace(/\/$/, '').replace(/\.html$/, '') || '/';
 
       navLinks.forEach(function(link) {
-        const linkPath = link.getAttribute('href');
+        const linkHref = link.getAttribute('href');
+        // Normalize link href the same way
+        const normalizedLink = linkHref.replace(/\/$/, '').replace(/\.html$/, '') || '/';
+
         link.classList.remove('active');
 
-        if (linkPath === currentPage ||
-            (currentPage === '' && linkPath === 'index.html') ||
-            (currentPage === '/' && linkPath === 'index.html')) {
+        // Compare normalized paths
+        if (normalizedPath === normalizedLink ||
+            (normalizedPath === '' && normalizedLink === '/') ||
+            (normalizedPath === '/' && normalizedLink === '')) {
           link.classList.add('active');
         }
       });

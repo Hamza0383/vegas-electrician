@@ -1,0 +1,11 @@
+# Cloudflare Pages Redirects
+# Redirect all .html URLs to clean URLs (301 permanent)
+
+/*.html  /:splat  301
+
+# Old URL redirects (if any pages were renamed)
+/electrician-henderson-nv  /electrician-in-henderson-nv  301
+/electrician-north-las-vegas-nv  /electrician-in-north-las-vegas-nv  301
+/electrician-paradise-nv  /electrician-in-paradise-nv  301
+/electrician-spring-valley-nv  /electrician-in-spring-valley-nv  301
+/electrician-summerlin-nv  /electrician-in-summerlin-nv  301
