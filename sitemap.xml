@@ -6,231 +6,107 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<<<<<<< HEAD
 
 <url>
   <loc>https://vegaselectricianservice.com/</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/residential-electrical-services</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/commercial-electrical-services</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/emergency-electrician-las-vegas</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/electrical-panel-upgrade</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/circuit-breaker-repair</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/ceiling-fan-installation</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/lighting-installation</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/electrical-wiring-rewiring</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/ev-charger-installation</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/gfci-outlet-installation</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/electrical-inspection-troubleshooting</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vegaselectricianservice.com/about</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <loc>https://vegaselectricianservice.com/electrician-in-henderson-nv</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vegaselectricianservice.com/electrician-in-summerlin-nv</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vegaselectricianservice.com/electrician-in-paradise-nv</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vegaselectricianservice.com/electrician-in-spring-valley-nv</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/contact</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vegaselectricianservice.com/service-areas-las-vegas</loc>
-  <lastmod>2026-01-14T16:56:41+00:00</lastmod>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vegaselectricianservice.com/about</loc>
+  <lastmod>2026-01-17T17:12:57+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
-=======
-  <!-- Homepage -->
-  <url>
-    <loc>https://vegaselectricianservice.com/</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Main Pages -->
-  <url>
-    <loc>https://vegaselectricianservice.com/about</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/contact</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/service-areas-las-vegas</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Service Overview Pages -->
-  <url>
-    <loc>https://vegaselectricianservice.com/residential-electrical-services</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/commercial-electrical-services</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/emergency-electrician-las-vegas</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- High-Value Service Pages -->
-  <url>
-    <loc>https://vegaselectricianservice.com/electrical-panel-upgrade</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrical-wiring-rewiring</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/ev-charger-installation</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Other Service Pages -->
-  <url>
-    <loc>https://vegaselectricianservice.com/circuit-breaker-repair</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/ceiling-fan-installation</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/lighting-installation</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/gfci-outlet-installation</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrical-inspection-troubleshooting</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Location Pages -->
-  <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-henderson-nv</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-paradise-nv</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-spring-valley-nv</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-summerlin-nv</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
->>>>>>> 11c1646 (add new pages)
 </urlset>
