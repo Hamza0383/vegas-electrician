@@ -6,11 +6,9 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Circuit breaker repair Las Vegas: fix tripping breakers, replace faulty breakers, panel troubleshooting, breaker box upgrades. Same-day service for Las Vegas homes."
+      content="Las Vegas circuit breaker repair & replacement. Federal Pacific, Zinsco panel upgrades. Thermal fatigue diagnostics. Expert service."
     />
-    <title>
-      Circuit Breaker Repair Las Vegas | Breaker Replacement & Panel Service
-    </title>
+    <title>Circuit Breaker Repair Las Vegas | Diagnostic Service</title>
     <!-- Favicon links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link
@@ -69,11 +67,11 @@
       {
         "@context": "https://schema.org",
         "@type": "Electrician",
+        "@id": "https://vegaselectricianservice.com#business",
         "name": "Vegas Electrician Service",
-        "image": "https://vegaselectricianservice.com/img/logo.webp",
-        "logo": "https://vegaselectricianservice.com/img/logo.webp",
-        "@id": "https://vegaselectricianservice.com",
         "url": "https://vegaselectricianservice.com",
+        "logo": "https://vegaselectricianservice.com/img/logo.webp",
+        "image": "https://vegaselectricianservice.com/img/logo.webp",
         "telephone": "+17028997099",
         "email": "info@vegaselectricianservice.com",
         "priceRange": "$$",
@@ -124,21 +122,6 @@
             "@type": "City",
             "name": "Summerlin",
             "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Spring Valley",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Paradise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Enterprise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
           }
         ],
         "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
@@ -146,32 +129,23 @@
           "@type": "ContactPoint",
           "telephone": "+17028997099",
           "contactType": "customer service",
-          "email": "info@vegaselectricianservice.com",
-          "availableLanguage": ["English"],
-          "areaServed": "US"
+          "availableLanguage": "English"
         }
       }
     </script>
+
     <!-- Service Schema - Circuit Breaker -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "serviceType": "Circuit Breaker Repair",
+        "@id": "https://vegaselectricianservice.com/circuit-breaker-repair#service",
         "name": "Circuit Breaker Repair Las Vegas",
-        "description": "Professional circuit breaker repair and replacement services in Las Vegas. Licensed electricians diagnose and fix tripping breakers, replace old breakers, and install GFCI/AFCI protection.",
+        "serviceType": "Circuit Breaker Repair & Replacement",
+        "description": "Professional circuit breaker repair and replacement in Las Vegas. Licensed electricians diagnose tripping breakers, overheating panels, and faulty main breakers using thermal imaging and load testing.",
         "provider": {
           "@type": "Electrician",
-          "name": "Vegas Electrician Service",
-          "telephone": "+17028997099",
-          "email": "info@vegaselectricianservice.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Las Vegas",
-            "addressRegion": "NV",
-            "postalCode": "89101",
-            "addressCountry": "US"
-          }
+          "@id": "https://vegaselectricianservice.com#business"
         },
         "areaServed": {
           "@type": "City",
@@ -181,12 +155,12 @@
             "name": "Nevada"
           }
         },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "name": "Free Estimate",
-          "description": "Free estimates for all circuit breaker repairs"
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceLocation": {
+            "@type": "Place",
+            "name": "On-site electrical service"
+          }
         }
       }
     </script>
@@ -214,6 +188,41 @@
             "position": 3,
             "name": "Circuit Breaker Repair",
             "item": "https://vegaselectricianservice.com/circuit-breaker-repair"
+          }
+        ]
+      }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://vegaselectricianservice.com/circuit-breaker-repair#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why does my breaker feel hot to the touch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Breakers generate heat from normal current through I²R losses. However, breakers should not feel hot—warm at most, matching surrounding panel temperature. A hot breaker indicates: (1) current exceeding rating, (2) high-resistance connection at stabs, or (3) internal degradation from thermal fatigue. We measure actual current, inspect connections for oxidation, and test breaker functionality. Hot breakers are failure warnings. Continued operation risks fire. Do not ignore hot breakers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I just replace a 15-amp breaker with a 20-amp if it keeps tripping?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Breaker ratings must match wire capacity. A 15-amp breaker protects 14 AWG wire rated for 15 amps. Installing a 20-amp breaker on 14 AWG wire allows 20 amps through conductors rated for 15, overheating wire and starting fires. The breaker protects the wire, not appliances. If your 15-amp breaker trips repeatedly, the circuit is overloaded and needs redistribution or new circuits, or the breaker itself is failing and must be replaced with another 15-amp. We never oversize breakers relative to wire gauge."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does the 2026 code say about replacing old breakers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 2023 NEC adopted January 11, 2026, requires surge protection (Type 1 or Type 2 SPD) during service equipment modifications, including panel or main breaker replacement. For branch breaker replacement, the code does not require full upgrades, but AFCI breakers meeting current requirements are installed. If replacing breakers in Federal Pacific or Zinsco panels, individual breaker replacement is not recommended due to fundamental design defects requiring complete panel replacement. Modern breaker replacement must use breakers listed and approved for the panel manufacturer."
+            }
           }
         ]
       }
@@ -392,12 +401,16 @@
         />
         <div class="container">
           <div class="hero-content">
-            <h1>Circuit Breaker Repair Las Vegas | Fix Tripping Breakers</h1>
+            <h1>
+              Circuit Breaker Repair Las Vegas | Diagnostic & Replacement
+              Specialists
+            </h1>
             <p>
               <strong>
-                Professional circuit breaker repair and replacement. Experienced
-                electricians fixing electrical panel problems throughout Las
-                Vegas.
+                A breaker that trips repeatedly isn't protecting you—it's
+                warning you of a failure in progress. The reset is temporary.
+                The underlying issue—thermal fatigue, bus bar corrosion,
+                mechanical wear—worsens with every cycle.
               </strong>
             </p>
             <div class="btn-group">
@@ -412,44 +425,95 @@
       <!-- Content Section 1: Content Left - Image Right -->
       <section class="section">
         <div class="container">
-          <h2>Expert Circuit Breaker Repair Services</h2>
+          <div class="highlight-box">
+            <p>
+              Las Vegas breakers endure extreme conditions. AC compressors cycle
+              4,000+ hours annually. Each startup creates inrush current 5-7
+              times normal amperage. The breaker's bi-metal strip flexes
+              thousands of times yearly in 145°F garage panels. After a decade,
+              the metal fatigues. The breaker weakens, tripping at 12 amps
+              instead of rated 15. Or worse—it fails to trip during faults,
+              allowing conductors to overheat and ignite insulation.
+            </p>
+            <p>
+              We diagnose the root cause. We measure voltage drop across breaker
+              contacts. We use thermal imaging to identify high-resistance
+              connections. We test trip curves under load. We don't guess.
+            </p>
+          </div>
+          <h2>Diagnosing Breaker Failure in the Southern Nevada Climate</h2>
           <hr />
           <div class="content-image-section">
             <!-- Content Area (3fr) -->
             <div class="content-area highlight-box">
               <p>
-                Circuit breakers protect your home's electrical system by
-                shutting off power when circuits become overloaded or develop
-                faults. When breakers malfunction, trip constantly, or fail to
-                protect your home properly, you need professional circuit
-                breaker repair services. Electrician Las Vegas provides complete
-                circuit breaker repair and replacement for homes throughout the
-                Las Vegas Valley.
+                Henderson, Summerlin, and North Las Vegas homes run cooling
+                equipment nearly year-round. Continuous high-amperage loads
+                accelerate breaker degradation. The failure modes we see
+                repeatedly are predictable consequences of desert heat.
+              </p>
+              <h3>Understanding Thermal Fatigue & Nuisance Tripping</h3>
+              <p>
+                Circuit breakers use thermal-magnetic trip mechanisms. A
+                bi-metal strip heats from current flow. When current exceeds
+                rating, the strip bends, releasing a latch. Severe overloads
+                trigger instant magnetic trip.
               </p>
               <p>
-                Breaker problems range from nuisance tripping that interrupts
-                your daily activities to dangerous failures that leave circuits
-                unprotected. Our experienced electricians diagnose breaker
-                problems accurately and implement appropriate solutions.
-                Sometimes the breaker itself has failed and needs replacement.
-                Other times, the problem lies in the circuit the breaker
-                protects, requiring different repairs.
+                Thermal fatigue occurs from thousands of heating cycles. AC
+                compressor starts heat the breaker; shutdowns cool it. In Las
+                Vegas, this happens 8-15 times daily May through October. After
+                10,000 cycles, metal properties change. The breaker trips at 80%
+                of rated capacity—12 amps on a 15-amp breaker.
               </p>
               <p>
-                We work on all types of electrical panels and circuit breakers
-                including standard breakers, GFCI breakers, AFCI breakers, and
-                tandem breakers. Our electricians carry common breaker types in
-                their service vehicles, allowing us to complete most breaker
-                replacements on the first visit. This preparation minimizes the
-                time your circuits remain without proper protection.
+                Nuisance tripping follows. The breaker is failing, not
+                overloaded. Ambient temperature affects trip points. A 15-amp
+                breaker rated at 77°F de-rates in high temperatures. In a 130°F
+                garage panel, it effectively becomes a 13-amp breaker.
+              </p>
+              <h3>Signs of a Failing Main Breaker: Buzzing, Heat, & Odors</h3>
+              <p>
+                Main breakers handle total household current. Excessive heat
+                indicates problems.
               </p>
               <p>
-                Circuit breaker problems shouldn't be ignored. A breaker that
-                won't reset indicates a serious problem that requires immediate
-                attention. A breaker that doesn't trip when it should provides
-                no protection against electrical fires. Our prompt service
-                restores safe operation and protects your home from electrical
-                hazards.
+                Buzzing or humming signals loose connections or degraded
+                surfaces. The sound comes from contacts vibrating at 60Hz
+                through high-resistance points. This is arcing, generating
+                extreme heat and oxidizing contact surfaces.
+              </p>
+              <p>
+                Hot breakers above ambient indicate current exceeding rating or
+                internal resistance. We measure temperature using infrared
+                thermography. Functioning breakers shouldn't exceed 20°F above
+                ambient. Breakers 40-50°F above are failing.
+              </p>
+              <p>
+                Burning plastic means insulation is melting from overheated
+                connections. The panel must be de-energized immediately.
+              </p>
+              <h3>Correcting Bus Bar Pitting & High-Resistance Connections</h3>
+              <p>
+                Bus bars distribute power to branch breakers. Each breaker
+                connects via metal "stabs." After decades of thermal cycling,
+                failure modes develop.
+              </p>
+              <p>
+                Bus bar pitting occurs when high-resistance connections generate
+                heat. Heat oxidizes the bus bar surface. Oxidation increases
+                resistance, generating more heat. Severe pitting prevents proper
+                connection.
+              </p>
+              <p>
+                We address pitting through panel replacement. Modern panels use
+                tin-plated copper bus bars resistant to oxidation.
+              </p>
+              <p>
+                High-resistance connections at stabs cause similar problems. We
+                identify these through thermal imaging—hot spots 30-50°F above
+                surrounding temperatures. Correcting requires cleaning oxidized
+                surfaces, tightening connections, or replacing panels.
               </p>
             </div>
 
@@ -463,7 +527,7 @@
               />
             </div>
           </div>
-          <h2>Common Circuit Breaker Problems</h2>
+          <h2>Obsolete Panels: The Zinsco & Federal Pacific Danger</h2>
           <hr />
 
           <div class="image-content-section">
@@ -480,154 +544,100 @@
             <!-- Content Area (3fr) -->
             <div class="content-area highlight-box">
               <p>
-                Understanding common breaker problems helps you recognize when
-                professional service is needed. Several issues cause breakers to
-                malfunction or fail to protect your electrical system properly.
+                Certain panel manufacturers produced equipment with documented
+                failure modes. Federal Pacific Electric (FPE) and Zinsco panels
+                dominate 1960s-1980s Las Vegas construction. These panels kill
+                people. The failures aren't rare anomalies—they're predictable
+                outcomes of design defects.
               </p>
-              <h3>Breakers That Trip Frequently</h3>
+              <h3>Why Stab-Lok Breakers Fail to Trip</h3>
               <p>
-                A breaker that trips repeatedly indicates a problem that needs
-                diagnosis and repair. The breaker might be doing its job by
-                protecting an overloaded circuit. Alternatively, the breaker
-                itself may have weakened and trips at lower currents than its
-                rating. Our electricians determine why the breaker trips and fix
-                the underlying problem.
-              </p>
-              <p>
-                Frequent tripping during Las Vegas summers often results from
-                air conditioning systems overloading circuits. When outdoor
-                temperatures exceed 110 degrees, air conditioners work harder
-                and draw more current. A circuit that handles normal loads fine
-                may trip when the AC runs continuously during extreme heat.
-              </p>
-              <h3>Breakers That Won't Reset</h3>
-              <p>
-                If a breaker won't reset or immediately trips again when you
-                reset it, a serious problem exists in the circuit. This
-                indicates a short circuit, ground fault, or other dangerous
-                condition. Never force a breaker to stay on or repeatedly try to
-                reset it. Call for
-                <a href="/emergency-electrician-las-vegas"
-                  >professional electrical service</a
-                >
-                to diagnose and repair the problem safely.
+                Federal Pacific Electric Stab-Lok breakers have documented
+                failure rates exceeding 25%. The breakers fail to trip during
+                overloads. This is inherent design.
               </p>
               <p>
-                A breaker that won't reset is protecting your home from a
-                potentially dangerous electrical fault. Forcing it on or
-                bypassing the breaker creates serious fire and shock hazards.
-                Our emergency service is available when you need immediate help
-                with breakers that won't reset.
-              </p>
-              <h3>Breakers That Feel Hot</h3>
-              <p>
-                Circuit breakers should never feel hot to the touch. A hot
-                breaker indicates dangerous overloading, loose connections, or a
-                failing breaker. Heat accelerates breaker failure and can damage
-                the electrical panel. If you notice a hot breaker, reduce the
-                load on that circuit immediately and call for electrical
-                service.
+                FPE breakers use thin metal stabs that deform when inserted.
+                Thermal cycling loosens connections. Heat further deforms stabs.
+                Eventually the breaker loses bus bar contact.
               </p>
               <p>
-                Loose connections at the breaker terminals generate heat through
-                electrical resistance. These connections must be tightened
-                properly to prevent overheating. Our electricians check and
-                tighten all connections during breaker service to prevent
-                heat-related problems.
-              </p>
-              <h3>Breakers That Don't Trip When They Should</h3>
-              <p>
-                The most dangerous breaker problem is one that fails to trip
-                during overloads or faults. This leaves your home unprotected
-                from electrical fires. Old breakers lose their ability to trip
-                reliably. Breakers from certain manufacturers have known
-                problems with failure to trip.
+                When fault current flows, the trip mechanism activates but
+                contacts don't fully open because deformed stabs interfere.
+                Current continues through the partially-open breaker, creating
+                extreme heat. The breaker melts. Bus bars melt. Fires start.
               </p>
               <p>
-                If you suspect a breaker isn't tripping properly, have your
-                electrical panel inspected immediately. We test breakers to
-                verify they trip at appropriate current levels. Breakers that
-                fail testing are replaced to restore proper protection.
+                Federal Pacific panels must be replaced. There is no "repair"
+                option.
+              </p>
+              <h3>Identifying Melted Bus Bars in Sylvania/Zinsco Systems</h3>
+              <p>
+                Zinsco panels use aluminum bus bars contacting aluminum stabs.
+                Aluminum-to-aluminum connections oxidize aggressively with heat.
               </p>
               <p>
-                <strong
-                  >Experiencing breaker problems? Call Electrician Las Vegas for
-                  professional diagnosis and repair.</strong
-                >
+                The oxidation creates insulating layers generating heat. The
+                heat melts the aluminum bus bar. We regularly find Zinsco panels
+                where the bus bar melted through at breaker connections.
+              </p>
+              <p>
+                Melted bus bars create arcing faults generating 3,000°F+
+                temperatures. Panel enclosures melt. Adjacent framing ignites.
+              </p>
+              <p>
+                Zinsco panels must be replaced. Paradise, Winchester, older
+                Henderson, and Spring Valley contain thousands still in service.
               </p>
             </div>
           </div>
-          <h2>Why Circuit Breakers Trip</h2>
+          <h2>Compliance with the 2026 Clark County Electrical Code</h2>
           <hr />
           <div class="content-image-section">
             <div class="content-area highlight-box">
               <p>
-                Circuit breakers trip for specific reasons, all related to
-                protecting your electrical system. Understanding why breakers
-                trip helps you determine whether you have a simple overload or a
-                more serious problem.
+                Clark County adopted the 2023 NEC effective January 11, 2026.
+                This adoption introduced mandatory requirements affecting
+                breaker replacement and panel repairs.
               </p>
-              <h3>Circuit Overloads</h3>
+              <h3>Mandatory Surge Protection (SPD) for Service Upgrades</h3>
               <p>
-                The most common reason breakers trip is circuit overload. This
-                occurs when you draw more current than the circuit is designed
-                to handle. A 15-amp circuit breaker trips when current exceeds
-                15 amps. This is normal breaker operation protecting your wiring
-                from dangerous overheating.
+                NEC 230.67 requires Type 1 or Type 2 SPDs on all services.
+                Enforceable in Clark County since January 11, 2026. Any work on
+                distribution equipment—panel replacement, main breaker
+                replacement—triggers SPD requirement.
               </p>
               <p>
-                Overloads happen when too many devices operate on one circuit
-                simultaneously. Running a space heater, hair dryer, and
-                television on the same circuit often causes tripping. The
-                solution is redistributing loads to different circuits or
-                <a href="/electrical-wiring-rewiring"
-                  >adding dedicated circuits</a
-                >
-                for high-power devices.
-              </p>
-              <h3>Short Circuits</h3>
-              <p>
-                Short circuits occur when hot wires contact neutral wires or
-                ground wires. This creates a sudden surge of current that trips
-                the breaker immediately. Short circuits are more serious than
-                overloads and require professional diagnosis to locate and
-                repair the fault.
+                Valley grid experiences transients from utility switching,
+                monsoon lightning, and motor startups. Type 1 SPDs install on
+                line side of main breaker. Type 2 on load side. We install SPDs
+                rated 40kA minimum, higher (50-80kA) for comprehensive
+                protection.
               </p>
               <p>
-                Common causes of short circuits include damaged wire insulation,
-                loose connections, faulty appliances, and rodent damage to
-                wiring. Our electricians use specialized equipment to locate
-                short circuits quickly and make necessary repairs safely.
+                SPD installation adds $300-$600 but prevents thousands in
+                damage.
               </p>
-              <h3>Ground Faults</h3>
+              <h3>AFCI Protection Requirements for Modern Circuit Integrity</h3>
               <p>
-                Ground faults happen when hot wires contact grounded surfaces or
-                when current leaks to ground through damaged insulation. GFCI
-                breakers protect against ground faults by detecting tiny current
-                imbalances and tripping extremely fast. This protection prevents
-                dangerous electrical shocks.
+                AFCI protection expanded under 2023 NEC. All 15-amp and 20-amp
+                circuits require AFCI, including lighting, living areas, and
+                kitchens.
               </p>
               <p>
-                Ground faults often occur in areas with water exposure like
-                bathrooms, kitchens, and outdoor circuits. Moisture accelerates
-                insulation breakdown and creates paths for current to leak to
-                ground. Our electricians identify ground fault sources and
-                repair them to restore safe operation.
-              </p>
-              <h3>Arc Faults</h3>
-              <p>
-                Arc fault circuit interrupter (AFCI) breakers detect dangerous
-                arcing conditions and trip to prevent electrical fires. Arcing
-                occurs at loose connections, damaged wires, or within failing
-                electrical devices. AFCI breakers are now required in most
-                living areas of newer homes.
+                Arc-fault interrupters detect dangerous arcing standard breakers
+                cannot. Series arcing occurs when conductors develop breaks.
+                Parallel arcing occurs when conductors short through insulation.
+                Both ignite insulation.
               </p>
               <p>
-                AFCI breakers are more sensitive than standard breakers and may
-                trip due to normal arcing in certain devices like vacuum
-                cleaners and power tools. If your AFCI breaker trips frequently,
-                we determine whether the tripping is justified by a dangerous
-                condition or caused by normal device operation.
+                AFCI breakers analyze current waveforms. Arcing creates distinct
+                signatures. The processor trips before ignition heat develops.
+              </p>
+              <p>
+                Dual-function AFCI/GFCI provide both protections for kitchens,
+                bathrooms, and laundry. Cost is $45-$60 versus $8-$12 for
+                standard breakers.
               </p>
             </div>
             <div class="image-area">
@@ -639,366 +649,60 @@
               />
             </div>
           </div>
-          <h2>Circuit Breaker Repair vs. Replacement</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/old-worn-circuit-breaker-las-vegas.webp"
-                alt="Old worn circuit breaker needing replacement in Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                When breakers malfunction, the question is whether to repair the
-                underlying problem or replace the breaker itself. Our
-                electricians evaluate each situation and recommend the
-                appropriate solution.
-              </p>
-              <h3>When Breakers Need Replacement</h3>
-              <p>
-                Circuit breakers have limited lifespans and eventually fail. A
-                breaker that trips constantly even without overload has likely
-                weakened and needs replacement. Breakers that feel hot, show
-                signs of arcing or burning, won't reset properly, or are more
-                than 25 years old should be replaced.
-              </p>
-              <p>
-                Certain breaker brands have known reliability problems. Federal
-                Pacific, Zinsco, and Challenger breakers often fail to trip
-                properly and should be replaced regardless of age. If your panel
-                contains these problematic breakers, we recommend replacing them
-                immediately for safety.
-              </p>
-              <h3>When Circuit Repairs Are Needed</h3>
-              <p>
-                Sometimes the breaker functions properly but trips due to
-                circuit problems. Overloaded circuits, short circuits, ground
-                faults, and damaged wiring all cause breakers to trip
-                appropriately. We use
-                <a href="/electrical-inspection-troubleshooting"
-                  >electrical troubleshooting techniques</a
-                >
-                to identify the exact cause. In these cases, the circuit needs
-                repair rather than breaker replacement.
-              </p>
-              <p>
-                Our diagnostic process determines whether the breaker or the
-                circuit has problems. We test the breaker's operation, measure
-                circuit loads, and inspect for faults. This thorough diagnosis
-                ensures we fix the actual problem rather than just replacing
-                components unnecessarily.
-              </p>
-              <h3>Combined Repairs and Upgrades</h3>
-              <p>
-                Often we find both circuit problems and breaker issues that need
-                attention. We may repair a short circuit and also replace an old
-                breaker to ensure reliable protection. Complete solutions
-                address all problems and prevent future issues.
-              </p>
-              <p>
-                <strong
-                  >Need breaker diagnosis? Contact Electrician Las Vegas for
-                  professional electrical panel service.</strong
-                >
-              </p>
-            </div>
-          </div>
-          <h2>The Breaker Repair Process</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Our systematic approach to breaker problems ensures accurate
-                diagnosis and appropriate repairs. Understanding our process
-                helps you know what to expect when you call for breaker service.
-              </p>
-              <h3>Initial Problem Assessment</h3>
-              <p>
-                Service begins with our electrician gathering information about
-                the problem. We ask which breaker trips, how often it trips,
-                what devices are on the circuit, and when the problem started.
-                This information helps us understand the issue and prepare
-                appropriate diagnostic tools.
-              </p>
-              <p>
-                We examine your electrical panel for visible problems like loose
-                breakers, signs of overheating, damaged breakers, and proper
-                panel condition. Visual inspection often reveals obvious
-                problems before detailed testing begins.
-              </p>
-              <h3>Circuit Load Testing</h3>
-              <p>
-                We measure the current draw on the problem circuit to determine
-                if overloading causes the tripping. Using clamp meters, we
-                measure actual current while typical loads operate. This shows
-                whether the circuit is overloaded or if another problem exists.
-              </p>
-              <p>
-                If the circuit is overloaded, we discuss solutions including
-                redistributing loads to other circuits, upgrading to a
-                higher-amp breaker if wire size permits, or installing a new
-                dedicated circuit for high-power devices. The right solution
-                depends on your specific situation and electrical system.
-              </p>
-              <h3>Breaker Testing and Inspection</h3>
-              <p>
-                We test the breaker itself to verify it trips at the proper
-                current level. Breakers should trip at their rated amperage. A
-                20-amp breaker that trips at 15 amps has weakened and needs
-                replacement. We also check for proper mechanical operation and
-                inspect breaker connections for tightness.
-              </p>
-              <p>
-                Thermal imaging reveals hot connections invisible to visual
-                inspection. Hot spots indicate loose connections or failing
-                breakers that need attention. This technology helps us find
-                problems before they cause failures or fires.
-              </p>
-              <h3>Short Circuit and Ground Fault Diagnosis</h3>
-              <p>
-                If testing indicates short circuits or ground faults, we use
-                specialized equipment to locate the problem. This may involve
-                testing at outlets, examining junction boxes, and tracing
-                circuits through walls. We locate faults accurately and access
-                them for repair.
-              </p>
-              <p>
-                Some faults are intermittent and difficult to diagnose. Our
-                experience with electrical troubleshooting helps us identify
-                patterns and locate elusive problems. We don't give up until we
-                find and fix the issue causing your breaker to trip.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/new-circuit-breaker-installation-las-vegas.webp"
-                alt="New circuit breaker installation in Las Vegas residential panel"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Breaker Replacement Services</h2>
-          <hr />
-
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/breaker-testing-equipment-las-vegas.webp"
-                alt="Electrician testing circuit breaker operation with professional equipment Las Vegas"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                When breakers need replacement, our electricians perform the
-                work safely and ensure proper operation. Breaker replacement
-                requires working inside energized electrical panels, which is
-                dangerous without proper training and equipment.
-              </p>
-              <h3>Safety Procedures for Panel Work</h3>
-              <p>
-                We follow strict safety procedures when working in electrical
-                panels. This includes using proper personal protective
-                equipment, verifying circuits are de-energized before touching
-                them, using insulated tools, and maintaining proper clearances.
-                Safety is never compromised to save time.
-              </p>
-              <h3>Selecting the Right Replacement Breaker</h3>
-              <p>
-                Replacement breakers must match your panel brand and type.
-                Breakers are not universal—you cannot install any brand of
-                breaker in any panel. We ensure replacement breakers are correct
-                for your panel and meet all specifications.
-              </p>
-              <p>
-                We also verify that breaker amperage matches the wire size in
-                your circuit. A 20-amp breaker requires 12-gauge wire minimum.
-                Installing higher-amp breakers on circuits with undersized wire
-                creates fire hazards. Our electricians ensure all components are
-                properly matched.
-              </p>
-              <h3>Installation and Testing</h3>
-              <p>
-                Breaker installation involves removing the old breaker,
-                connecting the new breaker properly, securing all connections,
-                and testing operation under load. We verify the new breaker
-                resets properly, holds under normal loads, and trips
-                appropriately when tested.
-              </p>
-              <p>
-                After installation, we label the breaker clearly so you know
-                which circuit it controls. Proper labeling makes future
-                electrical work easier and helps you identify circuits quickly
-                when needed.
-              </p>
-            </div>
-          </div>
-          <h2>Upgrading to GFCI and AFCI Breakers</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Modern electrical codes require GFCI and AFCI protection in
-                specific areas of homes. Upgrading to these advanced breakers
-                improves safety significantly.
-              </p>
-              <h3>GFCI Breaker Installation</h3>
-              <p>
-                GFCI breakers protect entire circuits against ground faults. We
-                also install
-                <a href="/gfci-outlet-installation">GFCI outlets</a> for
-                point-of-use protection. They're required for bathrooms,
-                kitchens, garages, outdoor circuits, and areas near water. GFCI
-                breakers are more expensive than standard breakers but provide
-                important protection against electrical shocks.
-              </p>
-              <p>
-                We install GFCI breakers in locations where codes require them
-                and test them to ensure proper operation. GFCI breakers should
-                be tested monthly by pressing the test button to verify they
-                trip correctly.
-              </p>
-              <h3>AFCI Breaker Installation</h3>
-              <p>
-                AFCI breakers detect dangerous arcing conditions and prevent
-                electrical fires. Current codes require AFCI protection in
-                bedrooms, living rooms, dining rooms, and most living areas.
-                Older homes benefit from AFCI upgrades even if not required by
-                current codes.
-              </p>
-              <p>
-                AFCI breakers cost more than standard breakers but provide
-                valuable fire protection. The investment is small compared to
-                the protection they offer against electrical fires that cause
-                billions of dollars in damage annually.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/gfci-afci-breaker-installation-las-vegas.webp"
-                alt="GFCI and AFCI circuit breaker installation for safety in Las Vegas"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Panel Upgrades for Breaker Problems</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Sometimes breaker problems indicate that your entire electrical
-              panel needs upgrading. Old panels, insufficient capacity, and
-              obsolete equipment all contribute to frequent breaker issues.
-            </p>
-            <h3>When Panels Need Replacement</h3>
-            <p>
-              If you have constant breaker problems, multiple old breakers, a
-              panel that's warm to the touch, or an obsolete panel brand,
-              complete
-              <a href="/electrical-panel-upgrade">panel replacement</a> may be
-              the best solution. New panels provide modern protection, adequate
-              capacity, and decades of reliable service.
-            </p>
-            <p>
-              Panel replacement costs more than individual breaker repairs but
-              solves multiple problems simultaneously. We help you understand
-              when panel replacement makes sense for your situation.
-            </p>
-            <h3>Combined Panel and Circuit Upgrades</h3>
-            <p>
-              Panel replacement provides an opportunity to upgrade circuits and
-              add capacity for future needs. We can add circuits for new
-              appliances, upgrade existing circuits to higher capacity, and
-              ensure your electrical system meets all current codes.
-            </p>
-            <p>
-              <strong
-                >Tired of constant breaker problems? Call Electrician Las Vegas
-                to discuss panel upgrade options.</strong
-              >
-            </p>
-          </div>
-          <h2>Preventing Future Breaker Problems</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              While some breaker problems are unavoidable, many can be prevented
-              through proper electrical system management and maintenance.
-            </p>
-            <h3>Avoiding Circuit Overloads</h3>
-            <p>
-              Understanding your circuit capacities and avoiding overloads
-              prevents nuisance tripping. Don't run multiple high-power devices
-              on the same circuit simultaneously. Distribute loads across
-              available circuits. If you consistently need more power than your
-              circuits provide, consider adding dedicated circuits.
-            </p>
-            <h3>Regular Electrical Inspections</h3>
-            <p>
-              Electrical inspections identify developing problems before they
-              cause breaker failures. We recommend inspections every few years
-              for older homes. Inspections catch loose connections,
-              deteriorating wiring, and aging breakers before they fail.
-            </p>
-            <h3>Addressing Problems Promptly</h3>
-            <p>
-              Don't ignore electrical problems hoping they'll go away. A breaker
-              that trips occasionally will likely trip more frequently over
-              time. Small problems become bigger problems when ignored. Prompt
-              attention to electrical issues prevents emergencies and reduces
-              repair costs.
-            </p>
-            <p>
-              Circuit breaker problems often indicate the need for
-              <a href="/electrical-panel-upgrade">electrical panel upgrades</a>.
-              Our
-              <a href="/residential-electrical-services"
-                >residential electrical services</a
-              >
-              address all aspects of your home's electrical system.
-            </p>
-          </div>
         </div>
       </section>
-      <!-- CTA Section -->
-      <section class="cta-section">
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
         <div class="container">
-          <h2>Why Choose Electrician Las Vegas for Breaker Repair</h2>
-          <p>
-            Circuit breaker problems require professional electrical expertise
-            for accurate diagnosis and safe repairs. Las Vegas homeowners choose
-            Electrician Las Vegas because we deliver reliable solutions to
-            electrical panel problems.
-          </p>
-          <p>
-            Our experienced electricians have extensive experience with all
-            types of breaker problems and electrical panels. We diagnose issues
-            accurately and fix them right the first time. Our service vehicles
-            carry common breaker types and diagnostic equipment needed to
-            resolve most problems on the first visit.
-          </p>
-          <p>
-            We explain problems clearly and provide straightforward pricing
-            before starting work. You'll understand what's wrong, why it
-            matters, and what it costs to fix. No surprises, no hidden fees,
-            just honest electrical service you can trust.
-          </p>
-          <p>
-            <strong
-              >Stop dealing with breaker problems. Call Electrician Las Vegas
-              today for professional circuit breaker repair and replacement
-              services.</strong
-            >
-          </p>
-          <div class="btn-group pt-1">
-            <a href="tel:+17028997099" class="btn btn-primary btn-large"
-              >Call (702) 899-7099</a
-            >
+          <h2 class="pt-1">FAQ: Circuit Breaker Troubleshooting & Safety</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>Why does my breaker feel hot to the touch?</h3>
+              <p>
+                Breakers generate heat from normal current through I²R losses.
+                However, breakers should not feel hot—warm at most, matching
+                surrounding panel temperature. A hot breaker indicates: (1)
+                Current exceeding rating, (2) High-resistance connection at
+                stabs, or (3) Internal degradation from thermal fatigue. We
+                measure actual current, inspect connections for oxidation, and
+                test breaker functionality. Hot breakers are failure warnings.
+                Continued operation risks fire. Do not ignore hot breakers.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>
+                Can I just replace a 15-amp breaker with a 20-amp if it keeps
+                tripping?
+              </h3>
+              <p>
+                No. Breaker ratings must match wire capacity. A 15-amp breaker
+                protects 14 AWG wire rated for 15 amps. Installing a 20-amp
+                breaker on 14 AWG wire allows 20 amps through conductors rated
+                for 15, overheating wire and starting fires. The breaker
+                protects the wire, not appliances. If your 15-amp breaker trips
+                repeatedly: (a) Circuit is overloaded requiring redistribution
+                or new circuits, or (b) Breaker is failing requiring replacement
+                with another 15-amp. We never oversize breakers relative to wire
+                gauge.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>What does the 2026 code say about replacing old breakers?</h3>
+              <p>
+                The 2023 NEC adopted January 11, 2026, requires surge protection
+                (Type 1 or Type 2 SPD) during service equipment modifications,
+                including panel or main breaker replacement. For branch breaker
+                replacement, code doesn't require full upgrades, but we install
+                AFCI breakers meeting current requirements. If replacing
+                breakers in Federal Pacific or Zinsco panels, individual
+                replacement is not recommended—these panels have fundamental
+                design defects requiring complete replacement. Modern breaker
+                replacement must use compatible breakers for the panel
+                manufacturer and bus bar. Incompatible breakers create dangerous
+                conditions even if they physically fit.
+              </p>
+            </div>
           </div>
         </div>
       </section>

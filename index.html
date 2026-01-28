@@ -6,12 +6,10 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Las Vegas electrician providing panel upgrades, electrical repairs, rewiring, EV charger installation, lighting services. Residential & commercial throughout Clark County."
+      content="Expert Las Vegas electrician since 1980. Panel upgrades, EV chargers, rewiring. 24/7 emergency service. Call now for same-day repairs."
     />
 
-    <title>
-      Las Vegas Electrician | Residential & Commercial Electrical Services
-    </title>
+    <title>Las Vegas Electrician | 24/7 Emergency Electrical Service</title>
     <!-- Favicon links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <!-- Add this before loading fonts -->
@@ -66,14 +64,15 @@
       {
         "@context": "https://schema.org",
         "@type": "Electrician",
+        "@id": "https://vegaselectricianservice.com#business",
         "name": "Vegas Electrician Service",
-        "image": "https://vegaselectricianservice.com/img/logo.webp",
-        "logo": "https://vegaselectricianservice.com/img/logo.webp",
-        "@id": "https://vegaselectricianservice.com",
         "url": "https://vegaselectricianservice.com",
+        "logo": "https://vegaselectricianservice.com/img/logo.webp",
+        "image": "https://vegaselectricianservice.com/img/logo.webp",
         "telephone": "+17028997099",
         "email": "info@vegaselectricianservice.com",
         "priceRange": "$$",
+        "foundingDate": "1980-01-01",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Las Vegas",
@@ -104,130 +103,34 @@
           {
             "@type": "City",
             "name": "Las Vegas",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
+            "containedIn": { "@type": "State", "name": "Nevada" }
           },
           {
             "@type": "City",
             "name": "Henderson",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
+            "containedIn": { "@type": "State", "name": "Nevada" }
           },
           {
             "@type": "City",
             "name": "North Las Vegas",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
+            "containedIn": { "@type": "State", "name": "Nevada" }
           },
           {
             "@type": "City",
             "name": "Summerlin",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
-          },
-          {
-            "@type": "City",
-            "name": "Spring Valley",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
-          },
-          {
-            "@type": "City",
-            "name": "Paradise",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
-          },
-          {
-            "@type": "City",
-            "name": "Enterprise",
-            "containedIn": {
-              "@type": "State",
-              "name": "Nevada"
-            }
+            "containedIn": { "@type": "State", "name": "Nevada" }
           }
         ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Electrical Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Residential Electrical Services",
-                "description": "Complete residential electrical services for Las Vegas homes"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Commercial Electrical Services",
-                "description": "Professional commercial electrical services for Las Vegas businesses"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Emergency Electrical Service",
-                "description": "24/7 emergency electrical services throughout Las Vegas Valley"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Electrical Panel Upgrade",
-                "description": "Professional electrical panel upgrades from 100 to 200 amp service"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "EV Charger Installation",
-                "description": "Level 2 electric vehicle charger installation"
-              }
-            }
-          ]
-        },
         "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+17028997099",
           "contactType": "customer service",
-          "email": "info@vegaselectricianservice.com",
-          "availableLanguage": ["English"],
-          "areaServed": "US"
-        },
-        "makesOffer": {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Free Electrical Estimates"
-          },
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "slogan": "Professional Electricians - 24/7 Emergency Service - Free Estimates",
-        "foundingDate": "1980-01-01",
-        "paymentAccepted": "Cash, Credit Card, Debit Card, Check",
-        "currenciesAccepted": "USD"
+          "availableLanguage": "English"
+        }
       }
     </script>
+
     <!-- Organization Schema - Homepage Only -->
     <script type="application/ld+json">
       {
@@ -262,6 +165,40 @@
           "@type": "Organization",
           "name": "Vegas Electrician Service"
         }
+      }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I know if my panel is overloaded?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your panel is overloaded if breakers trip frequently, especially when the AC turns on. You may notice dimming lights when large appliances start up, smell burning plastic near the panel, or see discoloration on the panel cover. If you are constantly resetting breakers, your panel cannot handle your current electrical load. We perform a load calculation to determine whether you need a panel upgrade or if redistributing circuits will solve the problem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are my outdoor outlets safe for the monsoon season?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Outdoor outlets in Las Vegas are exposed to UV, dust storms, and monsoon rain. If outlets do not have weatherproof covers and GFCI protection, they are unsafe. Water intrusion into non-GFCI outlets creates a shock hazard. We install NEMA 3R rated enclosures and verify proper GFCI protection. If you see corrosion, pooling water, or damaged covers, shut off the circuit and call an electrician."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What causes flickering lights during a Vegas heatwave?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Flickering lights during extreme heat usually occur when an AC compressor draws heavy current from the same circuit leg as lighting, causing voltage drop. It can also indicate a loose or failing neutral connection at the meter base or panel, which is dangerous. High temperatures cause metal expansion and increase resistance at weak connections. We test voltage drop under load and inspect service entry and panel connections."
+            }
+          }
+        ]
       }
     </script>
   </head>
@@ -416,14 +353,12 @@
         <div class="container">
           <div class="hero-content">
             <h1>
-              Las Vegas Electrician | Residential & Commercial Electrical
-              Services
+              Electrician Las Vegas | Top-Rated Local Electrical Contractors
             </h1>
             <p>
               <strong
-                >Trusted electrical services for homes and businesses across Las
-                Vegas. Skilled electricians ready to solve your electrical
-                problems safely and efficiently.</strong
+                >Your electrical panel wasn't built for 115-degree summers and
+                five AC units running at once.</strong
               >
             </p>
             <div class="btn-group">
@@ -438,33 +373,94 @@
       <!-- Content Section 1: Content Left - Image Right -->
       <section class="section">
         <div class="container">
-          <h2>Professional Electrical Services in Las Vegas</h2>
+          <p class="highlight-box">
+            Las Vegas homes pull triple the amperage of most American cities
+            during July and August. Your main breaker is under constant thermal
+            stress. If your panel is over 15 years old, you're gambling with
+            tripped <a href="circuit-breaker-repair.html">circuits</a>, voltage
+            sags, and potential electrical fires. We diagnose overloaded
+            systems, upgrade undersized service entries, and install panels that
+            handle peak summer loads without breaking a sweat.
+          </p>
+          <h2>
+            Specialized Electrical Solutions for Las Vegas Homes & Businesses
+          </h2>
           <hr />
           <div class="content-image-section">
             <!-- Content Area (3fr) -->
             <div class="content-area highlight-box">
               <p>
-                Electrical problems don't wait for convenient times. Whether
-                your circuit breaker keeps tripping, your lights flicker when
-                you turn on appliances, or you need a complete electrical panel
-                upgrade, Electrician Las Vegas provides reliable solutions for
-                residential and commercial properties throughout the Las Vegas
-                Valley.
+                We handle everything from
+                <a href="electrical-panel-upgrade">200-amp panel upgrades</a> in
+                <a href="electrician-in-henderson-nv">Henderson</a> ranch homes
+                to three-phase power installations for commercial kitchens on
+                the Strip. Your electrical system either works when you need it,
+                or it fails when the temperature hits 110. We make sure it
+                works.
+              </p>
+              <h3>Residential Electrical Services</h3>
+              <p>
+                <a href="residential-electrical-services">Most homes built</a>
+                in Las Vegas before 2005 have 100-amp or 150-amp service. That
+                was fine before everyone added electric car chargers, whole-home
+                generators, and upgraded to dual-zone HVAC systems. Now those
+                panels are maxed out.
               </p>
               <p>
-                Our professional electricians understand the unique challenges
-                that Las Vegas homeowners and businesses face. The extreme
-                desert heat, dry climate, and high electrical demands put extra
-                stress on your electrical system. We've been solving these Las
-                Vegas-specific electrical problems for years, and we know
-                exactly what it takes to keep your property safe and powered.
+                We <a href="electrical-wiring-rewiring">rewire homes</a> with
+                outdated aluminum branch circuits. We replace Federal Pacific
+                panels that fail to trip under fault conditions. We install GFCI
+                protection where older homes never had it. We upgrade your
+                service entry to 200 amps so you can run your pool pump, two air
+                handlers, and an electric dryer without flipping breakers.
               </p>
               <p>
-                From emergency repairs to planned installations, our team
-                handles every electrical service with precision and care. We
-                arrive on time, diagnose problems accurately, and complete the
-                work right the first time. Your safety is our top priority, and
-                every job meets current electrical codes and standards.
+                Desert heat makes wire insulation brittle over time. UV exposure
+                degrades outdoor conduit. Thermal expansion causes connections
+                to loosen inside junction boxes. We inspect these failure points
+                before they become fire hazards.
+              </p>
+              <p>
+                If your breakers trip every time the AC kicks on, you've got
+                undersized wire gauge or poor load calculations. We fix it the
+                same day.
+              </p>
+              <h3>Commercial Electrical Solutions</h3>
+              <p>
+                <a href="commercial-electrical-services">Commercial</a>
+                properties in Las Vegas run hot. Rooftop HVAC units pull massive
+                starting currents. Walk-in coolers cycle constantly. Exterior
+                signage bakes in direct sun for 12 hours a day.
+              </p>
+              <p>
+                We design and install three-phase power distribution for
+                restaurants, retail spaces, and office buildings. We handle
+                tenant improvement work for property managers who need NEMA 3R
+                outdoor enclosures installed to Clark County code. We
+                troubleshoot voltage drops in long conduit runs across parking
+                structures.
+              </p>
+              <p>
+                Your building's electrical infrastructure either supports your
+                operations or costs you money in downtime.
+              </p>
+              <h3>24/7 Emergency Repairs</h3>
+              <p>
+                Power failures in Vegas aren't just inconvenient. When it's 105
+                degrees outside and your AC stops running because a breaker
+                failed, you've got hours before your house becomes unlivable.
+              </p>
+              <p>
+                We respond to emergency calls for panel failures, tripped main
+                breakers, burned-out meter bases, and electrical shorts. We
+                carry replacement breakers, wire, and connectors in the truck.
+                Most
+                <a href="emergency-electrician-las-vegas">emergency repairs</a>
+                are completed on the first visit.
+              </p>
+              <p>
+                If you smell burning plastic near your panel or see scorch marks
+                on outlets, shut off the main breaker and call us immediately.
               </p>
             </div>
 
@@ -478,7 +474,10 @@
               />
             </div>
           </div>
-          <h2>Why Las Vegas Properties Need Specialized Electrical Care</h2>
+          <h2>
+            Why Las Vegas Homeowners Trust Las Vegas Electrician for Electrical
+            Safety
+          </h2>
           <hr />
           <div class="image-content-section">
             <!-- Image Area (1fr) -->
@@ -494,70 +493,83 @@
             <!-- Content Area (3fr) -->
             <div class="content-area highlight-box">
               <p>
-                Las Vegas homes and businesses face electrical challenges that
-                don't exist in other climates. The dry desert air causes wire
-                insulation to crack and become brittle over time. When
-                temperatures soar above 110°F in summer, air conditioning
-                systems run constantly, putting tremendous strain on electrical
-                panels and circuits.
+                We've been working on Las Vegas electrical systems since 1980.
+                We've seen this valley grow from 460,000 residents to over 2.2
+                million. We've rewired homes as the grid expanded and power
+                demands tripled.
               </p>
               <p>
-                These conditions create real dangers. Cracked insulation exposes
-                wires, creating fire hazards and shock risks. Overworked
-                circuits trip breakers repeatedly or worse, fail to trip when
-                they should. Older
-                <a href="/residential-electrical-services"
-                  >electrical systems</a
-                >
-                built for milder climates simply cannot handle the demands that
-                Las Vegas weather places on them.
+                We're not here to upsell you on smart home gadgets or LED
+                retrofits. We're here to make sure your electrical system
+                doesn't start a fire or fail during a heatwave.
               </p>
               <p>
-                Many Las Vegas homes were built before modern electrical demands
-                existed. A 100-amp electrical panel that worked fine in 1985
-                struggles with today's air conditioners, computers, large
-                appliances, and electric vehicle chargers. The result is
-                frequent power interruptions, potential fire hazards, and the
-                inability to add new electrical devices.
+                Electrical fires in Las Vegas often start because homeowners
+                don't realize their panel is operating at 95% capacity. When
+                your AC compressor starts up, it draws a surge current that can
+                overload an already-stressed breaker. Add in a pool pump and an
+                electric water heater, and you're pushing system limits every
+                single day from June through September.
+              </p>
+              <p>
+                We perform load calculations based on your actual usage. We open
+                your panel and check for loose connections, corroded bus bars,
+                and signs of overheating. We test your ground fault protection
+                and make sure your service entry conduit isn't cracked from
+                thermal cycling.
+              </p>
+              <p>
+                Clark County requires specific installations for outdoor
+                circuits, pool equipment, and detached structures. We know those
+                codes. Your electrical work will pass inspection the first time.
               </p>
             </div>
           </div>
-          <h2>Emergency Electrical Services Available 24/7</h2>
           <hr />
           <div class="content-image-section">
             <div class="content-area highlight-box">
+              <h3>Local Knowledge of Nevada's Unique Power Demands</h3>
               <p>
-                Electrical emergencies happen without warning. A burning smell
-                from an outlet, sparks from a switch, or complete power loss in
-                part of your home demands immediate attention. Electrician Las
-                Vegas provides
-                <a href="/emergency-electrician-las-vegas"
-                  >24-hour emergency electrical services</a
-                >
-                throughout the Las Vegas area.
+                Air conditioning is the single biggest electrical load in every
+                Las Vegas home. A 5-ton AC unit pulls 30 to 40 amps at startup.
+                If you've got two units, you're looking at 60 to 80 amps of
+                starting current hitting your panel simultaneously.
               </p>
               <p>
-                When you call us for an emergency, a professional electrician
-                responds quickly to assess the situation and restore safety. We
-                arrive prepared with the tools and materials needed to handle
-                most emergency repairs on the spot. Our emergency service covers
-                everything from tripped breakers and dead outlets to major
-                electrical failures and safety hazards.
+                Most homes have 200-amp service. That sounds like plenty until
+                you account for the AC units, electric water heater, dryer,
+                range, pool equipment, and EV charger all running at once. The
+                math stops working.
               </p>
               <p>
-                You shouldn't have to wait days for emergency electrical
-                repairs. Our rapid response keeps your family safe and your
-                property protected. We understand that electrical problems cause
-                stress and disruption, so we work efficiently to restore normal
-                operations as quickly as possible while maintaining the highest
-                safety standards.
+                We install subpanels for pool equipment and outdoor circuits to
+                distribute the load. We upgrade wire gauge on long runs to
+                minimize voltage drop. We replace single-pole breakers with
+                tandem breakers where code allows.
               </p>
               <p>
-                <strong
-                  >Experiencing an electrical emergency? Call Electrician Las
-                  Vegas now for immediate assistance.</strong
-                >
+                NV Energy has specific requirements for meter bases and service
+                entry installations. We coordinate with them directly so you
+                don't have to deal with utility bureaucracy.
               </p>
+              <p>
+                Summer heat causes thermal expansion inside your electrical
+                panel. Breaker connections that were tight in February can
+                loosen by July. Loose connections create resistance. Resistance
+                creates heat. Heat leads to failure.
+              </p>
+              <h3>Transparent Pricing & Same-Day Service</h3>
+              <p>
+                You call us because something's wrong. We show up, diagnose the
+                issue, and tell you exactly what it costs to fix it. No games.
+              </p>
+              <p>
+                Most service calls are completed the same day. If your repair
+                requires parts we don't stock in the truck, we source them
+                locally and return to finish the job. We don't leave your home
+                without power unless there's a safety reason.
+              </p>
+              <p>You get a written scope of work before we start.</p>
             </div>
             <div class="image-area">
               <img
@@ -568,604 +580,85 @@
               />
             </div>
           </div>
-          <h2>Residential Electrical Services for Las Vegas Homes</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/residential-electrical-services-las-vegas.webp"
-                alt="Licensed electrician performing residential electrical repairs in Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                Your home's electrical system powers everything from lights and
-                appliances to heating and cooling systems. When electrical
-                problems occur, they affect your comfort, safety, and daily
-                routine. Electrician Las Vegas provides complete residential
-                electrical services to keep your home running smoothly.
-              </p>
-              <p>
-                Our residential services include
-                <a href="/electrical-panel-upgrade">electrical panel upgrades</a
-                >, <a href="/circuit-breaker-repair">circuit breaker repair</a>,
-                outlet installation, light switch replacement,
-                <a href="/ceiling-fan-installation">ceiling fan installation</a
-                >, and
-                <a href="/electrical-wiring-rewiring">complete home rewiring</a
-                >. We also install GFCI outlets in bathrooms and kitchens, add
-                dedicated circuits for large appliances, and upgrade electrical
-                systems to meet current safety codes.
-              </p>
-              <p>
-                Las Vegas homeowners choose us because we understand local
-                electrical challenges. We know that older homes in
-                <a href="/electrician-in-henderson-nv">Henderson</a> and
-                <a href="/electrician-in-north-las-vegas-nv">North Las Vegas</a>
-                often need panel upgrades to handle modern electrical loads. We
-                recognize that homes in
-                <a href="/electrician-in-summerlin-nv">Summerlin</a> and
-                <a href="/electrician-in-spring-valley-nv">Spring Valley</a>
-                face unique demands from large air conditioning systems running
-                through brutal summer months.
-              </p>
-              <p>
-                Whether you need a single outlet repaired or a complete
-                electrical system evaluation, our professional electricians
-                provide honest assessments and quality workmanship. We explain
-                what needs fixing, why it matters, and what it costs before we
-                start any work. No surprises, no hidden fees, just
-                straightforward electrical services you can trust.
-              </p>
-            </div>
-          </div>
-          <h2>Commercial Electrical Services for Las Vegas Businesses</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Business operations depend on reliable electrical power. A
-                single electrical problem can shut down operations, cost you
-                revenue, and create safety hazards for employees and customers.
-                Electrician Las Vegas provides fast, professional
-                <a href="/commercial-electrical-services"
-                  >commercial electrical services</a
-                >
-                to keep your business running.
-              </p>
-              <p>
-                We handle everything from routine electrical maintenance to
-                major system upgrades. Our commercial services include lighting
-                installation, electrical panel replacement, circuit additions,
-                outlet installation, and electrical troubleshooting. We work
-                with retail stores, offices, restaurants, warehouses, and other
-                commercial properties throughout Las Vegas.
-              </p>
-              <p>
-                Our commercial electricians work around your schedule to
-                minimize disruption to business operations. We can perform
-                non-emergency work during off-hours, and we respond quickly when
-                electrical problems threaten to shut down your operations. Every
-                commercial electrical installation meets current code
-                requirements and passes inspection the first time.
-              </p>
-              <p>
-                Las Vegas businesses trust us because we understand what's at
-                stake. We arrive when promised, work efficiently, and clean up
-                thoroughly when finished. Our commercial electricians are
-                professional, experienced, and equipped to handle projects of
-                any size.
-              </p>
-              <p>
-                <strong
-                  >Need commercial electrical services? Contact Electrician Las
-                  Vegas for a consultation.</strong
-                >
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/commercial-electrical-services-las-vegas.webp"
-                alt="Commercial electrician installing electrical systems in Las Vegas business"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Electrical Panel Upgrade Services</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/electrical-panel-upgrade-service-las-vegas.webp"
-                alt="Professional electrical panel upgrade from 100 amp to 200 amp service in Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                Your electrical panel distributes power throughout your entire
-                property. An outdated or overloaded panel creates serious safety
-                hazards and prevents you from adding new electrical devices.
-                Most Las Vegas homes built before 2000 need electrical panel
-                upgrades to meet modern electrical demands.
-              </p>
-              <h3>Signs You Need a Panel Upgrade</h3>
-              <p>
-                Signs you need a panel upgrade include breakers that trip
-                frequently, lights that dim when you run certain appliances, a
-                panel that feels warm to the touch, or inability to add new
-                circuits for appliances or EV chargers. If your home has a
-                100-amp panel, upgrading to 200-amp service provides the
-                capacity needed for today's electrical requirements.
-              </p>
-              <h3>Panel Upgrade Process and Timeline</h3>
-              <p>
-                Our electrical panel upgrade process starts with a thorough
-                inspection of your current system. We calculate your electrical
-                load requirements, check for code violations, and provide
-                upfront pricing. We handle all permits and coordinate with the
-                utility company. Learn more about our
-                <a href="/electrical-panel-upgrade"
-                  >electrical panel upgrade process</a
-                >. Installation typically takes one day, and we ensure your
-                power is only off intermittently during the upgrade process.
-              </p>
-              <h3>After Installation</h3>
-              <p>
-                After installation, a city inspector reviews our work to verify
-                code compliance. We repair any exterior damage, label all
-                breakers clearly, and walk you through your new panel. You
-                receive complete documentation including permits, inspection
-                reports, and warranty information. The result is a modern, safe
-                electrical system that handles today's demands and provides
-                capacity for future needs.
-              </p>
-            </div>
-          </div>
-          <h2>EV Charger Installation for Electric Vehicles</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Electric vehicle ownership is growing rapidly in Las Vegas, and
-                charging at home offers the most convenient and economical
-                option. Electrician Las Vegas installs Level 2
-                <a href="/ev-charger-installation">EV chargers</a> that charge
-                your vehicle three times faster than a standard outlet.
-              </p>
-              <h3>Electrical Requirements for EV Chargers</h3>
-              <p>
-                Home EV charger installation requires a dedicated 240-volt
-                circuit and proper electrical capacity. Our electricians assess
-                your electrical panel to determine if upgrades are needed, help
-                you choose the best charger location, and ensure WiFi signal
-                strength supports smart charging features.
-              </p>
-              <h3>EV Charger Installation Process</h3>
-              <p>
-                The installation process takes two to three hours. We mount the
-                charger on your garage wall, run a dedicated circuit from your
-                electrical panel, and install the appropriate breaker. After
-                wiring connections and WiFi setup, we test the system with your
-                vehicle to verify charging works correctly. You'll learn how to
-                use all features and receive warranty documentation.
-              </p>
-              <h3>Panel Upgrades for EV Chargers</h3>
-              <p>
-                Many Las Vegas homeowners discover their existing 100-amp panels
-                cannot support an EV charger along with their air conditioning
-                and other electrical demands. When panel upgrades are necessary,
-                we handle both projects together, saving you time and ensuring
-                your entire electrical system meets current needs.
-              </p>
-              <p>
-                <strong
-                  >Ready to charge your EV at home? Call Electrician Las Vegas
-                  to schedule your installation.</strong
-                >
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/ev-charger-installation-las-vegas-home.webp"
-                alt="Level 2 EV charger installation in Las Vegas residential garage"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Electrical Wiring and Rewiring Services</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/home-rewiring-electrical-services-las-vegas.webp"
-                alt="Complete home rewiring service with modern copper wiring in Las Vegas"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                Faulty wiring represents one of the most serious electrical
-                hazards in Las Vegas homes. The dry desert climate causes wire
-                insulation to crack and deteriorate over time. Old wiring that
-                worked fine for decades can suddenly become dangerous as
-                insulation breaks down, exposing live wires.
-              </p>
-              <h3>Problems with Outdated Wiring</h3>
-              <p>
-                Homes built before 1980 often contain outdated wiring that
-                doesn't meet current safety standards. Aluminum wiring, common
-                in homes from the 1960s and 1970s, poses particular risks.
-                Knob-and-tube wiring found in very old homes cannot safely
-                handle modern electrical loads. DIY electrical work or repairs
-                by unlicensed contractors often create hidden dangers behind
-                your walls.
-              </p>
-              <h3>Complete Rewiring Services</h3>
-              <p>
-                Our
-                <a href="/electrical-wiring-rewiring">rewiring services</a>
-                address these problems completely. We identify faulty wiring,
-                plan the rewiring project to minimize disruption, and replace
-                old wiring with modern, properly rated materials. The work
-                includes updating outlets to three-prong grounded receptacles,
-                installing proper circuit protection, and ensuring all
-                connections meet current electrical codes.
-              </p>
-              <h3>Benefits of Home Rewiring</h3>
-              <p>
-                Rewiring protects your family and property from electrical
-                fires. It also increases your home's value and makes future
-                electrical additions easier. While rewiring represents a
-                significant investment, it provides decades of safe, reliable
-                electrical service. We work efficiently to complete the project
-                quickly while maintaining the highest quality standards.
-              </p>
-            </div>
-          </div>
-          <h2>GFCI Outlet Installation for Safety</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Ground Fault Circuit Interrupter outlets protect you from
-                dangerous electrical shocks in areas where water and electricity
-                might meet. Building codes require GFCI outlets in bathrooms,
-                kitchens, garages, outdoor areas, and near pools or spas. If
-                your Las Vegas home lacks these safety devices, you're at risk.
-              </p>
-              <p>
-                GFCI outlets detect electrical imbalances and shut off power in
-                milliseconds when they sense danger. This protection is
-                especially important in Las Vegas homes with pools, where the
-                combination of water and electricity creates serious hazards.
-                Older homes often have standard outlets in locations where GFCI
-                protection is now required.
-              </p>
-              <p>
-                Our electricians install
-                <a href="/gfci-outlet-installation">GFCI outlets</a>
-                wherever they're needed for safety or code compliance. We also
-                test existing GFCI outlets to ensure they function properly. A
-                GFCI outlet that doesn't trip when tested provides no protection
-                and should be replaced immediately.
-              </p>
-              <p>
-                Pool owners throughout Henderson, Summerlin, and other Las Vegas
-                neighborhoods trust us to install proper GFCI protection around
-                their pools and spas. This protection isn't optional—it's
-                essential for preventing electrical accidents that can cause
-                serious injury or death.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/gfci-outlet-installation-las-vegas.webp"
-                alt="GFCI outlet installation in Las Vegas bathroom for electrical safety"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Ceiling Fan Installation and Repair</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Ceiling fans provide essential comfort in Las Vegas homes, helping
-              circulate air and reduce air conditioning costs during our long,
-              hot summers. Proper ceiling fan installation requires secure
-              mounting and correct electrical connections to ensure safe, quiet
-              operation.
-            </p>
-            <p>
-              We
-              <a href="/ceiling-fan-installation">install ceiling fans</a>
-              in any room of your home, ensuring the electrical box can support
-              the fan's weight and movement. Many homes have standard light
-              boxes that aren't rated for ceiling fan installation. We replace
-              these with fan-rated boxes that provide proper support and prevent
-              dangerous failures.
-            </p>
-            <p>
-              Our ceiling fan services include new installations, replacing old
-              fans, repairing non-working fans, and installing remote controls
-              or wall switches. We balance fans to eliminate wobbling and ensure
-              all electrical connections are secure. After installation, your
-              ceiling fan operates quietly and safely for years.
-            </p>
-            <p>
-              Las Vegas homeowners often want ceiling fans in bedrooms, living
-              rooms, and covered patios. We install indoor and outdoor ceiling
-              fans, including models designed to withstand exposure to desert
-              dust and extreme temperatures. The right ceiling fan improves
-              comfort while reducing cooling costs throughout our long summer
-              season.
-            </p>
-          </div>
-          <h2>Lighting Installation for Indoor and Outdoor Spaces</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Proper lighting improves safety, security, and ambiance in your
-              home or business. Electrician Las Vegas
-              <a href="/lighting-installation"
-                >installs all types of lighting</a
-              >
-              including recessed lights, chandeliers, pendant lights, track
-              lighting, outdoor security lights, and landscape lighting.
-            </p>
-            <h3>Indoor Lighting Solutions</h3>
-            <p>
-              Indoor lighting installation includes kitchen lighting upgrades,
-              bathroom vanity lights, dining room chandeliers, and bedroom
-              fixtures. We install dimmer switches for adjustable lighting
-              levels and can add circuits to support additional lights. Our
-              electricians ensure all fixtures are securely mounted and properly
-              wired.
-            </p>
-            <h3>Outdoor Security and Accent Lighting</h3>
-            <p>
-              Outdoor lighting installation improves security and enhances your
-              property's appearance. We install motion-sensor security lights,
-              pathway lighting, and accent lights that highlight architectural
-              features or landscaping. Outdoor lighting in Las Vegas must
-              withstand extreme temperatures and intense sun exposure. We use
-              fixtures rated for desert conditions.
-            </p>
-            <h3>Landscape Lighting Design</h3>
-            <p>
-              Landscape lighting transforms your outdoor spaces while improving
-              safety. We design lighting layouts that illuminate walkways,
-              highlight trees and plants, and create inviting outdoor living
-              areas. All outdoor electrical installations include proper
-              weatherproofing and GFCI protection.
-            </p>
-            <p>
-              <strong
-                >Want to improve your home's lighting? Contact Electrician Las
-                Vegas for a consultation.</strong
-              >
-            </p>
-          </div>
-          <h2>Electrical Troubleshooting and Repair</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Electrical problems often start small but can quickly become
-              serious safety hazards. Flickering lights might indicate a loose
-              connection that could start a fire. Outlets that don't work could
-              signal deeper wiring issues. Burning smells near electrical
-              components demand immediate attention.
-            </p>
-            <p>
-              our
-              <a href="/electrical-inspection-troubleshooting"
-                >electrical troubleshooting services</a
-              >
-              identify the root cause of electrical problems. We don't just
-              treat symptoms—we find and fix the underlying issues. Using
-              specialized diagnostic equipment, our professional electricians
-              trace electrical circuits, test connections, and measure voltage
-              to pinpoint problems.
-            </p>
-            <p>
-              Common electrical problems we solve include circuit breakers that
-              trip repeatedly, outlets that spark or don't work, lights that
-              flicker or dim, switches that don't function properly, and burning
-              smells from electrical components. We also address problems
-              specific to Las Vegas homes like AC units that overload circuits
-              and wiring damaged by the dry climate.
-            </p>
-            <p>
-              After diagnosing the problem, we explain what's wrong, why it
-              happened, and what's needed to fix it safely. We provide clear
-              pricing before starting repairs. Most electrical repairs are
-              completed the same day, restoring your electrical system to safe,
-              reliable operation.
-            </p>
-          </div>
-          <h2>Circuit Breaker Repair and Replacement</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Circuit breakers protect your electrical system by shutting off
-              power when circuits become overloaded. When breakers trip
-              frequently, fail to reset, or don't trip when they should, they
-              need professional attention. Old or defective breakers create
-              serious fire hazards.
-            </p>
-            <p>
-              Breakers trip for good reasons—they're preventing dangerous
-              overloads. If your breakers trip constantly, the problem might be
-              overloaded circuits, short circuits, ground faults, or the
-              breakers themselves. Our electricians diagnose the cause and
-              recommend appropriate solutions.
-            </p>
-            <p>
-              Sometimes circuit breaker problems indicate that your electrical
-              panel needs upgrading. A 100-amp panel with overloaded circuits
-              trips breakers frequently because it simply cannot handle your
-              electrical demands. In these cases, panel replacement solves the
-              problem permanently.
-            </p>
-            <p>
-              We replace defective circuit breakers with proper replacements
-              that match your panel specifications. All breaker replacements
-              meet current electrical codes and pass inspection. After service,
-              your circuits operate reliably without nuisance tripping.
-            </p>
-          </div>
-          <h2>Smoke Detector Installation and Maintenance</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Working smoke detectors save lives by providing early warning of
-              fires. Las Vegas building codes require smoke detectors in
-              specific locations throughout homes. Older homes often lack
-              adequate smoke detector coverage or have outdated detectors that
-              should be replaced.
-            </p>
-            <p>
-              We install hardwired smoke detectors with battery backup for
-              maximum reliability. Hardwired detectors receive constant power
-              while battery backup ensures they work during power outages.
-              Modern smoke detectors also include interconnection, so when one
-              alarm sounds, all alarms throughout your home activate.
-            </p>
-            <p>
-              Smoke detector placement matters. Building codes specify locations
-              based on home layout and size. We install detectors in bedrooms,
-              hallways, and common areas according to current requirements.
-              Proper installation ensures detectors can sense smoke quickly and
-              alert you to danger.
-            </p>
-            <p>
-              Smoke detectors have limited lifespans. Detectors older than ten
-              years should be replaced regardless of whether they still
-              function. We test existing detectors and replace any that are
-              outdated or non-functional. This simple service provides essential
-              protection for your family.
-            </p>
-          </div>
-          <h2>Why Choose Electrician Las Vegas</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Las Vegas property owners choose us because we deliver reliable
-              electrical services with honesty and professionalism. Our
-              professional electricians arrive on time, diagnose problems
-              accurately, and complete work efficiently. We communicate clearly
-              throughout every project, explaining what needs to be done and
-              why.
-            </p>
-            <p>
-              We provide upfront pricing before starting any work. You'll know
-              exactly what the service costs with no hidden fees or surprise
-              charges. If we discover additional problems during repairs, we
-              discuss them with you and get approval before proceeding.
-            </p>
-            <p>
-              Our commitment to quality shows in every project. We use
-              professional-grade materials, follow all electrical codes, and
-              ensure every installation passes inspection. The work is backed by
-              our warranty, giving you confidence in the quality and safety of
-              our electrical services.
-            </p>
-            <p>
-              Las Vegas families and businesses have trusted us for years
-              because we do what we promise. When you call, we answer. When we
-              schedule service, we show up on time. When we complete work, it's
-              done right. We treat your property with respect, clean up
-              thoroughly, and leave you with electrical systems that work safely
-              and reliably.
-            </p>
-            <p>
-              <strong
-                >Experience the difference professional electrical service
-                makes. Call Electrician Las Vegas today.</strong
-              >
-            </p>
-          </div>
-          <h2>Service Areas Throughout Las Vegas</h2>
-          <hr />
-          <div class="highlight-box">
-            <p>
-              Electrician Las Vegas provides electrical services throughout the
-              entire Las Vegas Valley. We serve residential and commercial
-              properties in Las Vegas, Henderson, North Las Vegas, Summerlin,
-              Spring Valley,
-              <a href="/electrician-in-paradise-nv">Paradise</a>, Enterprise,
-              Green Valley, Centennial Hills, and surrounding communities.
-            </p>
-            <p>
-              Our electricians know every neighborhood in the Las Vegas area. We
-              understand that homes in older Henderson neighborhoods often need
-              rewiring or panel upgrades. We recognize that newer Summerlin
-              homes have different electrical challenges. Properties in North
-              Las Vegas frequently need commercial electrical services. Wherever
-              you're located in the Las Vegas Valley, we provide fast,
-              professional electrical service.
-            </p>
-            <p>
-              Distance doesn't determine our service quality. Whether you're in
-              downtown Las Vegas or in outlying areas, you receive the same
-              prompt, professional electrical service. We schedule appointments
-              at your convenience and arrive when promised.
-            </p>
-            <p>
-              Our service area coverage means you have a reliable electrician
-              available throughout Las Vegas. One phone call connects you with
-              professional electricians who understand local electrical
-              requirements and solve problems efficiently.
-            </p>
-          </div>
         </div>
       </section>
 
       <section class="cta-section">
         <div class="container">
-          <h2>Contact Electrician Las Vegas Today</h2>
+          <h2>Serving the Entire Las Vegas Valley & Beyond</h2>
+          <p>We work throughout Clark County.</p>
+          <h3>Henderson, Summerlin, North Las Vegas, and Paradise</h3>
           <p>
-            Don't let electrical problems disrupt your life or compromise your
-            safety. Electrician Las Vegas provides the professional electrical
-            services you need, when you need them. Our professional electricians
-            are ready to help with any electrical issue, from emergency repairs
-            to planned installations.
+            Henderson homes from the '90s often have undersized panels for
+            modern electrical loads.
+            <a href="electrician-in-summerlin-nv">Summerlin</a> properties still
+            suffer from desert climate stress on outdoor components.
+            <a href="electrician-in-north-las-vegas-nv">North Las Vegas</a> has
+            a mix of older construction and newer builds.
+            <a href="electrician-in-paradise-nv">Paradise</a> and the East Side
+            deal with aging wire insulation in older apartment buildings.
           </p>
           <p>
-            Call us now to schedule electrical service. We'll discuss your
-            electrical needs, answer your questions, and schedule service at a
-            convenient time. For emergency electrical problems, we respond
-            quickly to restore safety and power.
-          </p>
-          <p>
-            Every electrical service starts with clear communication. Tell us
-            what's happening, and we'll explain how we can help. You'll receive
-            honest assessments, accurate pricing, and quality workmanship on
-            every project.
-          </p>
-          <p>
-            Electrician Las Vegas is your trusted partner for all electrical
-            services throughout the Las Vegas Valley. Residential or commercial,
-            emergency or planned, we're here to keep your property safe and
-            powered.
-          </p>
-          <p>
-            <strong>
-              Call Electrician Las Vegas now. Professional electrical services
-              are just a phone call away.</strong
-            >
+            We know the building styles in each area. We know which
+            neighborhoods have aluminum wiring. We know where the old Federal
+            Pacific panels are still installed.
           </p>
           <div class="btn-group pt-1">
             <a href="tel:+17028997099" class="btn btn-primary btn-large"
               >Call (702) 899-7099</a
             >
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <div class="container">
+          <h2 class="pt-1">
+            Frequently Asked Questions About Las Vegas Electrical Systems
+          </h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>How do I know if my panel is overloaded?</h3>
+              <p>
+                Your panel is overloaded if breakers trip frequently, especially
+                when the AC turns on. You'll notice dimming lights when large
+                appliances start up. You might smell burning plastic near the
+                panel or see discoloration on the panel cover. If you're
+                constantly resetting breakers, your panel can't handle your
+                current electrical load. We perform a load calculation to
+                determine if you need a panel upgrade or if redistributing
+                circuits solves the problem.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Are my outdoor outlets safe for the monsoon season?</h3>
+              <p>
+                Outdoor outlets in Las Vegas take a beating from UV exposure,
+                dust storms, and monsoon rains. If your outlets don't have
+                weatherproof covers and
+                <a href="gfci-outlet-installation">GFCI protection</a>, they're
+                not safe. Water intrusion into a non-GFCI outlet creates a shock
+                hazard. We install NEMA 3R rated enclosures on all outdoor
+                outlets and verify GFCI protection is functioning. If water
+                pools near your outdoor outlets or you see corrosion on the
+                outlet face, shut off the circuit and call us.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>What causes flickering lights during a Vegas heatwave?</h3>
+              <p>
+                Flickering lights during high temperatures usually mean your AC
+                compressor is pulling too much current from the same circuit leg
+                as your lighting. When the compressor starts, it causes a
+                voltage drop that dims the lights momentarily. This can also
+                indicate a loose neutral connection at your meter base or main
+                panel, which is dangerous. High heat causes metal to expand, and
+                poor connections create resistance. We test for voltage drop
+                under load and check all connections at your service entry and
+                panel.
+              </p>
+            </div>
           </div>
         </div>
       </section>

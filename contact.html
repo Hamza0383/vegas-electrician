@@ -6,9 +6,9 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Contact Las Vegas electrician for electrical service. Schedule panel upgrades, repairs, rewiring, lighting installation. Call (702) 899-7099 for same-day service."
+      content="Contact Las Vegas electrician for same-day service. Panel upgrades, emergency repairs, EV chargers. Call now or schedule online. 24/7 available."
     />
-    <title>Contact Las Vegas Electrician | Schedule Electrical Service</title>
+    <title>Contact Las Vegas Electrician | Get Same-Day Service</title>
     <!-- Favicon links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="canonical" href="https://vegaselectricianservice.com/contact" />
@@ -62,11 +62,11 @@
       {
         "@context": "https://schema.org",
         "@type": "Electrician",
+        "@id": "https://vegaselectricianservice.com#business",
         "name": "Vegas Electrician Service",
-        "image": "https://vegaselectricianservice.com/img/logo.webp",
-        "logo": "https://vegaselectricianservice.com/img/logo.webp",
-        "@id": "https://vegaselectricianservice.com",
         "url": "https://vegaselectricianservice.com",
+        "logo": "https://vegaselectricianservice.com/img/logo.webp",
+        "image": "https://vegaselectricianservice.com/img/logo.webp",
         "telephone": "+17028997099",
         "email": "info@vegaselectricianservice.com",
         "priceRange": "$$",
@@ -117,21 +117,6 @@
             "@type": "City",
             "name": "Summerlin",
             "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Spring Valley",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Paradise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Enterprise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
           }
         ],
         "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
@@ -139,45 +124,87 @@
           "@type": "ContactPoint",
           "telephone": "+17028997099",
           "contactType": "customer service",
-          "email": "info@vegaselectricianservice.com",
-          "availableLanguage": ["English"],
-          "areaServed": "US"
+          "availableLanguage": "English"
         }
       }
     </script>
+
     <!-- Contact Page Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "Contact Vegas Electrician Service",
-        "description": "Contact Vegas Electrician Service for electrical services in Las Vegas. Call for free estimates and 24/7 emergency service.",
+        "url": "https://vegaselectricianservice.com/contact",
+        "description": "Contact Vegas Electrician Service for professional electrical services in Las Vegas. Call for free estimates or 24/7 emergency service.",
         "mainEntity": {
           "@type": "Electrician",
+          "@id": "https://vegaselectricianservice.com#business",
           "name": "Vegas Electrician Service",
+          "url": "https://vegaselectricianservice.com",
           "telephone": "+17028997099",
           "email": "info@vegaselectricianservice.com",
-          "url": "https://vegaselectricianservice.com",
+          "priceRange": "$$",
+          "foundingDate": "1980-01-01",
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "",
             "addressLocality": "Las Vegas",
             "addressRegion": "NV",
             "postalCode": "89101",
             "addressCountry": "US"
           },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-              "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.1699,
+            "longitude": -115.1398
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "07:00",
+              "closes": "18:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday"],
+              "opens": "08:00",
+              "closes": "16:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Sunday"],
+              "opens": "00:00",
+              "closes": "23:59",
+              "specialOpeningHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "description": "Emergency Service Only"
+              }
+            }
+          ],
+          "areaServed": [
+            { "@type": "City", "name": "Las Vegas" },
+            { "@type": "City", "name": "Henderson" },
+            { "@type": "City", "name": "North Las Vegas" },
+            { "@type": "City", "name": "Summerlin" },
+            { "@type": "City", "name": "Paradise" },
+            { "@type": "City", "name": "Spring Valley" },
+            { "@type": "City", "name": "Enterprise" },
+            { "@type": "City", "name": "Whitney" }
+          ],
+          "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+17028997099",
+            "contactType": "customer service",
+            "availableLanguage": "English"
           }
         }
       }

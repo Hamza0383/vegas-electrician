@@ -6,12 +6,10 @@
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Electrical inspection and troubleshooting in Las Vegas: code compliance testing, thermal imaging, panel diagnostics. Serving all Clark County areas."
+      content="Las Vegas electrical inspection & troubleshooting. Thermal imaging, arc fault detection, voltage testing. 2026 code compliance. Call now."
     />
 
-    <title>
-      Electrical Inspection Las Vegas | Safety Testing & Code Compliance
-    </title>
+    <title>Electrical Inspection Las Vegas | Diagnostic Experts</title>
     <!-- Favicon links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link
@@ -68,11 +66,11 @@
       {
         "@context": "https://schema.org",
         "@type": "Electrician",
+        "@id": "https://vegaselectricianservice.com#business",
         "name": "Vegas Electrician Service",
-        "image": "https://vegaselectricianservice.com/img/logo.webp",
-        "logo": "https://vegaselectricianservice.com/img/logo.webp",
-        "@id": "https://vegaselectricianservice.com",
         "url": "https://vegaselectricianservice.com",
+        "logo": "https://vegaselectricianservice.com/img/logo.webp",
+        "image": "https://vegaselectricianservice.com/img/logo.webp",
         "telephone": "+17028997099",
         "email": "info@vegaselectricianservice.com",
         "priceRange": "$$",
@@ -123,21 +121,6 @@
             "@type": "City",
             "name": "Summerlin",
             "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Spring Valley",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Paradise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Enterprise",
-            "containedIn": { "@type": "State", "name": "Nevada" }
           }
         ],
         "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
@@ -145,49 +128,45 @@
           "@type": "ContactPoint",
           "telephone": "+17028997099",
           "contactType": "customer service",
-          "email": "info@vegaselectricianservice.com",
-          "availableLanguage": ["English"],
-          "areaServed": "US"
+          "availableLanguage": "English"
         }
       }
     </script>
+
     <!-- Service Schema - Inspection -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Electrical Inspection and Troubleshooting",
-        "name": "Electrical Inspection Las Vegas",
-        "description": "Professional electrical inspections and troubleshooting services in Las Vegas. Licensed electricians identify problems, code violations, and safety hazards using thermal imaging and advanced testing.",
-        "provider": {
-          "@type": "Electrician",
-          "name": "Vegas Electrician Service",
-          "telephone": "+17028997099",
-          "email": "info@vegaselectricianservice.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Las Vegas",
-            "addressRegion": "NV",
-            "postalCode": "89101",
-            "addressCountry": "US"
-          }
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": "Las Vegas",
-          "containedIn": {
-            "@type": "State",
-            "name": "Nevada"
-          }
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "name": "Free Estimate",
-          "description": "Free estimates for all electrical inspections"
-        }
-      }
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://vegaselectricianservice.com/electrical-inspection-troubleshooting#service",
+  "name": "Electrical Inspection Las Vegas",
+  "serviceType": "Electrical Inspection and Troubleshooting",
+  "description": "Professional electrical inspections and troubleshooting services in Las Vegas. Licensed electricians identify problems, code violations, and safety hazards using thermal imaging and advanced testing.",
+  "provider": {
+    "@type": "Electrician",
+    "@id": "https://vegaselectricianservice.com#business"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Las Vegas",
+    "containedIn": {
+      "@type": "State",
+      "name": "Nevada"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Free Estimate",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+}
+</script>
+
     </script>
 
     <!-- Breadcrumb Schema -->
@@ -213,6 +192,40 @@
             "position": 3,
             "name": "Electrical Inspection",
             "item": "https://vegaselectricianservice.com/electrical-inspection-troubleshooting"
+          }
+        ]
+      }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a diagnostic visit cost in Las Vegas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Diagnostic service calls cost $150 to $250 depending on problem complexity. This includes arrival, initial testing, and diagnosis. If we identify the problem and you approve repairs immediately, we credit the diagnostic fee toward repair costs. Complex diagnostics requiring thermal imaging or extensive circuit tracing may cost $250 to $400. We provide written diagnostic reports documenting findings and repair recommendations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do some of my outlets work while others don't?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Partial power loss typically indicates lost leg of power or a tripped breaker feeding multiple outlets. Residential service provides two 120V legs. If one leg fails at the transformer or service entrance, half your outlets lose power. We test voltage at the panel to determine if both legs are functioning. If one leg shows zero volts, the problem is upstream. If both legs show proper voltage, the problem is a tripped breaker, failed connection, or damaged wire feeding the dead outlets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the 2026 code require me to upgrade my surge protection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 2023 NEC adopted by Clark County on January 11, 2026, requires Type 1 or Type 2 SPDs on new installations and service upgrades. Existing homes without SPDs are grandfathered—you're not required to add surge protection unless performing service upgrades requiring permits. However, SPD installation is recommended. Las Vegas monsoon lightning damages electronics, HVAC controls, and appliances. Whole-home surge protection costs $300 to $600 installed and prevents thousands in damage from lightning-induced transients."
+            }
           }
         ]
       }
@@ -392,13 +405,18 @@
         <div class="container">
           <div class="hero-content">
             <h1>
-              Electrical Inspection Las Vegas | Safety Testing & Troubleshooting
+              Electrical Inspection & Troubleshooting Las Vegas | Diagnostic
+              Experts
             </h1>
             <p>
               <strong
-                >Professional electrical inspections and expert troubleshooting
-                services. experienced electricians identifying and solving
-                electrical problems throughout Las Vegas.</strong
+                >Guessing wastes time and money. Diagnostic testing finds the
+                actual problem. Las Vegas electrical systems face unique
+                stress—115°F heat causes thermal cycling that loosens
+                connections, dual AC units create continuous load stress, and
+                grid fluctuations expose weak infrastructure. We use thermal
+                imaging, RMS voltage measurement, and systematic elimination to
+                find problems other contractors miss.</strong
               >
             </p>
             <div class="btn-group">
@@ -413,43 +431,40 @@
       <!-- Content Section 1: Content Left - Image Right -->
       <section class="section">
         <div class="container">
-          <h2>Expert Electrical Inspection and Troubleshooting</h2>
+          <h2>Diagnostic Troubleshooting for Persistent Electrical Issues</h2>
           <hr />
           <div class="content-image-section">
             <!-- Content Area (3fr) -->
             <div class="content-area highlight-box">
               <p>
-                Electrical problems can be frustrating and dangerous. Lights
-                that flicker, outlets that don't work, and breakers that trip
-                repeatedly all indicate issues that need professional diagnosis.
-                Electrician Las Vegas provides complete electrical inspection
-                and troubleshooting services that identify problems accurately
-                and implement effective solutions throughout the Las Vegas
-                Valley.
+                We solve electrical problems that other contractors couldn't
+                fix. Most electricians replace obvious components without
+                testing the system. We measure voltage, test continuity, analyze
+                load distribution, and use thermal imaging to find the actual
+                failure point.
+              </p>
+              <h3>Identifying Arc Faults & Nuisance Breaker Tripping</h3>
+              <p>
+                Breakers trip for legitimate overloads or ground faults.
+                Nuisance trips occur from circuits loaded at 85% capacity, hot
+                <a href="circuit-breaker-repair">breakers</a> with reduced trip
+                points, or high-resistance connections.
               </p>
               <p>
-                Our experienced electricians use systematic diagnostic
-                approaches and specialized testing equipment to locate
-                electrical problems quickly. We don't guess or replace
-                components randomly hoping to fix issues. Instead, we test
-                circuits methodically, measure electrical values, and trace
-                problems to their sources. This professional approach saves you
-                time and money while ensuring problems are actually fixed.
+                Series arcing occurs when a conductor develops a break but
+                maintains intermittent contact. Parallel arcing occurs when
+                conductors short through damaged insulation.
               </p>
               <p>
-                Electrical troubleshooting requires knowledge, experience, and
-                proper equipment. Our electricians understand how electrical
-                systems work and know where problems typically occur. This
-                expertise allows us to diagnose issues efficiently even when
-                symptoms seem confusing or intermittent. We solve electrical
-                problems that other electricians couldn't identify.
+                We test breaker operation using calibrated load banks. A 20-amp
+                breaker should trip at 200% load within 2 minutes.
+                Thermal-magnetic breakers have instantaneous magnetic trip at
+                10-20x rated current, and thermal trip at 125-200%.
               </p>
               <p>
-                Regular electrical inspections identify developing problems
-                before they cause failures or create hazards. We recommend
-                inspections every few years for older homes and after any
-                significant electrical work. Inspections provide peace of mind
-                knowing your electrical system operates safely and reliably.
+                AFCI breakers detect arc signatures by analyzing current
+                waveforms. <a href="gfci-outlet-installation">AFCI</a> trips
+                often indicate real problems.
               </p>
             </div>
 
@@ -463,7 +478,6 @@
               />
             </div>
           </div>
-          <h2>Comprehensive Electrical Inspections</h2>
           <hr />
           <div class="image-content-section">
             <div class="image-area">
@@ -475,152 +489,126 @@
               />
             </div>
             <div class="content-area highlight-box">
+              <h3>Thermal Imaging for "Hot" Circuits & Loose Connections</h3>
               <p>
-                Professional electrical inspections examine your entire
-                electrical system to identify problems, code violations, and
-                safety hazards. Our thorough inspections provide detailed
-                information about your electrical system's condition and needed
-                improvements.
-              </p>
-              <h3>What We Inspect</h3>
-              <p>
-                Our electrical inspections cover every component of your
-                electrical system. We examine the
-                <a href="/electrical-panel-upgrade">electrical panel</a> for
-                proper capacity and condition, check all
-                <a href="/circuit-breaker-repair">circuit breakers</a> for
-                proper operation, test
-                <a href="/gfci-outlet-installation">GFCI outlets</a>
-                throughout your home, inspect visible wiring for damage or
-                deterioration, verify proper grounding systems, check electrical
-                connections for tightness, and identify any code violations or
-                safety hazards.
+                Infrared thermography reveals problems invisible to standard
+                testing. High-resistance connections generate heat through I²R
+                losses.
               </p>
               <p>
-                We also use thermal imaging cameras that detect hot connections
-                invisible to visual inspection. These hot spots indicate loose
-                connections, overloaded circuits, or failing components. Finding
-                these problems before they cause failures prevents electrical
-                fires and expensive emergency repairs.
-              </p>
-              <h3>Inspection Reports and Recommendations</h3>
-              <p>
-                After completing inspections, we provide detailed reports
-                explaining our findings. Reports include identified problems,
-                safety hazards, code violations, and recommended repairs or
-                upgrades. We prioritize recommendations so you understand which
-                issues need immediate attention and which can be addressed over
-                time.
+                Las Vegas heat accelerates thermal failures. Daily thermal
+                cycling—115°F during day, 85°F at night—causes terminal lugs to
+                loosen.
+                <a href="electrical-wiring-rewiring">Aluminum wire</a> expands
+                33% more than copper per degree, making aluminum terminations
+                particularly susceptible.
               </p>
               <p>
-                Our reports use clear language without excessive technical
-                jargon. You'll understand what's wrong, why it matters, and what
-                fixing it involves. We answer your questions and explain our
-                recommendations thoroughly.
-              </p>
-              <h3>When to Schedule Electrical Inspections</h3>
-              <p>
-                Schedule electrical inspections when buying or selling homes,
-                after completing renovations, if your home is over 25 years old,
-                before adding major appliances or systems, or if you notice any
-                electrical problems. Regular inspections catch developing issues
-                early when repairs are simpler and less expensive.
+                We scan panels and major connection points with thermal cameras.
+                Temperature differences of 20°F or more indicate problems. A
+                breaker running 30°F hotter than adjacent breakers shows high
+                resistance or internal failure.
               </p>
               <p>
-                Home buyers benefit from pre-purchase electrical inspections
-                that identify problems before closing. Knowing about electrical
-                issues allows you to negotiate repairs or adjust offers
-                accordingly. Sellers benefit from pre-listing inspections that
-                allow them to address problems before buyers discover them.
+                Thermal imaging reveals heat signatures from downstream leakage
+                current, allowing us to trace circuits and identify the source.
+              </p>
+              <h3>Solving Flickering Lights & Voltage Fluctuations</h3>
+              <p>
+                <a href="lighting-installation">Flickering lights</a> indicate
+                voltage drop, loose neutral connections, or upstream supply
+                problems. We measure RMS voltage at multiple points.
               </p>
               <p>
-                <strong
-                  >Concerned about your electrical system? Call Electrician Las
-                  Vegas for a complete electrical inspection.</strong
+                A properly functioning 120V circuit should measure 118-122V at
+                outlets. Under full load, voltage shouldn't drop more than 3%.
+                If voltage drops 8-10V when appliances turn on, the circuit has
+                excessive resistance.
+              </p>
+              <p>
+                Partial power outages—where some circuits work while others
+                don't—typically indicate lost leg of power or compromised
+                neutral.
+                <a href="residential-electrical-services"
+                  >Residential service</a
                 >
+                provides 240V split phase: two 120V legs and a neutral. If one
+                leg fails, half your circuits lose power.
+              </p>
+              <p>
+                We test voltage leg-to-leg (should be 240V) and each
+                leg-to-neutral (should be 120V each). If we measure 180V on one
+                leg and 60V on the other, the neutral is compromised.
+              </p>
+              <p>
+                Compromised neutrals are dangerous. Appliances expecting 120V
+                may receive 150V or 90V depending on load distribution.
               </p>
             </div>
           </div>
-          <h2>Professional Electrical Troubleshooting</h2>
+          <h2>2026 Clark County Code Compliance & Safety Audits</h2>
           <hr />
           <div class="content-image-section">
             <div class="content-area highlight-box">
               <p>
-                When electrical problems occur, accurate diagnosis is essential
-                for effective repairs. Our troubleshooting services identify
-                root causes rather than just treating symptoms.
+                Clark County adopted the 2023 NEC effective January 11, 2026.
+                Key changes affect surge protection, AFCI requirements, and
+                grounding systems.
               </p>
-              <h3>Common Electrical Problems We Diagnose</h3>
+              <h3>Mandatory Surge Protection & AFCI Updates (2023 NEC)</h3>
               <p>
-                We troubleshoot all types of electrical problems including
-                flickering or dimming lights, outlets that don't work, switches
-                that malfunction, circuit breakers that trip repeatedly, burning
-                smells from electrical components, buzzing or humming sounds,
-                and intermittent electrical issues. Each symptom provides clues
-                that help us locate underlying problems. Some problems require
-                <a href="/emergency-electrician-las-vegas"
-                  >emergency electrical service</a
-                >
-                for immediate safety.
+                The 2023 NEC requires Type 1 or Type 2 Surge Protective Devices
+                (SPDs) on service equipment during new installations or service
+                upgrades. This became enforceable in Clark County on January 11,
+                2026.
               </p>
               <p>
-                Electrical problems often have multiple possible causes.
-                Flickering lights might result from loose connections,
-                overloaded circuits, failing fixtures, or problems with utility
-                service. Our systematic troubleshooting identifies the actual
-                cause so repairs fix problems permanently.
-              </p>
-              <h3>Our Troubleshooting Process</h3>
-              <p>
-                Troubleshooting begins with gathering information about
-                symptoms. We ask when problems started, what makes them better
-                or worse, and what you've already tried. This information helps
-                us develop diagnostic plans and prepare appropriate testing
-                equipment.
-              </p>
-              <h3>Visual Inspection and Testing</h3>
-              <p>
-                We start troubleshooting with careful visual inspection. Many
-                electrical problems show visible signs including discolored
-                outlets, loose connections, damaged wiring, or improper
-                installations. Visual inspection often reveals obvious problems
-                before detailed testing begins.
+                Type 1 SPDs install on the line side of the main breaker. Type 2
+                SPDs install on the load side. Both provide whole-home surge
+                protection.
               </p>
               <p>
-                After visual inspection, we use specialized testing equipment to
-                measure voltage, current, and resistance throughout electrical
-                systems. These measurements identify problems like voltage
-                drops, ground faults, short circuits, and poor connections.
-                Testing equipment provides objective data that guides our
-                diagnostic process.
-              </p>
-              <h3>Circuit Tracing and Isolation</h3>
-              <p>
-                When problems affect multiple outlets or areas, we trace
-                circuits to understand how they're connected. Circuit tracing
-                helps us isolate problems to specific sections of circuits. This
-                isolation narrows down where problems exist, making final
-                diagnosis faster and more accurate.
+                Las Vegas experiences significant monsoon activity July through
+                September. SPDs clamp voltage transients above 600V, preventing
+                damage to electronics and appliances.
               </p>
               <p>
-                We use tone generators and tracers that identify circuit paths
-                through walls and ceilings. These tools allow us to map circuits
-                without damaging walls or making assumptions about wiring
-                routes.
-              </p>
-              <h3>Load Testing and Analysis</h3>
-              <p>
-                Some electrical problems only occur under specific load
-                conditions. We perform load testing that simulates normal usage
-                while monitoring electrical values. Load testing reveals
-                problems that don't show up during no-load testing.
+                We install SPDs rated for 40kA minimum surge current. SPDs
+                include indicator lights showing operational status.
               </p>
               <p>
-                Overloaded circuits cause many electrical problems in Las Vegas
-                homes. Air conditioning systems, kitchen appliances, and other
-                high-power devices stress circuits beyond their capacity. Load
-                analysis determines if circuits can safely handle their demands
-                or need upgrades.
+                AFCI protection expanded under 2023 NEC. All 15-amp and 20-amp
+                circuits require AFCI protection, including lighting circuits.
+              </p>
+              <h3>Real Estate Point-of-Sale Electrical Inspections</h3>
+              <p>
+                Home sales trigger electrical inspections. We perform
+                assessments documenting panel condition, grounding systems, and
+                code compliance.
+              </p>
+              <p>
+                Inspections identify Federal Pacific and Zinsco panels common in
+                1960s-1980s Las Vegas homes. These panels have documented
+                failure modes. Buyers typically request replacement.
+              </p>
+              <p>
+                We test all GFCI outlets. Devices over 10 years old often fail.
+                Aluminum wiring requires documentation.
+              </p>
+              <h3>Main Service Panel & Grounding System Evaluation</h3>
+              <p>
+                We evaluate panel capacity, bus bar condition, and breaker
+                operation. We open panels, inspect terminations, and test
+                connection tightness.
+              </p>
+              <p>
+                Bus bar corrosion occurs in garages and outdoor panels. Corroded
+                bus bars create high-resistance connections. We document
+                corrosion and recommend panel replacement when extensive.
+              </p>
+              <p>
+                Ground resistance should be below 25 ohms. We install
+                supplemental ground rods when necessary.
               </p>
             </div>
             <div class="image-area">
@@ -632,7 +620,7 @@
               />
             </div>
           </div>
-          <h2>Troubleshooting Specific Electrical Issues</h2>
+          <h2>The Mojave Factor: Troubleshooting Heat-Related Failures</h2>
           <hr />
           <div class="image-content-section">
             <div class="image-area">
@@ -645,317 +633,104 @@
             </div>
             <div class="content-area highlight-box">
               <p>
-                Different electrical problems require specialized diagnostic
-                approaches. Our experience troubleshooting Las Vegas electrical
-                systems helps us solve issues efficiently.
+                Las Vegas heat creates electrical failure modes not seen in
+                temperate climates. Understanding these patterns allows us to
+                diagnose problems other contractors miss.
               </p>
-              <h3>Flickering and Dimming Lights</h3>
+              <h3>Attic Wiring Degradation & Insulation "Dry Rot"</h3>
               <p>
-                Flickering lights indicate loose connections, overloaded
-                circuits, or voltage problems. We measure voltage at affected
-                fixtures, check connections throughout the circuit, and verify
-                that circuits aren't overloaded. Thermal imaging often reveals
-                loose connections that cause flickering.
+                Attic temperatures reach 145°F to 160°F from June through
+                September. This degrades wire insulation. PVC jackets become
+                brittle. Rubber insulation crumbles.
               </p>
               <p>
-                Lights that dim when appliances start indicate voltage drops
-                from inadequate wiring or overloaded circuits. We measure
-                voltage under load and calculate circuit capacity to determine
-                if upgrades are needed.
-              </p>
-              <h3>Dead Outlets and Non-Working Circuits</h3>
-              <p>
-                Outlets that don't work may have tripped GFCI protection, blown
-                fuses, tripped breakers, or wiring problems. We test
-                systematically from the electrical panel to the affected outlet,
-                identifying exactly where power stops flowing.
+                Brittle insulation breaks when touched, exposing bare
+                conductors. Multiple circuits can have exposed wires creating
+                shorts.
               </p>
               <p>
-                Sometimes outlets appear dead but actually have loose
-                connections that create intermittent contact. We check all
-                connections and verify proper wire termination at outlets and
-                junction boxes.
-              </p>
-              <h3>Breakers That Trip Repeatedly</h3>
-              <p>
-                <a href="/circuit-breaker-repair">Circuit breakers trip</a>
-                for specific reasons including overloaded circuits, short
-                circuits, ground faults, or failing breakers. We determine why
-                breakers trip through load testing, insulation testing, and
-                breaker evaluation.
+                Thermal cycling accelerates failure. Daily temperature swings of
+                40-50°F cause continuous expansion and contraction. Insulation
+                develops micro-cracks.
               </p>
               <p>
-                Old breakers sometimes weaken and trip at lower currents than
-                their ratings. We test breaker trip points to verify they
-                provide proper protection. Breakers that trip below their
-                ratings need replacement.
+                We use thermal imaging to identify overheating circuits before
+                insulation fails. Circuits running 30-40°F above ambient
+                indicate problems.
               </p>
-              <h3>Intermittent Electrical Problems</h3>
+              <h3>AC Compressor Circuit Stress & Capacitor Testing</h3>
               <p>
-                Intermittent problems are challenging to diagnose because they
-                come and go. We ask detailed questions about when problems
-                occur, what conditions trigger them, and any patterns you've
-                noticed. This information helps us recreate conditions that
-                cause problems.
+                AC compressors are the highest-demand loads in Las Vegas homes.
+                A 3-ton AC draws 15-20 amps continuously. Compressor circuits
+                run 4,000+ hours annually.
               </p>
               <p>
-                Thermal expansion and contraction from Las Vegas temperature
-                extremes can cause intermittent connection problems. Connections
-                that work when cool may fail when hot. We check connections
-                under various temperature conditions when diagnosing
-                intermittent issues.
+                Locked rotor current during startup reaches 60-90 amps. This
+                stresses breakers and connections. High-resistance connections
+                create voltage drop, preventing compressors from starting.
               </p>
               <p>
-                <strong
-                  >Frustrating electrical problems? Contact Electrician Las
-                  Vegas for expert troubleshooting services.</strong
-                >
-              </p>
-            </div>
-          </div>
-          <h2>Electrical Safety Inspections</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Safety inspections focus specifically on identifying electrical
-                hazards that threaten people and property. These inspections are
-                more detailed than general inspections and use specialized
-                testing to find hidden dangers.
-              </p>
-              <h3>Fire Hazard Identification</h3>
-              <p>
-                Electrical fires cause thousands of home fires annually. Our
-                safety inspections identify fire hazards including overloaded
-                circuits, loose connections,
-                <a href="/electrical-wiring-rewiring">deteriorated wiring</a>,
-                improper installations, and outdated electrical components.
-                Finding and correcting these hazards prevents devastating
-                electrical fires.
+                We measure voltage at the disconnect during startup. Voltage
+                should drop no more than 5%. Drops exceeding 10% indicate
+                problems.
               </p>
               <p>
-                Thermal imaging reveals hot connections that indicate fire
-                hazards. These hot spots show where connections are failing and
-                generating dangerous heat. Correcting hot connections before
-                they cause fires protects your family and property.
-              </p>
-              <h3>Shock Hazard Detection</h3>
-              <p>
-                We test for shock hazards including missing or improper
-                grounding, damaged wiring insulation, wet location outlets
-                without GFCI protection, and reversed polarity connections.
-                These hazards create conditions where touching electrical
-                components or appliances can cause serious shocks.
-              </p>
-              <p>
-                GFCI outlet testing verifies these safety devices function
-                correctly. Failed GFCI outlets provide no protection against
-                electrical shocks. We test every GFCI outlet and replace any
-                that don't trip properly.
-              </p>
-              <h3>Code Compliance Verification</h3>
-              <p>
-                Electrical codes exist to ensure safe installations. Our
-                inspections identify code violations that create safety hazards
-                or prevent proper electrical operation. Common violations
-                include improper wire sizing, missing junction box covers,
-                inadequate circuit protection, and installations that don't meet
-                current standards.
-              </p>
-              <p>
-                We explain code violations clearly and recommend corrections
-                that bring your electrical system into compliance.
-                Code-compliant electrical systems are safer and easier to
-                insure.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/outlet-tester-gfci-testing-las-vegas.webp"
-                alt="Outlet tester verifying GFCI protection in Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Thermal Imaging Inspections</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/thermal-image-hot-spots-electrical-panel-las-vegas.webp"
-                alt="Thermal image showing electrical hot spots in Las Vegas panel"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                Thermal imaging cameras detect heat invisible to visual
-                inspection. This technology reveals electrical problems before
-                they cause failures or fires.
-              </p>
-              <h3>How Thermal Imaging Works</h3>
-              <p>
-                Thermal cameras detect infrared radiation that all objects emit.
-                Hotter objects emit more infrared radiation and appear brighter
-                in thermal images. Electrical connections that are failing,
-                overloaded circuits, and components that are about to fail all
-                generate excessive heat visible in thermal images.
-              </p>
-              <p>
-                We scan electrical panels, junction boxes, and circuits with
-                thermal cameras during inspections. Hot spots indicate problems
-                that need attention. This preventive approach finds issues
-                before they cause emergency situations.
-              </p>
-              <h3>Benefits of Thermal Inspections</h3>
-              <p>
-                Thermal imaging finds problems that visual inspection misses.
-                Loose connections hidden inside electrical panels, overheated
-                wiring behind walls, and circuit overloads all show up clearly
-                in thermal images. Finding these problems early prevents
-                failures and fires.
-              </p>
-              <p>
-                Thermal inspections are non-invasive and don't require shutting
-                off power or disassembling electrical systems. We can scan your
-                entire electrical system quickly without disrupting your daily
-                activities.
-              </p>
-            </div>
-          </div>
-          <h2>Pre-Purchase Home Inspections</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                Electrical inspections before buying homes identify problems
-                that affect safety, functionality, and value. Our pre-purchase
-                inspections help you make informed decisions about home
-                purchases.
-              </p>
-              <h3>What Pre-Purchase Inspections Cover</h3>
-              <p>
-                We examine electrical panels for capacity and condition, test
-                outlets and switches throughout the home, check GFCI protection
-                in required locations, inspect visible wiring, verify proper
-                grounding, identify code violations, and estimate costs for
-                needed repairs or upgrades.
-              </p>
-              <p>
-                Pre-purchase inspections reveal whether electrical systems can
-                handle modern demands or need upgrades. Homes with
-                <a href="/electrical-panel-upgrade">100-amp panels</a>, aluminum
-                wiring, or outdated systems may need significant electrical
-                work. Knowing this before closing allows you to plan and budget
-                appropriately.
-              </p>
-              <h3>Using Inspection Results in Negotiations</h3>
-              <p>
-                Inspection findings give you leverage in purchase negotiations.
-                Serious electrical problems justify requesting repairs, price
-                reductions, or repair credits. Our detailed reports document
-                problems clearly for use in negotiations with sellers.
-              </p>
-              <p>
-                Some electrical issues may be deal-breakers that cause you to
-                walk away from purchases. Better to discover electrical problems
-                before closing than after you own the property.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/circuit-tracing-equipment-las-vegas.webp"
-                alt="Circuit tracing equipment identifying electrical wiring paths Las Vegas"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <h2>Electrical Troubleshooting for Renovations</h2>
-          <hr />
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/electrical-inspection-report-las-vegas.webp"
-                alt="Detailed electrical inspection report for Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <p>
-                Renovation projects often reveal electrical problems. We provide
-                troubleshooting services that identify issues discovered during
-                remodeling and recommend appropriate solutions.
-              </p>
-              <h3>Hidden Electrical Problems</h3>
-              <p>
-                Opening walls during renovations exposes wiring that's been
-                hidden for decades. We often find outdated wiring, improper
-                connections, missing junction boxes, and code violations during
-                renovation troubleshooting. Identifying these problems allows
-                you to correct them while walls are open.
-              </p>
-              <p>
-                Renovations also stress electrical systems by adding circuits,
-                outlets, and fixtures. We verify that existing electrical
-                systems can support planned additions or recommend upgrades
-                before renovation work begins.
-              </p>
-              <p>
-                Our inspection services complement all our
-                <a href="/residential-electrical-services"
-                  >residential electrical services</a
-                >. We also provide
-                <a href="/commercial-electrical-services"
-                  >commercial electrical inspections</a
-                >
-                for Las Vegas businesses. Inspections help prevent
-                <a href="/emergency-electrician-las-vegas"
-                  >electrical emergencies</a
-                >.
+                Capacitors fail in Las Vegas heat. We test capacitors under
+                load. Capacitors testing below 80% of rated value need
+                replacement.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- CTA Section -->
-      <section class="cta-section">
+      <!-- FAQ Section -->
+      <section class="faq-section">
         <div class="container">
-          <h2>Why Choose Electrician Las Vegas for Inspections</h2>
-          <p>
-            Electrical inspections and troubleshooting require expertise that
-            comes from years of experience. Las Vegas homeowners choose
-            Electrician Las Vegas because we deliver accurate diagnostics and
-            effective solutions.
-          </p>
-          <p>
-            Our experienced electricians use systematic approaches and
-            specialized equipment to find electrical problems quickly. We don't
-            waste time guessing or replacing components randomly. Our diagnostic
-            process identifies root causes so repairs fix problems permanently.
-          </p>
-          <p>
-            We explain findings clearly and provide honest recommendations.
-            You'll understand what's wrong with your electrical system and what
-            fixing it involves. Our detailed reports document problems
-            thoroughly for your records and future reference.
-          </p>
-          <p>
-            <strong
-              >Stop guessing about electrical problems. Call Electrician Las
-              Vegas today for professional electrical inspection and
-              troubleshooting services that identify issues accurately and solve
-              them effectively.</strong
-            >
-          </p>
-          <div class="btn-group">
-            <a href="tel:+17028997099" class="btn btn-primary btn-large"
-              >Call (702) 899-7099</a
-            >
+          <h2 class="pt-1">FAQ: Electrical Inspections in Southern Nevada</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>How much does a diagnostic visit cost in Las Vegas?</h3>
+              <p>
+                Diagnostic service calls cost $150 to $250 depending on problem
+                complexity. This includes arrival, initial testing, and
+                diagnosis. If we identify the problem and you approve repairs
+                immediately, we credit the diagnostic fee toward repair costs.
+                Complex diagnostics requiring thermal imaging or extensive
+                circuit tracing may cost $250 to $400. We provide written
+                diagnostic reports documenting findings and repair
+                recommendations.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Why do some of my outlets work while others don't?</h3>
+              <p>
+                Partial power loss typically indicates lost leg of power or a
+                tripped breaker feeding multiple outlets. Residential service
+                provides two 120V legs. If one leg fails at the transformer or
+                service entrance, half your outlets lose power. We test voltage
+                at the panel to determine if both legs are functioning. If one
+                leg shows zero volts, the problem is upstream. If both legs show
+                proper voltage, the problem is a tripped breaker, failed
+                connection, or damaged wire feeding the dead outlets.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>
+                Does the 2026 code require me to upgrade my surge protection?
+              </h3>
+              <p>
+                The 2023 NEC adopted by Clark County on January 11, 2026,
+                requires Type 1 or Type 2 SPDs on new installations and service
+                upgrades. Existing homes without SPDs are grandfathered—you're
+                not required to add surge protection unless performing service
+                upgrades requiring permits. However, SPD installation is
+                recommended. Las Vegas monsoon lightning damages electronics,
+                HVAC controls, and appliances. Whole-home surge protection costs
+                $300 to $600 installed and prevents thousands in damage from
+                lightning-induced transients.
+              </p>
+            </div>
           </div>
         </div>
       </section>
