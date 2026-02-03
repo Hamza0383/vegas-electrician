@@ -134,8 +134,7 @@
     </script>
 
     <!-- Service Schema - Inspection -->
-    <script type="application/ld+json">
-      <script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -145,14 +144,17 @@
   "description": "Professional electrical inspections and troubleshooting services in Las Vegas. Licensed electricians identify problems, code violations, and safety hazards using thermal imaging and advanced testing.",
   "provider": {
     "@type": "Electrician",
-    "@id": "https://vegaselectricianservice.com#business"
+    "@id": "https://vegaselectricianservice.com#business",
+    "name": "Vegas Electrician Service"
   },
   "areaServed": {
-    "@type": "City",
+    "@type": "Place",
     "name": "Las Vegas",
-    "containedIn": {
-      "@type": "State",
-      "name": "Nevada"
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Las Vegas",
+      "addressRegion": "NV",
+      "addressCountry": "US"
     }
   },
   "offers": {
@@ -166,6 +168,7 @@
   }
 }
 </script>
+
 
     </script>
 
