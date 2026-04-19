@@ -2,1033 +2,757 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
+    <title>Residential Electrician Las Vegas | Home Electrical</title>
     <meta
       name="description"
-      content="Vegas Electrician is the residential electrician Las Vegas homeowners trust for same-day panel upgrades, rewiring & repairs. Call (702) 899-7099 today."
+      content="Your local residential electrician Las Vegas homeowners trust. Outlets, panels, wiring, fans, and more. Same-day appointments. Upfront quotes. Call us today."
     />
-
-    <title>Residential Electrician Las Vegas | Vegas Electrician</title>
-    <!-- Favicon links -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link
       rel="canonical"
-      href="https://vegaselectricianservice.com/residential-electrical-services/"
+      href="https://vegaselectricianservice.com/residential-electrician"
     />
-    <!-- Open Graph Tags -->
+
+    <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Residential Electrician Las Vegas | Vegas Electrician"
+      content="Residential Electrician Las Vegas | Home Electrical"
     />
     <meta
       property="og:description"
-      content="Vegas Electrician is the residential electrician Las Vegas homeowners trust for same-day panel upgrades, rewiring & repairs. Call (702) 899-7099 today."
-    />
-    <meta
-      property="og:image"
-      content="https://vegaselectricianservice.com/img/logo.webp"
+      content="Your local residential electrician Las Vegas homeowners trust. Outlets, panels, wiring, fans, and more. Same-day appointments. Upfront quotes. Call us today."
     />
     <meta
       property="og:url"
-      content="https://vegaselectricianservice.com/residential-electrical-services"
+      content="https://vegaselectricianservice.com/residential-electrician"
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Vegas Electrician" />
 
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Residential Electrician Las Vegas | Home Electrical Services"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
     />
-    <meta
-      name="twitter:description"
-      content="Expert residential electrician in Las Vegas. Panel upgrades, rewiring, outlets, lighting & more."
-    />
-    <meta
-      name="twitter:image"
-      content="https://vegaselectricianservice.com/img/logo.webp"
-    />
-    <!-- Preload hero background image for faster LCP -->
     <link
       rel="preload"
       as="image"
       href="/img/banner-image.webp"
       fetchpriority="high"
     />
-    <link rel="stylesheet" href="/styles.min.css" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- LocalBusiness Schema - Universal (All Pages) -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Electrician",
-        "@id": "https://vegaselectricianservice.com#business",
-        "name": "Vegas Electrician Service",
-        "url": "https://vegaselectricianservice.com",
-        "logo": "https://vegaselectricianservice.com/img/logo.webp",
-        "image": "https://vegaselectricianservice.com/img/logo.webp",
-        "telephone": "+17028997099",
-        "email": "info@vegaselectricianservice.com",
-        "priceRange": "$$",
-        "foundingDate": "1980-01-01",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Las Vegas",
-          "addressRegion": "NV",
-          "postalCode": "89101",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 36.1699,
-          "longitude": -115.1398
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
-        },
-        "areaServed": [
-          {
-            "@type": "City",
-            "name": "Las Vegas",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Henderson",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "North Las Vegas",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Summerlin",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          }
-        ],
-        "sameAs": ["https://www.facebook.com/profile.php?id=61586207365288"],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+17028997099",
-          "contactType": "customer service",
-          "availableLanguage": "English"
-        }
+    <link rel="stylesheet" href="style.css" />  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "ElectricalContractor",
+  "name": "Vegas Electrician",
+  "url": "https://vegaselectricianservice.com",
+  "telephone": "+17028997099",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Las Vegas",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89101",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.1699,
+    "longitude": -115.1398
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "$$",
+  "areaServed": [
+    "Las Vegas",
+    "Henderson",
+    "Summerlin",
+    "North Las Vegas",
+    "Paradise",
+    "Spring Valley"
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Residential Electrical Services",
+  "provider": {
+    "@type": "ElectricalContractor",
+    "name": "Vegas Electrician",
+    "telephone": "+17028997099"
+  },
+  "areaServed": "Las Vegas, NV",
+  "description": "Complete residential electrical services in Las Vegas including wiring, panel upgrades, outlet installation, ceiling fans, and more.",
+  "serviceType": "Residential Electrical"
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a residential electrician cost in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Electrical jobs run from $100 to $500 or more depending on the scope. A simple outlet swap costs far less than a full panel upgrade. We give you the price before we start."
       }
-    </script>
-
-    <!-- Service Schema - Residential Page -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Residential Electrical Services in Las Vegas",
-        "description": "Expert residential electrical services in Las Vegas, Henderson, North Las Vegas, and Summerlin. We provide panel upgrades, complete home rewiring, outlet and switch installation, ceiling fan installation, lighting installation, and EV charger installation. Licensed, insured, and offering free estimates.",
-        "serviceType": "Residential Electrical Services",
-        "url": "https://vegaselectricianservice.com/residential-electrical-services",
-        "image": "https://vegaselectricianservice.com/img/residential-electrician-las-vegas.webp",
-        "provider": {
-          "@type": "Electrician",
-          "name": "Vegas Electrician Service",
-          "url": "https://vegaselectricianservice.com",
-          "telephone": "+17028997099",
-          "email": "info@vegaselectricianservice.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Las Vegas",
-            "addressRegion": "NV",
-            "postalCode": "89101",
-            "addressCountry": "US"
-          }
-        },
-        "areaServed": [
-          {
-            "@type": "City",
-            "name": "Las Vegas",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Henderson",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "North Las Vegas",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          },
-          {
-            "@type": "City",
-            "name": "Summerlin",
-            "containedIn": { "@type": "State", "name": "Nevada" }
-          }
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Residential Electrical Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Electrical Panel Upgrades",
-                "description": "Upgrade from 100-amp to 200-amp service for modern electrical demands",
-                "image": "https://vegaselectricianservice.com/img/electrical-panel-upgrade.webp"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Complete Home Rewiring",
-                "description": "Full home rewiring services for safety and code compliance",
-                "image": "https://vegaselectricianservice.com/img/complete-home-rewiring-las-vegas.webp"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Outlet and Switch Installation",
-                "description": "Installation of outlets, switches, GFCI and USB outlets",
-                "image": "https://vegaselectricianservice.com/img/electrical-outlet-installation-las-vegas.webp"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Ceiling Fan Installation",
-                "description": "Professional ceiling fan installation for all rooms",
-                "image": "https://vegaselectricianservice.com/img/ceiling-fan-installation-bedroom-las-vegas.webp"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Lighting Installation",
-                "description": "Indoor and outdoor lighting installation services",
-                "image": "https://vegaselectricianservice.com/img/lighting-installation-las-vegas.webp"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "EV Charger Installation",
-                "description": "Electric vehicle charger installation for home garages",
-                "image": "https://vegaselectricianservice.com/img/ev-charger-installation.webp"
-              }
-            }
-          ]
-        },
-        "offers": {
-          "@type": "Offer",
-          "name": "Free Estimate",
-          "description": "Free estimates for all residential electrical services",
-          "price": "0",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock"
-        }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you upgrade my electrical panel in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. As the residential electrician Las Vegas homeowners call for panels, we replace old 100-amp boxes with modern 200-amp systems. Permit and utility work handled."
       }
-    </script>
-
-    <!-- Breadcrumb Schema - Residential Page -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://vegaselectricianservice.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Residential Electrical Services",
-            "item": "https://vegaselectricianservice.com/residential-electrical-services"
-          }
-        ]
+    },
+    {
+      "@type": "Question",
+      "name": "How long does home rewiring take in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full rewire takes 3 to 7 days. Partial rewires — one room or area — can often be done in a day. Call us for a firm timeline."
       }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "My outlet works sometimes and not others. What causes that?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A loose connection inside the outlet or the box behind it. Left alone, loose connections heat up and become a fire risk. Call us and we will find it."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I add a hot tub to my existing electrical system?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Most hot tubs need a dedicated 240-volt, 50-amp circuit with a nearby disconnect box. Whether your panel can handle it depends on your current load. We check before we run any wire."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why does my kitchen outlet not work but my bathroom outlet does?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "They are likely on the same GFCI circuit. The reset button may be in the bathroom, not the kitchen. If resetting it does not help, the circuit has a fault that needs to be traced."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I know if my home has aluminum wiring?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Look at any visible wire in your attic or panel. Aluminum wiring is marked AL. Not sure? We check it on any service call at no extra charge."
-            }
-          }
-        ]
+    },
+    {
+      "@type": "Question",
+      "name": "What electrical issues are most common in older Las Vegas homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Older homes here often have small panels. Aluminum wiring. Missing GFCI outlets. Two-prong outlets with no ground. We find all of these in an inspection. Then we put together a clear plan to fix them."
       }
-    </script>
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vegaselectricianservice.com"},
+      {"@type": "ListItem", "position": 2, "name": "Electrical Services", "item": "https://vegaselectricianservice.com/electrical-services-las-vegas"},
+      {"@type": "ListItem", "position": 3, "name": "Residential Electrical Services", "item": "https://vegaselectricianservice.com/residential-electrician"}
+    ]
+  }
+  </script>
   </head>
   <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <!-- Header -->
-    <header class="header">
-      <div class="header-top">
-        <div class="container">
-          <a href="tel:+17028997099" class="header-call-button"
-            >Call Now: (702) 899-7099</a
-          >
+      <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="site-logo" aria-label="Vegas Electrician Home">
+          <span class="logo-icon">⚡</span>
+          Vegas <span>Electrician</span>
+        </a>
+        <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="electrical-services-las-vegas" class="nav-link active" data-dropdown aria-haspopup="true" aria-expanded="false">Services <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+              <ul class="dropdown-menu">
+                <li><a href="residential-electrical-services" class="dropdown-link">Residential Electrical</a></li>
+                <li><a href="commercial-electrical-services" class="dropdown-link">Commercial Electrical</a></li>
+                <li><a href="emergency-electrician-las-vegas" class="dropdown-link">Emergency Electrician</a></li>
+                <li><a href="electrical-panel-upgrade" class="dropdown-link">Panel Upgrade</a></li>
+                <li><a href="circuit-breaker-repair" class="dropdown-link">Circuit Breaker Repair</a></li>
+                <li><a href="ceiling-fan-installation" class="dropdown-link">Ceiling Fan Installation</a></li>
+                <li><a href="lighting-installation" class="dropdown-link">Lighting Installation</a></li>
+                <li><a href="electrical-wiring-rewiring" class="dropdown-link">Wiring &amp; Rewiring</a></li>
+                <li><a href="ev-charger-installation" class="dropdown-link">EV Charger Installation</a></li>
+                <li><a href="gfci-outlet-installation" class="dropdown-link">GFCI Outlet Installation</a></li>
+                <li><a href="electrical-inspection-troubleshooting" class="dropdown-link">Electrical Inspection</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="service-areas-las-vegas" class="nav-link" data-dropdown aria-haspopup="true" aria-expanded="false">Areas <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+              <ul class="dropdown-menu">
+                <li><a href="service-areas-las-vegas" class="dropdown-link">All Service Areas</a></li>
+                <li><a href="electrician-in-henderson-nv" class="dropdown-link">Henderson, NV</a></li>
+                <li><a href="electrician-in-summerlin-nv" class="dropdown-link">Summerlin, NV</a></li>
+                <li><a href="electrician-in-north-las-vegas-nv" class="dropdown-link">North Las Vegas</a></li>
+                <li><a href="electrician-in-paradise-nv" class="dropdown-link">Paradise, NV</a></li>
+                <li><a href="electrician-in-spring-valley-nv" class="dropdown-link">Spring Valley, NV</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a href="tel:+17028997099" class="header-phone" aria-label="Call Vegas Electrician">(702) 899-7099</a>
+          <a href="tel:+17028997099" class="btn-orange" style="padding: 10px 20px; font-size: 0.9rem">Call Now</a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+            <span></span><span></span><span></span>
+          </button>
         </div>
       </div>
+    </div>
+  </header>
 
-      <div class="nav-wrapper">
-        <div class="container">
-          <nav class="nav-container" aria-label="Main navigation">
-            <a href="/" class="logo">
-              <img
-                src="/img/logo.webp"
-                alt="Electrician Las Vegas - Licensed Electrical Contractor"
-                class="logo-image"
-                width="150"
-                height="100"
-              />
-            </a>
-
-            <button
-              class="nav-toggle"
-              aria-expanded="false"
-              aria-controls="nav-menu"
-            >
-              <span class="visually-hidden">Open menu</span>
-              ☰
-            </button>
-
-            <ul class="nav-menu" id="nav-menu">
-              <li><a href="/">Home</a></li>
-              <li>
-                <a href="/residential-electrical-services">Residential</a>
-              </li>
-              <li>
-                <a href="/commercial-electrical-services">Commercial</a>
-              </li>
-              <li>
-                <a
-                  href="/emergency-electrician-las-vegas"
-                  class="emergency-link"
-                  >Emergency</a
-                >
-              </li>
-              <li class="has-dropdown">
-                <a href="#" class="dropdown-toggle">Services</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="/electrical-panel-upgrade">Panel Upgrades</a>
-                  </li>
-                  <li>
-                    <a href="/circuit-breaker-repair">Circuit Breaker Repair</a>
-                  </li>
-                  <li>
-                    <a href="/ceiling-fan-installation"
-                      >Ceiling Fan Installation</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/lighting-installation">Lighting Installation</a>
-                  </li>
-                  <li>
-                    <a href="/electrical-wiring-rewiring">Wiring & Rewiring</a>
-                  </li>
-                  <li>
-                    <a href="/ev-charger-installation"
-                      >EV Charger Installation</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/gfci-outlet-installation"
-                      >GFCI Outlet Installation</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/electrical-inspection-troubleshooting"
-                      >Inspection & Troubleshooting</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="has-dropdown">
-                <a href="#" class="dropdown-toggle">Service Areas</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="/electrician-in-henderson-nv">Henderson</a>
-                  </li>
-                  <li>
-                    <a href="/electrician-in-summerlin-nv">Summerlin</a>
-                  </li>
-                  <li>
-                    <a href="/electrician-in-north-las-vegas-nv"
-                      >North Las Vegas</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/electrician-in-paradise-nv">Paradise</a>
-                  </li>
-                  <li>
-                    <a href="/electrician-in-spring-valley-nv">Spring Valley</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="/contact">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Content -->
     <main id="main-content">
-      <!-- Breadcrumbs -->
-      <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <div class="breadcrumbs-container">
-          <ol
-            class="breadcrumbs-list"
-            itemscope
-            itemtype="https://schema.org/BreadcrumbList"
-          >
-            <li
-              itemprop="itemListElement"
-              itemscope
-              itemtype="https://schema.org/ListItem"
-            >
-              <a href="/" itemprop="item">
-                <span itemprop="name">Home</span>
-              </a>
-              <meta itemprop="position" content="1" />
-              <span class="breadcrumb-separator">/</span>
-            </li>
-            <li
-              itemprop="itemListElement"
-              itemscope
-              itemtype="https://schema.org/ListItem"
-            >
-              <span class="breadcrumb-current" itemprop="name"
-                >Residential Services</span
-              >
-              <meta itemprop="position" content="2" />
-            </li>
-          </ol>
-        </div>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/electrical-services-las-vegas">Electrical Services</a></li>
+          <li aria-current="page">Residential Electrical Services</li>
+        </ol>
       </nav>
 
-      <!-- Hero Section -->
-      <section class="hero">
-        <img
-          src="/img/banner-image.webp"
-          alt="Professional electrician in Las Vegas"
-          class="hero-background-image"
-          fetchpriority="high"
-          width="1920"
-          height="700"
-        />
+      <section
+        class="hero hero-sm"
+        aria-label="Residential Electrician Las Vegas Hero"
+      >
         <div class="container">
           <div class="hero-content">
-            <h1>Residential Electrician Las Vegas | Same-Day Service</h1>
+            <h1>
+              Residential Electrician Las Vegas — Trusted Home Electrical
+              Services
+            </h1>
             <p>
-              <strong
-                >Vegas Electrician is the residential electrician Las Vegas
-                homeowners call first. We fix panels, wiring, outlets, fans, and
-                lighting. Same day. Done right.</strong
+              Your property needs electrical work done right. Not guesswork. Not
+              shortcuts. You need a
+              <strong>residential electrician Las Vegas</strong> homeowners can
+              count on.
+            </p>
+            <p>
+              As a <strong>residential electrician</strong> Las Vegas homeowners
+              call, we handle all of it. Old houses, new builds, full remodels.
+              We find the problem. We fix it. We don't leave until it's right.
+            </p>
+            <div class="hero-buttons">
+              <a href="tel:+17028997099" class="btn-orange btn-lg"
+                >📞 Call (702) 899-7099</a
               >
-            </p>
-            <div class="btn-group">
-              <a href="tel:+17028997099" class="btn btn-primary btn-large"
-                >Call (702) 899-7099 – Available 24/7</a
-              >
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- What Happens to Las Vegas Homes Over Time -->
-      <section class="section">
-        <div class="container">
-          <h2>What Happens to Las Vegas Homes Over Time</h2>
-          <hr />
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <p>
-                A Las Vegas home ages fast. The heat does things most homeowners
-                never expect.
-              </p>
-              <p>
-                Wire insulation dries out and cracks. Connections inside outlet
-                boxes loosen every summer. Outdoor conduit splits from UV
-                damage. Panels from the 1990s now carry loads they were never
-                meant to handle.
-              </p>
-              <p>
-                We work inside Las Vegas homes every day. We know what breaks
-                and why. As the residential electrician Las Vegas families call
-                most, we fix the root cause — not just the symptom.
-              </p>
-              <p>
-                Seeing something wrong in your home?
-                <a href="tel:+17028997099">Call (702) 899-7099.</a>
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/residential-electrician-las-vegas.webp"
-                alt="Licensed residential electrician working in Las Vegas home electrical system"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-
-          <!-- Residential Electrical Services We Offer -->
-          <h2>Residential Electrical Services We Offer</h2>
-          <hr />
-
-          <div class="content-area highlight-box">
-            <h3>Electrical Panel Upgrades</h3>
-            <p>
-              Your panel runs everything in your home. When it cannot keep up,
-              problems start.
-            </p>
-            <p>
-              A 1990s home in Henderson or Summerlin usually has a 100-amp
-              panel. Back then that was fine. Today that same home has two AC
-              units, a pool pump, and an EV charger. The old panel cannot handle
-              it.
-            </p>
-            <p>
-              We check your actual load before we do anything. If you need a
-              200-amp upgrade, we do it. We replace old Federal Pacific and
-              Zinsco panels. We install subpanels for pools, workshops, and
-              garages.
-            </p>
-            <p>
-              Every panel job is pulled with a Clark County permit and inspected
-              before we close it out.
-            </p>
-          </div>
-          <hr />
-
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/complete-home-rewiring-las-vegas.webp"
-                alt="Complete home rewiring with new copper wiring in Las Vegas residence"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <h3>Home Wiring and Rewiring</h3>
-              <p>
-                This is one of the most important jobs we do. It is also one of
-                the most overlooked.
-              </p>
-              <p>
-                Homes built before 1980 in areas like Paradise, Winchester, and
-                Downtown Las Vegas often have aluminum branch
-                <a href="/electrical-wiring-rewiring">wiring</a>. It looks fine
-                from the outside. But aluminum moves more than copper does. Over
-                time that loosens connections. Loose connections get hot. Hot
-                connections start fires.
-              </p>
-              <p>
-                Some older valley homes still have knob-and-tube wiring. If your
-                home has it, your insurance may not cover a fire caused by it.
-              </p>
-              <p>
-                We rewire partial circuits and full homes. We pull the permits.
-                We get the work inspected. We do not cut corners.
-              </p>
-            </div>
-          </div>
-          <hr />
-
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <h3>Circuit Breaker Repair and Replacement</h3>
-              <p>
-                Not every breaker problem means you need a new panel. Sometimes
-                one bad breaker is the issue.
-              </p>
-              <p>
-                A breaker that trips every day, will not reset, feels hot, or
-                shows scorch marks needs to come out now. We test the circuit
-                first to make sure the breaker is the problem and not the wiring
-                behind it.
-              </p>
-              <p>
-                We carry common breaker brands on the truck. Most replacements
-                are done the same day.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/electrical-outlet-installation-las-vegas.webp"
-                alt="Three prong grounded outlet installation by Las Vegas electrician"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <hr />
-
-          <div class="content-area highlight-box">
-            <h3>Outlet and Switch Repairs</h3>
-            <p>
-              Dead outlets are one of the most common calls we get. Most of the
-              time a GFCI has tripped on a different circuit. But sometimes the
-              outlet has burned out inside — especially in older homes.
-            </p>
-            <p>
-              We replace two-prong outlets with grounded three-prong outlets. We
-              install USB outlets in kitchens and offices. We replace dimmers
-              that buzz, flicker, or run warm.
-            </p>
-            <p>
-              If an outlet feels warm when nothing is plugged in, that is a
-              wiring problem. <a href="tel:+17028997099">Call us today.</a>
-            </p>
-          </div>
-          <hr />
-
-          <div class="image-content-section">
-            <div class="image-area">
-              <img
-                src="/img/lighting-installation-las-vegas.webp"
-                alt="Lighting installation in Las Vegas home"
-                width="350"
-                height="350"
-              />
-            </div>
-            <div class="content-area highlight-box">
-              <h3>Lighting Installation</h3>
-              <p>
-                We install recessed lighting in living rooms, kitchens, and
-                hallways. We run circuits for under-cabinet kitchen lighting. We
-                put up exterior wall lights, soffit lighting, and security
-                lights.
-              </p>
-              <p>
-                Outdoor lighting in Las Vegas has to hold up to 115-degree heat,
-                UV, and monsoon rains. We use fixtures rated for all of it.
-                Cheap outdoor fixtures do not last one summer here.
-              </p>
-            </div>
-          </div>
-          <hr />
-
-          <div class="content-image-section">
-            <div class="content-area highlight-box">
-              <h3>Ceiling Fan Installation and Repair</h3>
-              <p>
-                A ceiling fan lets you set the thermostat a few degrees higher.
-                Over a full Las Vegas summer that saves real money on your NV
-                Energy bill.
-              </p>
-              <p>
-                We install fans in bedrooms, living rooms, patios, and covered
-                outdoor areas. We swap out standard outlet boxes for fan-rated
-                boxes. A regular box is not strong enough to hold a moving fan
-                safely.
-              </p>
-              <p>
-                We also fix fans that wobble, hum, or have flickering light
-                kits. Most fan repairs are quick — a loose blade or a bad
-                capacitor.
-              </p>
-            </div>
-            <div class="image-area">
-              <img
-                src="/img/ceiling-fan-installation-bedroom-las-vegas.webp"
-                alt="Ceiling fan installation in Las Vegas bedroom for improved air circulation"
-                width="350"
-                height="350"
-              />
-            </div>
-          </div>
-          <hr />
-
-          <div class="content-area highlight-box">
-            <h3>GFCI and AFCI Protection</h3>
-            <p>
-              <a href="/gfci-outlet-installation">GFCI outlets</a> stop shocks
-              near water. AFCI breakers stop arc faults that cause fires. Both
-              are required by code in different parts of your home.
-            </p>
-            <p>
-              Many Las Vegas homes built before 2000 have neither. We update
-              kitchens, bathrooms, garages, and outdoor areas with proper GFCI
-              protection. We install AFCI breakers where code requires them.
-            </p>
-            <p>
-              Outdoor outlet dead after monsoon rains? The GFCI tripped or the
-              housing cracked. We replace it the same visit.
-            </p>
-          </div>
-          <hr />
-
-          <div class="content-area highlight-box">
-            <h3>EV Charger Installation</h3>
-            <p>
-              A Level 2 charger needs its own 240-volt, 50-amp circuit. Before
-              we run any wire, we check what your panel can still handle. If you
-              are close to the limit, we tell you before we start.
-            </p>
-            <p>
-              We pull the permit, run the circuit, mount the charger, and test
-              it. Most installs are done in one day.
-            </p>
-          </div>
-          <hr />
-
-          <div class="content-area highlight-box">
-            <h3>Electrical Safety Inspections</h3>
-            <p>
-              Buying an older home in Henderson, Paradise, or Spring Valley? Get
-              the electrical checked before you close.
-            </p>
-            <p>
-              We open the panel and look for loose connections, corroded parts,
-              and signs of heat damage. We test every outlet we can reach. We
-              check GFCI and AFCI protection. We look at the service entry and
-              outdoor conduit.
-            </p>
-            <p>
-              We give you a straight report on what we find. No pressure. No
-              upselling.
-            </p>
-          </div>
-
-          <!-- Room by Room -->
-          <h2>Room by Room – Where Problems Hide in Las Vegas Homes</h2>
-          <hr />
-          <div class="content-area highlight-box">
-            <p>
-              <strong>Kitchen</strong> – High-draw appliances on shared
-              circuits. Outlets with no GFCI protection. Under-cabinet lighting
-              on already loaded circuits.
-            </p>
-            <p>
-              <strong>Bathrooms</strong> – No GFCI near water. Old exhaust fans
-              with no dedicated circuit. Dimmers on lights that are not dimmer
-              rated.
-            </p>
-            <p>
-              <strong>Garage</strong> – No GFCI on outlets. No dedicated circuit
-              for a fridge or tools. Old wiring that cannot handle an EV
-              charger.
-            </p>
-            <p>
-              <strong>Outdoor Areas</strong> – Fixtures not rated for heat and
-              moisture. Cracked conduit from years of heat cycles. GFCI outlets
-              that have never been tested.
-            </p>
-            <p>
-              <strong>Bedrooms</strong> – No AFCI protection. Overloaded
-              circuits from TVs and gaming setups. Fans mounted on boxes that
-              were not made for them.
-            </p>
-          </div>
-
-          <!-- Homes We Work On Most -->
-          <h2>Homes We Work On Most in Las Vegas</h2>
-          <hr />
-          <div class="content-area highlight-box">
-            <p>
-              <strong>1960s and 1970s homes</strong> – Aluminum wiring, old
-              panels, two-prong outlets, no GFCI anywhere.
-            </p>
-            <p>
-              <strong>1980s and 1990s homes</strong> – Federal Pacific or Zinsco
-              panels, 100-amp service, no AFCI protection.
-            </p>
-            <p>
-              <strong>2000s homes</strong> – Usually 200-amp but running low on
-              capacity as owners add chargers and equipment.
-            </p>
-            <p>
-              <strong>Newer builds</strong> – Mostly sound but often need
-              subpanels, extra circuits, and EV charger installs.
+            <p class="pt-1">
+              Call today. Same-day visits are open across the valley.
             </p>
           </div>
         </div>
       </section>
 
-      <!-- CTA Section -->
-      <section class="cta-section">
+      <section class="bg-alt" aria-labelledby="services-heading">
         <div class="container">
-          <h2>Residential Electrician Las Vegas – Areas We Cover</h2>
-          <p>
-            We are the residential electrician Las Vegas Valley homeowners call
-            across all of Clark County.
-          </p>
-          <p>
-            <strong>Henderson</strong> – Panel upgrades and rewiring in 1990s
-            homes are our most common jobs here.
-          </p>
-          <p>
-            <strong>Summerlin</strong> – EV charger installs, subpanel work, and
-            outdoor lighting on newer builds.
-          </p>
-          <p>
-            <strong>North Las Vegas</strong> – Older homes with aluminum wiring
-            and panels that need updating.
-          </p>
-          <p>
-            <strong>Paradise and Spring Valley</strong> – Aging homes with
-            outdated circuits and panels past their useful life.
-          </p>
-          <p>
-            <strong>Downtown Las Vegas</strong> – The oldest homes in the valley
-            with the most complex electrical histories.
-          </p>
-          <div class="btn-group pt-1">
-            <a href="tel:+17028997099" class="btn btn-primary btn-large"
-              >Call (702) 899-7099</a
-            >
+          <div class="section-header">
+            <span class="section-tag">Services</span>
+            <h2 id="services-heading">Home Electrical Services in Las Vegas</h2>
+            <p>
+              The full range of home electric work gets handled here. Here's
+              what owners call us most about.
+            </p>
+          </div>
+          <div class="services-cards-grid">
+            <div class="service-card animate-fade">
+              <div class="service-card-body">
+                <h3>Electrical Panel Replacement &amp; Upgrades</h3>
+                <p>
+                  Still on a 100-amp panel? Still running a <a href="/electrical-panel-upgrade-las-vegas">fuse box</a>? That needs
+                  fixing. The AC runs for months. EV chargers pull heavy loads.
+                  These properties push old panels past their limit.
+                </p>
+                <p>
+                  For panel work, we're the
+                  <strong>residential electrician Las Vegas</strong> homeowners
+                  call. Panels replaced and upgraded all across the valley.
+                  Permit pulled. Install done. Utility handled.
+                </p>
+              </div>
+              <a href="tel:+17028997099" class="service-card-btn btn-orange">
+                Call (702) 899-7099
+              </a>
+            </div>
+            <div class="service-card animate-fade">
+              <div class="service-card-body">
+                <h3>Outlet &amp; Switch Repair or Installation</h3>
+                <p>
+                  Dead outlets are one of our top calls. It could be a tripped
+                  GFCI down the line. It could be a loose wire. It could be a
+                  bad outlet that just needs swapping. The real cause gets found
+                  before anything is touched.
+                </p>
+              </div>
+              <a href="tel:+17028997099" class="service-card-btn btn-orange">
+                Call (702) 899-7099
+              </a>
+            </div>
+            <div class="service-card animate-fade">
+              <div class="service-card-body">
+                <h3>Home Rewiring Services Las Vegas</h3>
+                <p>
+                  Homes built in the 1960s through 1980s often have wiring past
+                  its safe life. Aluminum wiring. Old cloth wrap. Small
+                  circuits. These are fire risks. When a <a href="/electrical-rewiring-las-vegas">full rewire</a> is needed,
+                  it has to be done right.
+                </p>
+
+                <p>
+                  For full rewires, we're the
+                  <strong>residential electrician Las Vegas</strong> homeowners
+                  hire. Done all over the valley. Step by step. Low wall damage.
+                  Every permit pulled.
+                </p>
+              </div>
+              <a href="tel:+17028997099" class="service-card-btn btn-orange">
+                Call (702) 899-7099
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- FAQ Section -->
-      <section class="faq-section">
+      <section aria-labelledby="areas-heading">
         <div class="container">
-          <h2 class="pt-1">Frequently Asked Questions</h2>
+          <div class="section-header">
+            <span class="section-tag">Service Areas</span>
+            <h2 id="areas-heading">Neighborhoods We Serve in Las Vegas</h2>
+            <p>
+              Our <strong>residential electrician Las Vegas</strong> team covers
+              every part of the valley.
+            </p>
+          </div>
+          <div class="areas-layout">
+            <div class="areas-text">
+              <div class="content-blocks">
+                <div class="content-block animate-fade">
+                  <h3>Summerlin, Henderson &amp; Spring Valley</h3>
+                  <p class="pt-1">
+                    Summerlin owners call us for EV chargers, added circuits,
+                    and outdoor lighting. Henderson is one of our busiest areas
+                    — lots of panel work and inspections. In Spring Valley,
+                    older rewiring jobs are common. Newer upgrades too.
+                  </p>
+
+                  <p>
+                    We're the <strong>residential electrician</strong> Las Vegas
+                    owners in Summerlin and Henderson call first.
+                  </p>
+                </div>
+                <div class="content-block animate-fade">
+                  <h3 class="pt-1">North Las Vegas &amp; Paradise</h3>
+                  <p class="pt-1">
+                    North Las Vegas has a lot of older homes. Panel swaps and
+                    GFCI upgrades are constant there. In Paradise — a large
+                    stretch of central Clark County — we work in condos,
+                    townhouses, and houses. All the time.
+                  </p>
+                  <p>
+                    Need a
+                    <strong>residential electrician Las Vegas</strong> locals in
+                    North Las Vegas trust? Call us. We're in that area
+                    regularly.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="areas-image">
+              <img
+                src="/img/residential-electrical-services-las-vegas.webp"
+                alt="Residential electrician working in Las Vegas home"
+                width="350"
+                height="350"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-alt" aria-labelledby="safety-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Safety</span>
+            <h2 id="safety-heading">Electrical Safety for Las Vegas Homes</h2>
+          </div>
+          <div class="safety-grid">
+            <div class="safety-content">
+              <div class="content-blocks">
+                <div class="content-block animate-fade">
+                  <p>
+                    The heat here is rough on wiring. Years of desert heat break
+                    down wire insulation faster than in cooler places. DIY work
+                    done without permits causes problems too. Bad connections.
+                    Small circuits. Open boxes inside walls.
+                  </p>
+                  <p>
+                    If your house is over 20 years old with no expert check,
+                    start there.
+                  </p>
+                  <h3>Warning Signs You Need Electrical Work</h3>
+                  <p class="pt-1">
+                    Watch for these. Breakers tripping on the same circuit.
+                    Lights dimming when appliances kick on. Outlets that quit
+                    for no reason. A burning smell near an outlet — stop using
+                    that circuit and call right away. No GFCI in the bathroom,
+                    kitchen, or garage. A panel that runs warm or buzzes.
+                  </p>
+                  <p>
+                    A
+                    <strong>residential electrician Las Vegas</strong>
+                    homeowners trust will be straight with you. They tell you
+                    what needs fixing. They tell you what's fine.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="safety-image">
+              <img
+                src="/img/electrical-inspection-las-vegas.webp"
+                alt="Residential electrical safety inspection in Las Vegas home"
+                width="350"
+                height="350"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="smart-home-heading">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="smart-home-heading">Modern Electrical Installations</h2>
+            <p>
+              Local owners are adding smart tech fast. Smart switches, dimmers,
+              EV chargers, cameras — all need solid work. As a residential
+              electrician Las Vegas team, we handle all of it.
+            </p>
+          </div>
+          <div class="content-blocks">
+            <div class="content-block animate-fade">
+              <h3>Smart Switch &amp; Dimmer Installation</h3>
+              <p class="pt-1">
+                Most switches can be upgraded to smart ones. But some older
+                houses lack a neutral wire in the switch box. Many smart
+                switches need that wire. First we check for it. A neutral gets
+                run where needed. The switch gets installed right.
+              </p>
+            </div>
+            <div class="content-block animate-fade">
+              <h3 class="pt-1">Home EV Charger Installation Las Vegas</h3>
+              <p class="pt-1">
+                This is one of our top calls. As the
+                <strong>residential electrician</strong> Las Vegas EV owners
+                call, we install <a href="/ev-charger-installation-las-vegas">Level 2 chargers</a> fast. Panel checked first.
+                Right charger picked. Most installs take half a day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-alt" aria-labelledby="inspection-heading">
+        <div class="container">
+          <span class="section-tag">Inspections</span>
+          <h2 id="inspection-heading">
+            Residential Electrical Inspections in Las Vegas
+          </h2>
+          <p class="pt-1">
+            A check isn't just for buyers and sellers. It's a smart way to know
+            where your home stands before something forces the issue.
+          </p>
+          <p>
+            Buying in the area? A general check often misses electric detail. We
+            go deeper. Panel, wiring type, <a href="/gfci-outlet-installation-las-vegas">GFCI</a>, grounding — all covered. You
+            get a written report. Use it in the deal or to plan future work.
+          </p>
+          <p>
+            Yearly checks are smart for homes over 20 years old. The heat here
+            speeds up wear on wire and joints. A short inspection each year
+            catches small problems before they become costly.
+          </p>
+        </div>
+      </section>
+
+      <!-- IMAGE PLACEHOLDER 3 -->
+      <div
+        style="
+          width: 350px;
+          height: 350px;
+          background: #e5e7eb;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 32px auto;
+          border-radius: 8px;
+          font-size: 0.9rem;
+          color: #6b7280;
+          text-align: center;
+          padding: 16px;
+          box-sizing: border-box;
+        "
+      >
+        <img
+          src="/img/home-ev-charger-installation-las-vegas.webp"
+          alt="Home EV charger installation in Las Vegas by licensed electrician"
+          width="350"
+          height="350"
+          loading="lazy"
+        />
+      </div>
+
+      <section aria-labelledby="why-us-heading">
+        <div class="container">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 id="why-us-heading">Why Las Vegas Homeowners Call Us First</h2>
+          <p class="pt-1">
+            As a <strong>residential electrician Las Vegas</strong> team, the
+            price is given before we start. Honest work. Straight deal.
+          </p>
+          <p>
+            We look at the job. Price given before anything starts. No low quote
+            that jumps when we arrive.
+          </p>
+          <p>
+            Shoe covers on. Work area cleaned up. No mess left behind. We walk
+            you through what we did before we leave.
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-alt" aria-labelledby="faq-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">FAQ</span>
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+          </div>
           <div class="faq-list">
             <div class="faq-item">
-              <h3>
-                My outlet works sometimes and not others. What causes that?
-              </h3>
-              <p>
-                A loose connection inside the outlet or the box behind it. Left
-                alone, loose connections heat up and become a fire risk. Call us
-                and we will find it.
-              </p>
+              <button class="faq-question" aria-expanded="false">
+                How much does a residential electrician cost in Las Vegas?
+                <svg
+                  class="faq-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Electrical jobs run from $100 to $500 or more depending on the
+                  scope. A simple outlet swap costs far less than a full panel
+                  upgrade. We give you the price before we start.
+                </p>
+              </div>
             </div>
             <div class="faq-item">
-              <h3>Can I add a hot tub to my existing electrical system?</h3>
-              <p>
-                Most hot tubs need a dedicated 240-volt, 50-amp circuit with a
-                nearby disconnect box. Whether your panel can handle it depends
-                on your current load. We check before we run any wire.
-              </p>
+              <button class="faq-question" aria-expanded="false">
+                Can you upgrade my electrical panel in Las Vegas?
+                <svg
+                  class="faq-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. As the residential electrician Las Vegas homeowners call
+                  for panels, we replace old 100-amp boxes with modern 200-amp
+                  systems. Permit and utility work handled.
+                </p>
+              </div>
             </div>
             <div class="faq-item">
-              <h3>
-                Why does my kitchen outlet not work but my bathroom outlet does?
-              </h3>
-              <p>
-                They are likely on the same GFCI circuit. The reset button may
-                be in the bathroom, not the kitchen. If resetting it does not
-                help, the circuit has a fault that needs to be traced.
-              </p>
+              <button class="faq-question" aria-expanded="false">
+                How long does home rewiring take in Las Vegas?
+                <svg
+                  class="faq-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  A full rewire takes 3 to 7 days. Partial rewires — one room or
+                  area — can often be done in a day. Call us for a firm
+                  timeline.
+                </p>
+              </div>
             </div>
             <div class="faq-item">
-              <h3>How do I know if my home has aluminum wiring?</h3>
-              <p>
-                Look at any visible wire in your attic or panel. Aluminum wiring
-                is marked AL. Not sure? We check it on any service call at no
-                extra charge.
-              </p>
+              <button class="faq-question" aria-expanded="false">
+                What electrical issues are most common in older Las Vegas homes?
+                <svg
+                  class="faq-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Older homes here often have small panels. Aluminum wiring.
+                  Missing GFCI outlets. Two-prong outlets with no ground. We
+                  find all of these in an inspection. Then we put together a
+                  clear plan to fix them.
+                </p>
+              </div>
             </div>
           </div>
-          <h2 class="pt-1">
-            Call Your Residential Electrician Las Vegas Today
+        </div>
+      </section>
+
+      <section class="cta-section" aria-labelledby="cta-heading">
+        <div class="container">
+          <h2 id="cta-heading">
+            Get a Residential Electrician in Las Vegas Today
           </h2>
           <p>
-            Something not working right in your home? Do not wait. Small
-            electrical problems get worse fast.
+            We serve Las Vegas, Henderson, Summerlin, North Las Vegas, Paradise,
+            Spring Valley, and every community in the valley.
           </p>
           <p>
-            We are the residential electrician Las Vegas homeowners have relied
-            on for over 40 years. Call us. Tell us what is going on. We will get
-            someone out to you today.
+            Call now or book online. A
+            <strong>residential electrician Las Vegas</strong> homeowners
+            recommend can often be at your door the same day. Straight answer.
+            Fair price. Done right.
           </p>
-          <div class="btn-group pt-1">
-            <a href="tel:+17028997099" class="btn btn-primary btn-large"
-              >Call (702) 899-7099 – 24 hours a day, 7 days a week</a
+          <div class="cta-buttons">
+            <a href="tel:+17028997099" class="btn-orange btn-lg"
+              >📞 Call (702) 899-7099</a
             >
           </div>
           <p class="pt-1">
-            Vegas Electrician | Las Vegas, NV 89101<br />Henderson · Summerlin ·
-            North Las Vegas · Paradise · Spring Valley · Clark County
+            <strong>Call us now or schedule your appointment online.</strong>
           </p>
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <!-- Main Footer Content -->
-      <div class="footer-main">
-        <p class="container pt-1">
-          Disclaimer: Vegas Electrician is a free service to assist homeowners
-          in connecting with local service providers. All contractors/providers
-          are independent and Vegas Electrician does not warrant or guarantee
-          any work performed. It is the responsibility of the homeowner to
-          verify that the hired contractor furnishes the necessary license and
-          insurance required for the work being performed. All persons depicted
-          in a photo or video are actors or models and not contractors listed on
-          Vegas Electrician.
-        </p>
-        <div class="footer-container pt-1">
-          <!-- Column 1: About Us -->
-          <div class="footer-column">
-            <h3>About Us</h3>
-            <p>
-              Trusted and experienced electricians providing 24/7 emergency
-              electrical services throughout Las Vegas, Henderson, North Las
-              Vegas, and Summerlin since 1980.
-            </p>
-            <p>
-              <strong>Trusted • Experienced • Professional</strong>
-            </p>
-          </div>
-
-          <!-- Column 2: Services -->
-          <div class="footer-column">
-            <h3>Services</h3>
-            <ul class="footer-links">
-              <li>
-                <a href="/residential-electrical-services"
-                  >Residential Services</a
-                >
-              </li>
-              <li>
-                <a href="/commercial-electrical-services"
-                  >Commercial Services</a
-                >
-              </li>
-              <li>
-                <a href="/emergency-electrician-las-vegas"
-                  >24/7 Emergency Service</a
-                >
-              </li>
-              <li>
-                <a href="/electrical-panel-upgrade">Panel Upgrades</a>
-              </li>
-              <li>
-                <a href="/ev-charger-installation">EV Charger Installation</a>
-              </li>
-              <li>
-                <a href="/electrical-wiring-rewiring">Home Rewiring</a>
-              </li>
-              <li>
-                <a href="/circuit-breaker-repair">Circuit Breaker Repair</a>
-              </li>
-              <li>
-                <a href="/ceiling-fan-installation">Ceiling Fan Installation</a>
-              </li>
-              <li>
-                <a href="/lighting-installation">Lighting Installation</a>
-              </li>
-              <li><a href="/gfci-outlet-installation">GFCI Outlets</a></li>
-            </ul>
-          </div>
-
-          <!-- Column 3: Quick Links -->
-          <div class="footer-column">
-            <h3>Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/service-areas-las-vegas">Service Areas</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li>
-                <a href="/electrical-inspection-troubleshooting">Inspection</a>
-              </li>
-            </ul>
-            <h3>Areas We Serve</h3>
-            <ul class="footer-links">
-              <li><a href="/electrician-in-henderson-nv">Henderson</a></li>
-              <li>
-                <a href="/electrician-in-north-las-vegas-nv">North Las Vegas</a>
-              </li>
-              <li><a href="/electrician-in-paradise-nv">Paradise</a></li>
-              <li>
-                <a href="/electrician-in-spring-valley-nv">Spring Valley</a>
-              </li>
-              <li><a href="/electrician-in-summerlin-nv">Summerlin</a></li>
-            </ul>
-          </div>
-
-          <!-- Column 4: Contact -->
-          <div class="footer-column">
-            <h3>Contact Us</h3>
-            <p><strong>24/7 Emergency Service</strong></p>
-            <p>
-              <strong>Phone:</strong><br /><a href="tel:+17028997099"
-                >(702) 899-7099</a
-              >
-            </p>
-            <p><strong>Address:</strong><br />Las Vegas, NV 89101</p>
-            <p><strong>Hours:</strong><br />24 Hours / 7 Days a Week</p>
+    <!-- FOOTER -->
+      <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>
+        Disclaimer: Vegas Electrician is a free service to assist homeowners
+        in connecting with local service providers. All contractors/providers
+        are independent and Vegas Electrician does not warrant or guarantee
+        any work performed. It is the responsibility of the homeowner to
+        verify that the hired contractor furnishes the necessary license and
+        insurance required for the work being performed. All persons depicted
+        in a photo or video are actors or models and not contractors listed on
+        Vegas Electrician.
+      </p>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo"><span class="logo-icon">⚡</span>Vegas <span>Electrician</span></div>
+          <p class="footer-tagline">
+            Your local electrician Las Vegas, NV. We serve homes and
+            businesses throughout the Las Vegas Valley — Henderson, Summerlin,
+            North Las Vegas, Paradise, and Spring Valley. Upfront pricing,
+            same-day service, and 24/7 emergency response. We show up, we fix
+            it right, and we give you the price before we start.
+          </p>
+        </div>
+        <div class="footer-col">
+          <span><strong>Quick Links</strong></span>
+          <nav class="footer-links">
+            <a href="/">Home</a>
+            <a href="about">About Us</a>
+            <a href="contact">Contact</a>
+            <a href="service-areas-las-vegas">Service Areas</a>
+            <a href="electrical-services-las-vegas">All Services</a>
+            <a href="privacy-policy">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <span><strong>Our Services</strong></span>
+          <nav class="footer-links">
+            <a href="residential-electrical-services">Residential Electrical</a>
+            <a href="commercial-electrical-services">Commercial Electrical</a>
+            <a href="emergency-electrician-las-vegas">Emergency Electrician</a>
+            <a href="electrical-panel-upgrade">Panel Upgrades</a>
+            <a href="ev-charger-installation">EV Charger Installation</a>
+            <a href="gfci-outlet-installation">GFCI Outlets</a>
+            <a href="lighting-installation">Lighting Installation</a>
+            <a href="ceiling-fan-installation">Ceiling Fan Installation</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <span><strong>Contact Info</strong></span>
+          <div class="footer-nap">
+            <p><strong>Vegas Electrician</strong></p>
+            <p>📍 Las Vegas, NV 89101</p>
+            <p>📞 <a href="tel:+17028997099">(702) 899-7099</a></p>
+            <p>🕐 Available 24/7</p>
           </div>
         </div>
       </div>
-
-      <!-- Bottom Bar -->
       <div class="footer-bottom">
-        <div class="footer-bottom-content">
-          <div class="footer-copyright">
-            <p>&copy; 2026 Electrician Las Vegas. All Rights Reserved.</p>
-          </div>
-          <div class="footer-bottom-links">
-            <a href="/sitemap.xml">sitemap</a>
-            <span class="separator">|</span>
-            <a href="/privacy-policy">Privacy Policy</a>
-          </div>
-        </div>
+        <p>© 2026 Vegas Electrician. All rights reserved. — Las Vegas, NV.</p>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="/nav.min.js" defer></script>
-  </body>
+    <script src="script.js" defer></script>
+
+    <a
+      href="tel:+17028997099"
+      class="sticky-call-btn"
+      aria-label="Call Vegas Electrician at (702) 899-7099"
+      onclick="
+        typeof gtag !== 'undefined' &&
+          gtag('event', 'click', {
+            event_category: 'CTA',
+            event_label: 'Sticky Call Button',
+            value: 1,
+          })
+      "
+    >
+      <!-- Phone SVG icon -->
+      <svg
+        class="sticky-call-btn__icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"
+        />
+      </svg>
+      <span class="sticky-call-btn__text">Call Now</span>
+      <span class="sticky-call-btn__number">(702) 899-7099</span>
+    </a>
+    <!-- STICKY CALL NOW BUTTON -->
+  <a
+    href="tel:+17028997099"
+    class="sticky-call-btn"
+    aria-label="Call Vegas Electrician at (702) 899-7099"
+    onclick="typeof gtag !== 'undefined' && gtag('event', 'click', { event_category: 'CTA', event_label: 'Sticky Call Button', value: 1 })"
+  >
+    <svg class="sticky-call-btn__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/>
+    </svg>
+    <span class="sticky-call-btn__text">Call Now</span>
+    <span class="sticky-call-btn__number">(702) 899-7099</span>
+  </a>
+  <!-- END STICKY CALL NOW BUTTON -->
+</body>
 </html>
