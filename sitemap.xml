@@ -6,108 +6,103 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/about.html</loc>
+    <loc>https://vegaselectricianservice.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/contact.html</loc>
+    <loc>https://vegaselectricianservice.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/residential-electrical-services.html</loc>
+    <loc>https://vegaselectricianservice.com/residential-electrical-services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/commercial-electrical-services.html</loc>
+    <loc>https://vegaselectricianservice.com/commercial-electrical-services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrical-services-las-vegas.html</loc>
+    <loc>https://vegaselectricianservice.com/electrical-services-las-vegas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrical-panel-upgrade.html</loc>
+    <loc>https://vegaselectricianservice.com/electrical-panel-upgrade</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrical-wiring-rewiring.html</loc>
+    <loc>https://vegaselectricianservice.com/electrical-wiring-rewiring</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrical-inspection-troubleshooting.html</loc>
+    <loc>https://vegaselectricianservice.com/electrical-inspection-troubleshooting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/circuit-breaker-repair.html</loc>
+    <loc>https://vegaselectricianservice.com/circuit-breaker-repair</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/ceiling-fan-installation.html</loc>
+    <loc>https://vegaselectricianservice.com/ceiling-fan-installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/lighting-installation.html</loc>
+    <loc>https://vegaselectricianservice.com/lighting-installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/gfci-outlet-installation.html</loc>
+    <loc>https://vegaselectricianservice.com/gfci-outlet-installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/ev-charger-installation.html</loc>
+    <loc>https://vegaselectricianservice.com/ev-charger-installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/emergency-electrician-las-vegas.html</loc>
+    <loc>https://vegaselectricianservice.com/emergency-electrician-las-vegas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/service-areas-las-vegas.html</loc>
+    <loc>https://vegaselectricianservice.com/service-areas-las-vegas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-henderson-nv.html</loc>
+    <loc>https://vegaselectricianservice.com/electrician-in-henderson-nv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv.html</loc>
+    <loc>https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-paradise-nv.html</loc>
+    <loc>https://vegaselectricianservice.com/electrician-in-paradise-nv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-spring-valley-nv.html</loc>
+    <loc>https://vegaselectricianservice.com/electrician-in-spring-valley-nv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vegaselectricianservice.com/electrician-in-summerlin-nv.html</loc>
+    <loc>https://vegaselectricianservice.com/electrician-in-summerlin-nv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vegaselectricianservice.com/privacy-policy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
