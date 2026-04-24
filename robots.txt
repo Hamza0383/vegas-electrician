@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
-Disallow: /privacy-policy/
+# Privacy policy: crawlable so Googlebot can read the noindex meta tag
+# The <meta name="robots" content="noindex"> on the page itself handles exclusion
 
 Sitemap: https://vegaselectricianservice.com/sitemap.xml

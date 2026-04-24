@@ -1,24 +1,68 @@
-# Redirect .html URLs → clean trailing-slash URLs (301 Permanent)
-# Cloudflare Pages processes these top-to-bottom; first match wins.
+# =============================================================================
+# CANONICAL URL STANDARD: https://vegaselectricianservice.com/page/
+# Rule: ALWAYS trailing slash, NEVER .html, NEVER bare slug
+# Cloudflare Pages processes top-to-bottom; first match wins.
+# =============================================================================
 
-/about.html                                  /about/                                  301
-/ceiling-fan-installation.html               /ceiling-fan-installation/               301
-/circuit-breaker-repair.html                 /circuit-breaker-repair/                 301
-/commercial-electrical-services.html         /commercial-electrical-services/         301
-/contact.html                                /contact/                                301
-/electrical-inspection-troubleshooting.html  /electrical-inspection-troubleshooting/  301
-/electrical-panel-upgrade.html               /electrical-panel-upgrade/               301
-/electrical-services-las-vegas.html          /electrical-services-las-vegas/          301
-/electrical-wiring-rewiring.html             /electrical-wiring-rewiring/             301
-/electrician-in-henderson-nv.html            /electrician-in-henderson-nv/            301
-/electrician-in-north-las-vegas-nv.html      /electrician-in-north-las-vegas-nv/      301
-/electrician-in-paradise-nv.html             /electrician-in-paradise-nv/             301
-/electrician-in-spring-valley-nv.html        /electrician-in-spring-valley-nv/        301
-/electrician-in-summerlin-nv.html            /electrician-in-summerlin-nv/            301
-/emergency-electrician-las-vegas.html        /emergency-electrician-las-vegas/        301
-/ev-charger-installation.html                /ev-charger-installation/                301
-/gfci-outlet-installation.html               /gfci-outlet-installation/               301
-/lighting-installation.html                  /lighting-installation/                  301
-/privacy-policy.html                         /privacy-policy/                         301
-/residential-electrical-services.html        /residential-electrical-services/        301
-/service-areas-las-vegas.html                /service-areas-las-vegas/                301
+# -----------------------------------------------------------------------------
+# SECTION 1 — Homepage variants
+# -----------------------------------------------------------------------------
+/index.html                                  /                                            301
+/index                                       /                                            301
+
+# -----------------------------------------------------------------------------
+# SECTION 2 — Non-trailing-slash → trailing slash (explicit 301, overrides
+#             Cloudflare's default 308 automatic directory redirect)
+# -----------------------------------------------------------------------------
+/about                                       /about/                                      301
+/contact                                     /contact/                                    301
+/privacy-policy                              /privacy-policy/                             301
+
+/electrical-services-las-vegas               /electrical-services-las-vegas/              301
+/residential-electrical-services             /residential-electrical-services/            301
+/commercial-electrical-services              /commercial-electrical-services/             301
+/emergency-electrician-las-vegas             /emergency-electrician-las-vegas/            301
+
+/electrical-panel-upgrade                    /electrical-panel-upgrade/                   301
+/circuit-breaker-repair                      /circuit-breaker-repair/                     301
+/ceiling-fan-installation                    /ceiling-fan-installation/                   301
+/lighting-installation                       /lighting-installation/                      301
+/electrical-wiring-rewiring                  /electrical-wiring-rewiring/                 301
+/ev-charger-installation                     /ev-charger-installation/                    301
+/gfci-outlet-installation                    /gfci-outlet-installation/                   301
+/electrical-inspection-troubleshooting       /electrical-inspection-troubleshooting/      301
+
+/service-areas-las-vegas                     /service-areas-las-vegas/                    301
+/electrician-in-henderson-nv                 /electrician-in-henderson-nv/                301
+/electrician-in-summerlin-nv                 /electrician-in-summerlin-nv/                301
+/electrician-in-north-las-vegas-nv           /electrician-in-north-las-vegas-nv/          301
+/electrician-in-paradise-nv                  /electrician-in-paradise-nv/                 301
+/electrician-in-spring-valley-nv             /electrician-in-spring-valley-nv/            301
+
+# -----------------------------------------------------------------------------
+# SECTION 3 — .html → trailing slash (handles legacy URLs / external backlinks)
+# -----------------------------------------------------------------------------
+/about.html                                  /about/                                      301
+/contact.html                                /contact/                                    301
+/privacy-policy.html                         /privacy-policy/                             301
+
+/electrical-services-las-vegas.html          /electrical-services-las-vegas/              301
+/residential-electrical-services.html        /residential-electrical-services/            301
+/commercial-electrical-services.html         /commercial-electrical-services/             301
+/emergency-electrician-las-vegas.html        /emergency-electrician-las-vegas/            301
+
+/electrical-panel-upgrade.html               /electrical-panel-upgrade/                   301
+/circuit-breaker-repair.html                 /circuit-breaker-repair/                     301
+/ceiling-fan-installation.html               /ceiling-fan-installation/                   301
+/lighting-installation.html                  /lighting-installation/                      301
+/electrical-wiring-rewiring.html             /electrical-wiring-rewiring/                 301
+/ev-charger-installation.html                /ev-charger-installation/                    301
+/gfci-outlet-installation.html               /gfci-outlet-installation/                   301
+/electrical-inspection-troubleshooting.html  /electrical-inspection-troubleshooting/      301
+
+/service-areas-las-vegas.html                /service-areas-las-vegas/                    301
+/electrician-in-henderson-nv.html            /electrician-in-henderson-nv/                301
+/electrician-in-summerlin-nv.html            /electrician-in-summerlin-nv/                301
+/electrician-in-north-las-vegas-nv.html      /electrician-in-north-las-vegas-nv/          301
+/electrician-in-paradise-nv.html             /electrician-in-paradise-nv/                 301
+/electrician-in-spring-valley-nv.html        /electrician-in-spring-valley-nv/            301
