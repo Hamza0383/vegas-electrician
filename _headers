@@ -48,3 +48,97 @@
 
 /robots.txt
   Cache-Control: public, max-age=3600, must-revalidate
+
+# =============================================================================
+# No-trailing-slash duplicate suppression
+# Cloudflare Pages serves directory index.html at both /slug and /slug/
+# _redirects 301 rules handle the browser/bot redirect, but if Googlebot
+# fetches the no-slash version before the redirect fires it sees duplicate
+# content and may pick it as canonical. These headers block that:
+#   X-Robots-Tag: noindex — tells Google not to index the no-slash URL
+#   Link: canonical       — HTTP-level canonical hint (stronger than meta tag)
+# =============================================================================
+
+/about
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/about/>; rel="canonical"
+
+/contact
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/contact/>; rel="canonical"
+
+/privacy-policy
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/privacy-policy/>; rel="canonical"
+
+/electrical-services-las-vegas
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrical-services-las-vegas/>; rel="canonical"
+
+/residential-electrical-services
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/residential-electrical-services/>; rel="canonical"
+
+/commercial-electrical-services
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/commercial-electrical-services/>; rel="canonical"
+
+/emergency-electrician-las-vegas
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/emergency-electrician-las-vegas/>; rel="canonical"
+
+/electrical-panel-upgrade
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrical-panel-upgrade/>; rel="canonical"
+
+/circuit-breaker-repair
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/circuit-breaker-repair/>; rel="canonical"
+
+/ceiling-fan-installation
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/ceiling-fan-installation/>; rel="canonical"
+
+/lighting-installation
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/lighting-installation/>; rel="canonical"
+
+/electrical-wiring-rewiring
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrical-wiring-rewiring/>; rel="canonical"
+
+/ev-charger-installation
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/ev-charger-installation/>; rel="canonical"
+
+/gfci-outlet-installation
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/gfci-outlet-installation/>; rel="canonical"
+
+/electrical-inspection-troubleshooting
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrical-inspection-troubleshooting/>; rel="canonical"
+
+/service-areas-las-vegas
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/service-areas-las-vegas/>; rel="canonical"
+
+/electrician-in-henderson-nv
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrician-in-henderson-nv/>; rel="canonical"
+
+/electrician-in-summerlin-nv
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrician-in-summerlin-nv/>; rel="canonical"
+
+/electrician-in-north-las-vegas-nv
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv/>; rel="canonical"
+
+/electrician-in-paradise-nv
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrician-in-paradise-nv/>; rel="canonical"
+
+/electrician-in-spring-valley-nv
+  X-Robots-Tag: noindex
+  Link: <https://vegaselectricianservice.com/electrician-in-spring-valley-nv/>; rel="canonical"
