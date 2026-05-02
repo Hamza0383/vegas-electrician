@@ -44,6 +44,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter.woff2') format('woff2');
+  font-display: swap;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -1794,6 +1800,7 @@ section {
   .stats-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .contact-grid {
     grid-template-columns: 1fr 1.5fr;
   }
@@ -2099,11 +2106,13 @@ body {
     animation: none !important;
   }
 }
+
 /* ── Henderson page-specific styles ── */
 
 .hnd-section {
   padding: 72px 0;
 }
+
 .hnd-section.alt {
   background: var(--bg-secondary);
   border-top: 1px solid var(--border);
@@ -2113,9 +2122,11 @@ body {
 .hnd-heading {
   margin-bottom: 40px;
 }
+
 .hnd-heading .section-tag {
   margin-bottom: 10px;
 }
+
 .hnd-heading h2 {
   margin-bottom: 0;
 }
@@ -2128,16 +2139,19 @@ body {
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
 @media (min-width: 640px) {
   .hnd-services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (min-width: 960px) {
   .hnd-services-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 .hnd-service-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2150,20 +2164,24 @@ body {
     border-color var(--transition),
     transform var(--transition);
 }
+
 .hnd-service-card:hover {
   border-color: rgba(249, 115, 22, 0.35);
   transform: translateY(-3px);
 }
+
 .hnd-service-card h3 {
   font-size: 1rem;
   margin-bottom: 0;
 }
+
 .hnd-service-card p {
   font-size: 0.88rem;
   color: var(--text-secondary);
   margin: 0;
   flex: 1;
 }
+
 .hnd-service-card .svc-call-btn,
 .slv-svc-card .svc-call-btn,
 .pvn-svc-card .svc-call-btn {
@@ -2181,6 +2199,7 @@ body {
   transition: background var(--transition);
   align-self: flex-start;
 }
+
 .hnd-service-card .svc-call-btn:hover,
 .slv-svc-card .svc-call-btn:hover,
 .pvn-svc-card .svc-call-btn:hover {
@@ -2194,11 +2213,13 @@ body {
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
 @media (min-width: 640px) {
   .why-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 .why-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2208,6 +2229,7 @@ body {
   flex-direction: column;
   gap: 12px;
 }
+
 .why-card .why-icon {
   width: 46px;
   height: 46px;
@@ -2217,15 +2239,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .why-card .why-icon svg {
   width: 22px;
   height: 22px;
   color: var(--blue);
 }
+
 .why-card h3 {
   font-size: 1rem;
   margin-bottom: 0;
 }
+
 .why-card p {
   font-size: 0.88rem;
   color: var(--text-secondary);
@@ -2238,11 +2263,13 @@ body {
   grid-template-columns: 1fr;
   gap: 24px;
 }
+
 @media (min-width: 768px) {
   .hood-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .hood-block {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2252,10 +2279,12 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
 .hood-block h3 {
   font-size: 1rem;
   margin-bottom: 4px;
 }
+
 .hood-block p {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -2270,6 +2299,7 @@ body {
   gap: 8px;
   margin-top: 32px;
 }
+
 .zip-tag {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2280,6 +2310,7 @@ body {
   color: var(--text-secondary);
   letter-spacing: 0.04em;
 }
+
 .zip-section-label {
   font-size: 0.78rem;
   font-weight: 700;
@@ -2298,6 +2329,7 @@ body {
   border-radius: var(--radius);
   overflow: hidden;
 }
+
 .detail-item {
   background: var(--bg-card);
   padding: 28px;
@@ -2306,12 +2338,15 @@ body {
   align-items: flex-start;
   transition: background var(--transition);
 }
+
 .detail-item:not(:last-child) {
   border-bottom: 1px solid var(--border);
 }
+
 .detail-item:hover {
   background: #232b3e;
 }
+
 .detail-num {
   font-size: 1.3rem;
   font-weight: 800;
@@ -2320,10 +2355,12 @@ body {
   line-height: 1;
   padding-top: 3px;
 }
+
 .detail-item h3 {
   font-size: 1rem;
   margin-bottom: 6px;
 }
+
 .detail-item p {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -2336,17 +2373,20 @@ body {
   grid-template-columns: 1fr;
   gap: 24px;
 }
+
 @media (min-width: 640px) {
   .sched-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .sched-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px 28px;
 }
+
 .sched-card .sched-label {
   font-size: 0.78rem;
   font-weight: 700;
@@ -2355,10 +2395,12 @@ body {
   color: var(--blue);
   margin-bottom: 12px;
 }
+
 .sched-card h3 {
   font-size: 1.05rem;
   margin-bottom: 10px;
 }
+
 .sched-card p {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -2375,15 +2417,18 @@ body {
   padding: 36px 32px;
   max-width: 820px;
 }
+
 .statement-block p {
   font-size: 1rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin: 0 0 14px;
 }
+
 .statement-block p:last-child {
   margin-bottom: 0;
 }
+
 .statement-block strong {
   color: var(--text-primary);
 }
@@ -2392,1075 +2437,1419 @@ body {
 /* ── electrical-inspection-troubleshooting.html ── */
 /* ── Page-specific styles ── */
 
-      /* Intro block */
+/* Intro block */
 
-      /* Section padding */
-      .insp-section {
-        padding: 72px 0;
-      }
-      .insp-section.alt {
-        background: var(--bg-secondary);
-        border-top: 1px solid var(--border);
-        border-bottom: 1px solid var(--border);
-      }
+/* Section padding */
+.insp-section {
+  padding: 72px 0;
+}
 
-      /* Left-aligned section header */
-      .insp-heading {
-        margin-bottom: 40px;
-      }
-      .insp-heading .section-tag {
-        margin-bottom: 10px;
-      }
-      .insp-heading h2 {
-        margin-bottom: 0;
-      }
+.insp-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 
-      /* When-to-schedule cards */
-      .schedule-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 768px) {
-        .schedule-grid {
-          grid-template-columns: repeat(3, 1fr);
-        }
-      }
-      .schedule-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        transition:
-          border-color var(--transition),
-          transform var(--transition);
-      }
-      .schedule-card:hover {
-        border-color: rgba(59, 130, 246, 0.4);
-        transform: translateY(-3px);
-      }
-      .schedule-card .card-num {
-        font-size: 2rem;
-        font-weight: 800;
-        color: rgba(59, 130, 246, 0.25);
-        line-height: 1;
-      }
-      .schedule-card h3 {
-        font-size: 1.05rem;
-        margin-bottom: 0;
-      }
-      .schedule-card p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-      }
+/* Left-aligned section header */
+.insp-heading {
+  margin-bottom: 40px;
+}
 
-      /* Coverage grid (2-col on desktop) */
-      .coverage-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 640px) {
-        .coverage-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .coverage-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .coverage-card .cov-icon {
-        width: 46px;
-        height: 46px;
-        background: rgba(249, 115, 22, 0.1);
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-      }
-      .coverage-card .cov-icon svg {
-        width: 22px;
-        height: 22px;
-        color: var(--orange);
-      }
-      .coverage-card h3 {
-        font-size: 1rem;
-        margin-bottom: 0;
-      }
-      .coverage-card p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-      }
+.insp-heading .section-tag {
+  margin-bottom: 10px;
+}
 
-      /* Troubleshooting rows */
-      .trouble-list {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        overflow: hidden;
-      }
-      .trouble-item {
-        background: var(--bg-card);
-        padding: 28px 28px;
-        display: flex;
-        gap: 20px;
-        align-items: flex-start;
-        transition: background var(--transition);
-      }
-      .trouble-item:not(:last-child) {
-        border-bottom: 1px solid var(--border);
-      }
-      .trouble-item:hover {
-        background: #232b3e;
-      }
-      .trouble-num {
-        font-size: 1.4rem;
-        font-weight: 800;
-        color: rgba(249, 115, 22, 0.3);
-        min-width: 32px;
-        line-height: 1;
-        padding-top: 2px;
-      }
-      .trouble-item h3 {
-        font-size: 1rem;
-        margin-bottom: 6px;
-      }
-      .trouble-item p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-      }
+.insp-heading h2 {
+  margin-bottom: 0;
+}
 
-      /* Two-column split for Real Estate / Insurance */
-      .split-section {
-        padding: 72px 0;
-      }
-      .split-section.alt {
-        background: var(--bg-secondary);
-        border-top: 1px solid var(--border);
-        border-bottom: 1px solid var(--border);
-      }
-      .split-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-      @media (min-width: 768px) {
-        .split-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .split-block {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-      }
-      .split-block .split-tag {
-        display: inline-block;
-        background: rgba(249, 115, 22, 0.1);
-        color: var(--orange);
-        font-size: 0.75rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        padding: 4px 12px;
-        border-radius: 9999px;
-        width: fit-content;
-      }
-      .split-block h3 {
-        font-size: 1.15rem;
-        margin-bottom: 0;
-      }
-      .split-block p {
-        font-size: 0.92rem;
-        color: var(--text-secondary);
-        margin: 0;
-        line-height: 1.75;
-      }
+/* When-to-schedule cards */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-      /* Cost section */
-      .cost-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-      @media (min-width: 640px) {
-        .cost-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .cost-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 32px 28px;
-      }
-      .cost-card h3 {
-        font-size: 1.05rem;
-        margin-bottom: 12px;
-      }
-      .cost-card p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-        line-height: 1.75;
-      }
+@media (min-width: 768px) {
+  .schedule-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.schedule-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition:
+    border-color var(--transition),
+    transform var(--transition);
+}
+
+.schedule-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateY(-3px);
+}
+
+.schedule-card .card-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgba(59, 130, 246, 0.25);
+  line-height: 1;
+}
+
+.schedule-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+.schedule-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Coverage grid (2-col on desktop) */
+.coverage-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .coverage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.coverage-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.coverage-card .cov-icon {
+  width: 46px;
+  height: 46px;
+  background: rgba(249, 115, 22, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.coverage-card .cov-icon svg {
+  width: 22px;
+  height: 22px;
+  color: var(--orange);
+}
+
+.coverage-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.coverage-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Troubleshooting rows */
+.trouble-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.trouble-item {
+  background: var(--bg-card);
+  padding: 28px 28px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: background var(--transition);
+}
+
+.trouble-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.trouble-item:hover {
+  background: #232b3e;
+}
+
+.trouble-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgba(249, 115, 22, 0.3);
+  min-width: 32px;
+  line-height: 1;
+  padding-top: 2px;
+}
+
+.trouble-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.trouble-item p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Two-column split for Real Estate / Insurance */
+.split-section {
+  padding: 72px 0;
+}
+
+.split-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .split-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.split-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.split-block .split-tag {
+  display: inline-block;
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--orange);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  width: fit-content;
+}
+
+.split-block h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0;
+}
+
+.split-block p {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* Cost section */
+.cost-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .cost-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.cost-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.cost-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.cost-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
 
 
 /* ── electrician-in-north-las-vegas-nv.html ── */
 /* ── North Las Vegas page-specific styles ── */
 
-    .nlv-section {
-      padding: 72px 0;
-    }
-    .nlv-section.alt {
-      background: var(--bg-secondary);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
+.nlv-section {
+  padding: 72px 0;
+}
 
-    .nlv-heading {
-      margin-bottom: 40px;
-    }
-    .nlv-heading .section-tag { margin-bottom: 10px; }
-    .nlv-heading h2 { margin-bottom: 0; }
+.nlv-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 
-    /* Hero trust row */
+.nlv-heading {
+  margin-bottom: 40px;
+}
 
-    /* Services — 3-col with orange accents */
-    .nlv-svc-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .nlv-svc-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (min-width: 960px) {
-      .nlv-svc-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    .nlv-svc-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      transition: border-color var(--transition), transform var(--transition);
-    }
-    .nlv-svc-card:hover {
-      border-color: rgba(249,115,22,0.3);
-      transform: translateY(-3px);
-    }
-    .nlv-svc-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .nlv-svc-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; flex: 1; }
-    .nlv-svc-card .svc-call-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: var(--orange);
-      color: #fff;
-      font-size: 0.82rem;
-      font-weight: 700;
-      padding: 8px 16px;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 4px;
-      transition: background var(--transition);
-      align-self: flex-start;
-    }
-    .nlv-svc-card .svc-call-btn:hover {
-      background: var(--orange-dark);
-    }
+.nlv-heading .section-tag {
+  margin-bottom: 10px;
+}
 
-    /* Emergency band */
+.nlv-heading h2 {
+  margin-bottom: 0;
+}
 
-    /* Neighborhoods — 2-col */
-    .nlv-hood-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 768px) {
-      .nlv-hood-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .nlv-hood-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .nlv-hood-card h3 { font-size: 1rem; margin-bottom: 4px; }
-    .nlv-hood-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+/* Hero trust row */
 
-    /* ZIP tags */
-    .nlv-zip-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-secondary);
-      margin: 36px 0 12px;
-    }
-    .nlv-zip-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .nlv-zip-tag {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 14px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      letter-spacing: 0.04em;
-    }
+/* Services — 3-col with orange accents */
+.nlv-svc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-    /* Numbered detail rows */
-    .nlv-detail-list {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-    .nlv-detail-item {
-      background: var(--bg-card);
-      padding: 28px;
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-      transition: background var(--transition);
-    }
-    .nlv-detail-item:not(:last-child) { border-bottom: 1px solid var(--border); }
-    .nlv-detail-item:hover { background: #232b3e; }
-    .nlv-detail-num {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: rgba(249,115,22,0.28);
-      min-width: 32px;
-      line-height: 1;
-      padding-top: 3px;
-    }
-    .nlv-detail-item h3 { font-size: 1rem; margin-bottom: 6px; }
-    .nlv-detail-item p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+@media (min-width: 640px) {
+  .nlv-svc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-    /* Commercial — 2-col cards */
-    .nlv-comm-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .nlv-comm-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .nlv-comm-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .nlv-comm-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .nlv-comm-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+@media (min-width: 960px) {
+  .nlv-svc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
-    /* Scheduling — icon list */
-    .nlv-sched-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .nlv-sched-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .nlv-sched-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 32px 28px;
-    }
-    .nlv-sched-card .sched-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--orange);
-      margin-bottom: 12px;
-    }
-    .nlv-sched-card h3 { font-size: 1.05rem; margin-bottom: 10px; }
-    .nlv-sched-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+.nlv-svc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.nlv-svc-card:hover {
+  border-color: rgba(249, 115, 22, 0.3);
+  transform: translateY(-3px);
+}
+
+.nlv-svc-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.nlv-svc-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  flex: 1;
+}
+
+.nlv-svc-card .svc-call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--orange);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 4px;
+  transition: background var(--transition);
+  align-self: flex-start;
+}
+
+.nlv-svc-card .svc-call-btn:hover {
+  background: var(--orange-dark);
+}
+
+/* Emergency band */
+
+/* Neighborhoods — 2-col */
+.nlv-hood-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .nlv-hood-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.nlv-hood-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nlv-hood-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.nlv-hood-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* ZIP tags */
+.nlv-zip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin: 36px 0 12px;
+}
+
+.nlv-zip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.nlv-zip-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+/* Numbered detail rows */
+.nlv-detail-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.nlv-detail-item {
+  background: var(--bg-card);
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: background var(--transition);
+}
+
+.nlv-detail-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.nlv-detail-item:hover {
+  background: #232b3e;
+}
+
+.nlv-detail-num {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(249, 115, 22, 0.28);
+  min-width: 32px;
+  line-height: 1;
+  padding-top: 3px;
+}
+
+.nlv-detail-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.nlv-detail-item p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Commercial — 2-col cards */
+.nlv-comm-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .nlv-comm-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.nlv-comm-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nlv-comm-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.nlv-comm-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* Scheduling — icon list */
+.nlv-sched-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .nlv-sched-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.nlv-sched-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.nlv-sched-card .sched-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.nlv-sched-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.nlv-sched-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
 
 
 /* ── electrician-in-paradise-nv.html ── */
 /* ── Paradise page-specific styles ── */
 
-    .pvn-section {
-      padding: 72px 0;
-    }
-    .pvn-section.alt {
-      background: var(--bg-secondary);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
+.pvn-section {
+  padding: 72px 0;
+}
 
-    .pvn-heading {
-      margin-bottom: 40px;
-    }
-    .pvn-heading .section-tag { margin-bottom: 10px; }
-    .pvn-heading h2 { margin-bottom: 0; }
+.pvn-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 
-    /* Hero note strip */
+.pvn-heading {
+  margin-bottom: 40px;
+}
 
-    /* Services — 3-col */
-    .pvn-svc-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .pvn-svc-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (min-width: 960px) {
-      .pvn-svc-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    .pvn-svc-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      transition: border-color var(--transition), transform var(--transition);
-    }
-    .pvn-svc-card:hover {
-      border-color: rgba(59,130,246,0.35);
-      transform: translateY(-3px);
-    }
-    .pvn-svc-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .pvn-svc-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; flex: 1; }
+.pvn-heading .section-tag {
+  margin-bottom: 10px;
+}
 
-    /* Emergency band */
+.pvn-heading h2 {
+  margin-bottom: 0;
+}
 
-    /* Neighborhoods — 2-col */
-    .pvn-hood-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 768px) {
-      .pvn-hood-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .pvn-hood-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .pvn-hood-card h3 { font-size: 1rem; margin-bottom: 4px; }
-    .pvn-hood-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+/* Hero note strip */
 
-    /* ZIP tags */
-    .pvn-zip-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-secondary);
-      margin: 36px 0 12px;
-    }
-    .pvn-zip-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .pvn-zip-tag {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 14px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      letter-spacing: 0.04em;
-    }
+/* Services — 3-col */
+.pvn-svc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-    /* Condo & Hospitality — tabbed feel via 2-col blocks */
-    .pvn-split-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-    }
-    @media (min-width: 768px) {
-      .pvn-split-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .pvn-split-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .pvn-split-card .split-tag {
-      display: inline-block;
-      background: rgba(249,115,22,0.1);
-      color: var(--orange);
-      font-size: 0.73rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 3px 10px;
-      border-radius: 9999px;
-      width: fit-content;
-    }
-    .pvn-split-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .pvn-split-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+@media (min-width: 640px) {
+  .pvn-svc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-    /* Residential detail rows */
-    .pvn-detail-list {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-    .pvn-detail-item {
-      background: var(--bg-card);
-      padding: 28px;
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-      transition: background var(--transition);
-    }
-    .pvn-detail-item:not(:last-child) { border-bottom: 1px solid var(--border); }
-    .pvn-detail-item:hover { background: #232b3e; }
-    .pvn-detail-num {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: rgba(59,130,246,0.28);
-      min-width: 32px;
-      line-height: 1;
-      padding-top: 3px;
-    }
-    .pvn-detail-item h3 { font-size: 1rem; margin-bottom: 6px; }
-    .pvn-detail-item p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+@media (min-width: 960px) {
+  .pvn-svc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
-    /* Booking 2-col */
-    .pvn-book-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-    }
-    @media (min-width: 640px) {
-      .pvn-book-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .pvn-book-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 32px 28px;
-    }
-    .pvn-book-card .book-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--orange);
-      margin-bottom: 12px;
-    }
-    .pvn-book-card h3 { font-size: 1.05rem; margin-bottom: 10px; }
-    .pvn-book-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+.pvn-svc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.pvn-svc-card:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+  transform: translateY(-3px);
+}
+
+.pvn-svc-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.pvn-svc-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  flex: 1;
+}
+
+/* Emergency band */
+
+/* Neighborhoods — 2-col */
+.pvn-hood-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .pvn-hood-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pvn-hood-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pvn-hood-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.pvn-hood-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* ZIP tags */
+.pvn-zip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin: 36px 0 12px;
+}
+
+.pvn-zip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pvn-zip-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+/* Condo & Hospitality — tabbed feel via 2-col blocks */
+.pvn-split-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .pvn-split-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pvn-split-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pvn-split-card .split-tag {
+  display: inline-block;
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--orange);
+  font-size: 0.73rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  width: fit-content;
+}
+
+.pvn-split-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.pvn-split-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* Residential detail rows */
+.pvn-detail-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.pvn-detail-item {
+  background: var(--bg-card);
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: background var(--transition);
+}
+
+.pvn-detail-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.pvn-detail-item:hover {
+  background: #232b3e;
+}
+
+.pvn-detail-num {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(59, 130, 246, 0.28);
+  min-width: 32px;
+  line-height: 1;
+  padding-top: 3px;
+}
+
+.pvn-detail-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.pvn-detail-item p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Booking 2-col */
+.pvn-book-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .pvn-book-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pvn-book-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.pvn-book-card .book-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.pvn-book-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.pvn-book-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
 
 
 /* ── electrician-in-spring-valley-nv.html ── */
 /* ── Spring Valley page-specific styles ── */
 
-    .svn-section {
-      padding: 72px 0;
-    }
-    .svn-section.alt {
-      background: var(--bg-secondary);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
+.svn-section {
+  padding: 72px 0;
+}
 
-    .svn-heading {
-      margin-bottom: 40px;
-    }
-    .svn-heading .section-tag { margin-bottom: 10px; }
-    .svn-heading h2 { margin-bottom: 0; }
+.svn-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 
-    /* Hero road tags */
+.svn-heading {
+  margin-bottom: 40px;
+}
 
-    /* Services 3-col */
-    .svn-svc-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .svn-svc-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (min-width: 960px) {
-      .svn-svc-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    .svn-svc-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      transition: border-color var(--transition), transform var(--transition);
-    }
-    .svn-svc-card:hover {
-      border-color: rgba(249,115,22,0.3);
-      transform: translateY(-3px);
-    }
-    .svn-svc-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .svn-svc-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; flex: 1; }
-    .svn-svc-card .svc-call-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: var(--orange);
-      color: #fff;
-      font-size: 0.82rem;
-      font-weight: 600;
-      padding: 6px 14px;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 4px;
-      transition: background var(--transition);
-      align-self: flex-start;
-    }
-    .svn-svc-card .svc-call-btn:hover {
-      background: var(--orange-dark);
-    }
+.svn-heading .section-tag {
+  margin-bottom: 10px;
+}
 
-    /* Emergency band */
+.svn-heading h2 {
+  margin-bottom: 0;
+}
 
-    /* Neighborhoods */
-    .svn-hood-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 768px) {
-      .svn-hood-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .svn-hood-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .svn-hood-card h3 { font-size: 1rem; margin-bottom: 4px; }
-    .svn-hood-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+/* Hero road tags */
 
-    /* ZIP tags */
-    .svn-zip-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-secondary);
-      margin: 36px 0 12px;
-    }
-    .svn-zip-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .svn-zip-tag {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 14px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      letter-spacing: 0.04em;
-    }
+/* Services 3-col */
+.svn-svc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-    /* Popular services — 3 numbered rows */
-    .svn-popular-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .svn-popular-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    .svn-pop-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .svn-pop-card .pop-num {
-      font-size: 1.8rem;
-      font-weight: 800;
-      color: rgba(249,115,22,0.2);
-      line-height: 1;
-    }
-    .svn-pop-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .svn-pop-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+@media (min-width: 640px) {
+  .svn-svc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-    /* EV charger rows */
-    .svn-detail-list {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-    .svn-detail-item {
-      background: var(--bg-card);
-      padding: 28px;
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-      transition: background var(--transition);
-    }
-    .svn-detail-item:not(:last-child) { border-bottom: 1px solid var(--border); }
-    .svn-detail-item:hover { background: #232b3e; }
-    .svn-detail-num {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: rgba(59,130,246,0.28);
-      min-width: 32px;
-      line-height: 1;
-      padding-top: 3px;
-    }
-    .svn-detail-item h3 { font-size: 1rem; margin-bottom: 6px; }
-    .svn-detail-item p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+@media (min-width: 960px) {
+  .svn-svc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
-    /* Why us — 2-col */
-    .svn-why-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    @media (min-width: 640px) {
-      .svn-why-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .svn-why-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-left: 3px solid var(--orange);
-      border-radius: 0 var(--radius) var(--radius) 0;
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .svn-why-card h3 { font-size: 1rem; margin-bottom: 0; }
-    .svn-why-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+.svn-svc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color var(--transition), transform var(--transition);
+}
 
-    /* Schedule 2-col */
-    .svn-sched-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-    }
-    @media (min-width: 640px) {
-      .svn-sched-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    .svn-sched-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 32px 28px;
-    }
-    .svn-sched-card .sched-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--orange);
-      margin-bottom: 12px;
-    }
-    .svn-sched-card h3 { font-size: 1.05rem; margin-bottom: 10px; }
-    .svn-sched-card p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.75; }
+.svn-svc-card:hover {
+  border-color: rgba(249, 115, 22, 0.3);
+  transform: translateY(-3px);
+}
+
+.svn-svc-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.svn-svc-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  flex: 1;
+}
+
+.svn-svc-card .svc-call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--orange);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 4px;
+  transition: background var(--transition);
+  align-self: flex-start;
+}
+
+.svn-svc-card .svc-call-btn:hover {
+  background: var(--orange-dark);
+}
+
+/* Emergency band */
+
+/* Neighborhoods */
+.svn-hood-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .svn-hood-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.svn-hood-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.svn-hood-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.svn-hood-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* ZIP tags */
+.svn-zip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin: 36px 0 12px;
+}
+
+.svn-zip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.svn-zip-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+/* Popular services — 3 numbered rows */
+.svn-popular-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .svn-popular-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.svn-pop-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.svn-pop-card .pop-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: rgba(249, 115, 22, 0.2);
+  line-height: 1;
+}
+
+.svn-pop-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.svn-pop-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* EV charger rows */
+.svn-detail-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.svn-detail-item {
+  background: var(--bg-card);
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: background var(--transition);
+}
+
+.svn-detail-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.svn-detail-item:hover {
+  background: #232b3e;
+}
+
+.svn-detail-num {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(59, 130, 246, 0.28);
+  min-width: 32px;
+  line-height: 1;
+  padding-top: 3px;
+}
+
+.svn-detail-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.svn-detail-item p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Why us — 2-col */
+.svn-why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .svn-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.svn-why-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--orange);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.svn-why-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.svn-why-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* Schedule 2-col */
+.svn-sched-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .svn-sched-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.svn-sched-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.svn-sched-card .sched-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.svn-sched-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.svn-sched-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
 
 
 /* ── electrician-in-summerlin-nv.html ── */
 /* ── Summerlin page-specific styles ── */
 
-      .slv-section {
-        padding: 72px 0;
-      }
-      .slv-section.alt {
-        background: var(--bg-secondary);
-        border-top: 1px solid var(--border);
-        border-bottom: 1px solid var(--border);
-      }
+.slv-section {
+  padding: 72px 0;
+}
 
-      .slv-heading {
-        margin-bottom: 40px;
-      }
-      .slv-heading .section-tag {
-        margin-bottom: 10px;
-      }
-      .slv-heading h2 {
-        margin-bottom: 0;
-      }
+.slv-section.alt {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 
-      /* Quick-bar below hero */
+.slv-heading {
+  margin-bottom: 40px;
+}
 
-      /* Services grid — 2×3 */
-      .slv-services-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 640px) {
-        .slv-services-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      @media (min-width: 960px) {
-        .slv-services-grid {
-          grid-template-columns: repeat(3, 1fr);
-        }
-      }
-      .slv-svc-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        transition:
-          border-color var(--transition),
-          transform var(--transition);
-      }
-      .slv-svc-card:hover {
-        border-color: rgba(59, 130, 246, 0.35);
-        transform: translateY(-3px);
-      }
-      .slv-svc-card h3 {
-        font-size: 1rem;
-        margin-bottom: 0;
-      }
-      .slv-svc-card p {
-        font-size: 0.88rem;
-        color: var(--text-secondary);
-        margin: 0;
-        flex: 1;
-      }
+.slv-heading .section-tag {
+  margin-bottom: 10px;
+}
 
-      /* Emergency strip */
+.slv-heading h2 {
+  margin-bottom: 0;
+}
 
-      /* Neighborhoods — 2-col cards */
-      .slv-hood-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 768px) {
-        .slv-hood-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .slv-hood-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .slv-hood-card h3 {
-        font-size: 1rem;
-        margin-bottom: 4px;
-      }
-      .slv-hood-card p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-        line-height: 1.75;
-      }
+/* Quick-bar below hero */
 
-      /* ZIP tags */
-      .slv-zip-label {
-        font-size: 0.78rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--text-secondary);
-        margin: 36px 0 12px;
-      }
-      .slv-zip-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-      }
-      .slv-zip-tag {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        padding: 6px 14px;
-        font-size: 0.82rem;
-        font-weight: 600;
-        color: var(--text-secondary);
-        letter-spacing: 0.04em;
-      }
+/* Services grid — 2×3 */
+.slv-services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
-      /* EV & Panel — numbered rows */
-      .slv-detail-list {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        overflow: hidden;
-      }
-      .slv-detail-item {
-        background: var(--bg-card);
-        padding: 28px;
-        display: flex;
-        gap: 20px;
-        align-items: flex-start;
-        transition: background var(--transition);
-      }
-      .slv-detail-item:not(:last-child) {
-        border-bottom: 1px solid var(--border);
-      }
-      .slv-detail-item:hover {
-        background: #232b3e;
-      }
-      .slv-detail-num {
-        font-size: 1.3rem;
-        font-weight: 800;
-        color: rgba(59, 130, 246, 0.28);
-        min-width: 32px;
-        line-height: 1;
-        padding-top: 3px;
-      }
-      .slv-detail-item h3 {
-        font-size: 1rem;
-        margin-bottom: 6px;
-      }
-      .slv-detail-item p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-      }
+@media (min-width: 640px) {
+  .slv-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-      /* Why us — 2-col rows */
-      .slv-why-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      @media (min-width: 640px) {
-        .slv-why-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .slv-why-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .slv-why-card .why-tag {
-        display: inline-block;
-        background: rgba(59, 130, 246, 0.1);
-        color: #60a5fa;
-        font-size: 0.73rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        padding: 3px 10px;
-        border-radius: 9999px;
-        width: fit-content;
-      }
-      .slv-why-card h3 {
-        font-size: 1rem;
-        margin-bottom: 0;
-      }
-      .slv-why-card p {
-        font-size: 0.88rem;
-        color: var(--text-secondary);
-        margin: 0;
-        line-height: 1.75;
-      }
+@media (min-width: 960px) {
+  .slv-services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
-      /* Scheduling — 2-col */
-      .slv-sched-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-      @media (min-width: 640px) {
-        .slv-sched-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .slv-sched-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 32px 28px;
-      }
-      .slv-sched-card .sched-label {
-        font-size: 0.78rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--orange);
-        margin-bottom: 12px;
-      }
-      .slv-sched-card h3 {
-        font-size: 1.05rem;
-        margin-bottom: 10px;
-      }
-      .slv-sched-card p {
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        margin: 0;
-        line-height: 1.75;
-      }
+.slv-svc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition:
+    border-color var(--transition),
+    transform var(--transition);
+}
+
+.slv-svc-card:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+  transform: translateY(-3px);
+}
+
+.slv-svc-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.slv-svc-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  flex: 1;
+}
+
+/* Emergency strip */
+
+/* Neighborhoods — 2-col cards */
+.slv-hood-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .slv-hood-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.slv-hood-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slv-hood-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.slv-hood-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* ZIP tags */
+.slv-zip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin: 36px 0 12px;
+}
+
+.slv-zip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.slv-zip-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+/* EV & Panel — numbered rows */
+.slv-detail-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.slv-detail-item {
+  background: var(--bg-card);
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: background var(--transition);
+}
+
+.slv-detail-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.slv-detail-item:hover {
+  background: #232b3e;
+}
+
+.slv-detail-num {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(59, 130, 246, 0.28);
+  min-width: 32px;
+  line-height: 1;
+  padding-top: 3px;
+}
+
+.slv-detail-item h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.slv-detail-item p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Why us — 2-col rows */
+.slv-why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .slv-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.slv-why-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slv-why-card .why-tag {
+  display: inline-block;
+  background: rgba(59, 130, 246, 0.1);
+  color: #60a5fa;
+  font-size: 0.73rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  width: fit-content;
+}
+
+.slv-why-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.slv-why-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
+
+/* Scheduling — 2-col */
+.slv-sched-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .slv-sched-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.slv-sched-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.slv-sched-card .sched-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.slv-sched-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.slv-sched-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.75;
+}
 
 /* ============================================
    Breadcrumb
@@ -3489,7 +3878,7 @@ body {
   color: var(--text-secondary);
 }
 
-.breadcrumb li + li::before {
+.breadcrumb li+li::before {
   content: '/';
   margin-right: 6px;
   color: var(--text-secondary);

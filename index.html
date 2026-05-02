@@ -44,9 +44,12 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
     />
 
     <link
@@ -55,6 +58,7 @@
       href="/img/banner-image.webp"
       fetchpriority="high"
     />
+    <link rel="preload" href="/style.css" as="style" />
     <link rel="stylesheet" href="/style.css" />
 
     <!-- JSON-LD: LocalBusiness -->
@@ -295,12 +299,16 @@
                     >
                   </li>
                   <li>
-                    <a href="/electrician-in-henderson-nv/" class="dropdown-link"
+                    <a
+                      href="/electrician-in-henderson-nv/"
+                      class="dropdown-link"
                       >Henderson, NV</a
                     >
                   </li>
                   <li>
-                    <a href="/electrician-in-summerlin-nv/" class="dropdown-link"
+                    <a
+                      href="/electrician-in-summerlin-nv/"
+                      class="dropdown-link"
                       >Summerlin, NV</a
                     >
                   </li>
@@ -379,8 +387,8 @@
             <p>
               Outlets, <a href="/electrical-panel-upgrade/">panels</a>,
               <a href="/ev-charger-installation/">EV chargers</a>,
-              <a href="/emergency-electrician-las-vegas/">emergency calls</a> — we
-              handle all of it.
+              <a href="/emergency-electrician-las-vegas/">emergency calls</a> —
+              we handle all of it.
             </p>
             <div class="hero-buttons">
               <a href="tel:+17028997099" class="btn-orange btn-lg"
@@ -659,9 +667,9 @@
                     >North Las Vegas</a
                   >
                   with failing panels. New builds in
-                  <a href="/electrician-in-summerlin-nv/">Summerlin</a> needing EV
-                  chargers. Commercial spots in Paradise near the Strip. We've
-                  seen it all.
+                  <a href="/electrician-in-summerlin-nv/">Summerlin</a> needing
+                  EV chargers. Commercial spots in Paradise near the Strip.
+                  We've seen it all.
                 </p>
               </div>
             </div>
@@ -1368,7 +1376,14 @@
     <footer class="site-footer" role="contentinfo">
       <div class="container">
         <p>
-          Disclaimer: Vegas Electrician is a referral service that connects users with independent local electrical contractors in the Las Vegas area. We do not perform electrical work and are not responsible for the services provided by listed professionals. Any agreement for work is made directly between you and the contractor. We recommend verifying credentials, licensing, and insurance before hiring. Images shown on this site may include stock photos or models for illustrative purposes.
+          Disclaimer: Vegas Electrician is a referral service that connects
+          users with independent local electrical contractors in the Las Vegas
+          area. We do not perform electrical work and are not responsible for
+          the services provided by listed professionals. Any agreement for work
+          is made directly between you and the contractor. We recommend
+          verifying credentials, licensing, and insurance before hiring. Images
+          shown on this site may include stock photos or models for illustrative
+          purposes.
         </p>
         <div class="footer-grid">
           <div class="footer-col">
@@ -1401,7 +1416,9 @@
               <a href="/residential-electrical-services/"
                 >Residential Electrical</a
               >
-              <a href="/commercial-electrical-services/">Commercial Electrical</a>
+              <a href="/commercial-electrical-services/"
+                >Commercial Electrical</a
+              >
               <a href="/emergency-electrician-las-vegas/"
                 >Emergency Electrician</a
               >
