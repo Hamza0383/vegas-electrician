@@ -44,12 +44,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/inter.woff2') format('woff2');
-  font-display: swap;
-}
-
 img {
   max-width: 100%;
   height: auto;
