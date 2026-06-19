@@ -1,0 +1,24 @@
+name: Submit to IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sitemap.xml"
+      - "**/index.html"
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          KEY="249e317e1b6d1d266321e7336cfc3402"
+          HOST="vegaselectricianservice.com"
+          URLS=$(grep -oE '<loc>[^<]+</loc>' sitemap.xml | sed -E 's/<loc>(.*)<\/loc>/\1/')
+          URL_LIST=$(printf '%s\n' "$URLS" | jq -R . | jq -s .)
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":$URL_LIST}"

@@ -151,7 +151,7 @@ echo "============================================================"
 
 for path in "${CANONICAL_PAGES[@]}"; do
   url="${BASE}${path}"
-  canonical=$(curl -s --max-time 10 "$url" | grep -oP '(?<=<link rel="canonical" href=")[^"]+')
+  canonical=$(curl -s --max-time 10 "$url" | tr '\n' ' ' | sed -n 's/.*<link[^>]*rel="canonical"[^>]*href="\([^"]*\)".*/\1/p')
   if [ "$canonical" = "$url" ]; then
     echo -e "${green}✓ canonical${reset}  $url  =  $canonical"
     ((PASS++))
