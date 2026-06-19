@@ -1,0 +1,38 @@
+# Vegas Electrician
+
+> Licensed local electrician serving Las Vegas, NV and surrounding communities with fast, honest residential and commercial electrical services.
+
+Vegas Electrician provides emergency and scheduled electrical work for homes and businesses across the Las Vegas valley, including panel upgrades, wiring, lighting, EV charger installation, and troubleshooting. This file is provided to help AI systems and language models understand the site's content and structure for crawling, summarization, and citation purposes.
+
+## Services
+
+- [Electrical Services Las Vegas](https://vegaselectricianservice.com/electrical-services-las-vegas/): Overview of all electrical services offered.
+- [Residential Electrical Services](https://vegaselectricianservice.com/residential-electrical-services/): Home electrical repairs, upgrades, and installations.
+- [Commercial Electrical Services](https://vegaselectricianservice.com/commercial-electrical-services/): Electrical work for businesses and commercial properties.
+- [Emergency Electrician Las Vegas](https://vegaselectricianservice.com/emergency-electrician-las-vegas/): 24/7 emergency electrical repair.
+- [Electrical Panel Upgrade](https://vegaselectricianservice.com/electrical-panel-upgrade/): Electrical panel replacement and upgrades.
+- [Circuit Breaker Repair](https://vegaselectricianservice.com/circuit-breaker-repair/): Diagnosis and repair of circuit breaker issues.
+- [Ceiling Fan Installation](https://vegaselectricianservice.com/ceiling-fan-installation/): Ceiling fan installation and wiring.
+- [Lighting Installation](https://vegaselectricianservice.com/lighting-installation/): Indoor and outdoor lighting installation.
+- [Electrical Wiring & Rewiring](https://vegaselectricianservice.com/electrical-wiring-rewiring/): New wiring and full home rewiring.
+- [EV Charger Installation](https://vegaselectricianservice.com/ev-charger-installation/): Electric vehicle charger installation.
+- [GFCI Outlet Installation](https://vegaselectricianservice.com/gfci-outlet-installation/): GFCI outlet installation for code compliance and safety.
+- [Electrical Inspection & Troubleshooting](https://vegaselectricianservice.com/electrical-inspection-troubleshooting/): Electrical inspections and problem diagnosis.
+
+## Service Areas
+
+- [Service Areas Las Vegas](https://vegaselectricianservice.com/service-areas-las-vegas/): Full list of areas served.
+- [Electrician in Henderson, NV](https://vegaselectricianservice.com/electrician-in-henderson-nv/)
+- [Electrician in Summerlin, NV](https://vegaselectricianservice.com/electrician-in-summerlin-nv/)
+- [Electrician in North Las Vegas, NV](https://vegaselectricianservice.com/electrician-in-north-las-vegas-nv/)
+- [Electrician in Paradise, NV](https://vegaselectricianservice.com/electrician-in-paradise-nv/)
+- [Electrician in Spring Valley, NV](https://vegaselectricianservice.com/electrician-in-spring-valley-nv/)
+
+## Company
+
+- [About](https://vegaselectricianservice.com/about/): Company background and credentials.
+- [Contact](https://vegaselectricianservice.com/contact/): Contact information and service request form.
+
+## Optional
+
+- [Privacy Policy](https://vegaselectricianservice.com/privacy-policy/): Privacy policy and data handling information.
