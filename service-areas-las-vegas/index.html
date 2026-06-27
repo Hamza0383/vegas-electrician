@@ -60,58 +60,72 @@
     />
     <link rel="stylesheet" href="/style.css" />
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Electrician",
-        "name": "Vegas Electrician",
-        "url": "https://vegaselectricianservice.com",
-        "image": "https://vegaselectricianservice.com/img/las-vegas-valley-service-area-map.webp",
-        "telephone": "+17028997099",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "704 Bell Dr",
-          "addressLocality": "Las Vegas",
-          "addressRegion": "NV",
-          "postalCode": "89101",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 36.1699,
-          "longitude": -115.1398
-        },
-        "openingHours": "Mo-Su 00:00-23:59",
-        "priceRange": "$$",
-        "areaServed": [
-          "Las Vegas",
-          "Henderson",
-          "Summerlin",
-          "North Las Vegas",
-          "Paradise",
-          "Spring Valley"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "@id": "https://vegaselectricianservice.com/#business",
+  "name": "Vegas Electrician",
+  "url": "https://vegaselectricianservice.com/",
+  "image": "https://vegaselectricianservice.com/img/las-vegas-valley-service-area-map.webp",
+  "telephone": "+17028997099",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "704 Bell Dr",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89101",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.1699,
+    "longitude": -115.1398
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "$$",
+  "areaServed": [
+    "Las Vegas",
+    "Henderson",
+    "Summerlin",
+    "North Las Vegas",
+    "Paradise",
+    "Spring Valley"
+  ]
+}
+</script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://vegaselectricianservice.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Service Areas",
-            "item": "https://vegaselectricianservice.com/service-areas-las-vegas"
-          }
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://vegaselectricianservice.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Service Areas",
+      "item": "https://vegaselectricianservice.com/service-areas-las-vegas/"
+    }
+  ]
+}
+</script>
   </head>
   <body>
     <header class="site-header" role="banner">

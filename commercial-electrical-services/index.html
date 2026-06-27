@@ -60,79 +60,93 @@
     />
     <link rel="stylesheet" href="/style.css" />
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Electrician",
-        "name": "Vegas Electrician",
-        "url": "https://vegaselectricianservice.com",
-        "image": "https://vegaselectricianservice.com/img/commercial-electrical-services-las-vegas.webp",
-        "telephone": "+17028997099",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "704 Bell Dr",
-          "addressLocality": "Las Vegas",
-          "addressRegion": "NV",
-          "postalCode": "89101",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 36.1699,
-          "longitude": -115.1398
-        },
-        "openingHours": "Mo-Su 00:00-23:59",
-        "priceRange": "$$",
-        "areaServed": [
-          "Las Vegas",
-          "Henderson",
-          "Summerlin",
-          "North Las Vegas",
-          "Paradise",
-          "Spring Valley"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "@id": "https://vegaselectricianservice.com/#business",
+  "name": "Vegas Electrician",
+  "url": "https://vegaselectricianservice.com/",
+  "image": "https://vegaselectricianservice.com/img/commercial-electrical-services-las-vegas.webp",
+  "telephone": "+17028997099",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "704 Bell Dr",
+    "addressLocality": "Las Vegas",
+    "addressRegion": "NV",
+    "postalCode": "89101",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.1699,
+    "longitude": -115.1398
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "$$",
+  "areaServed": [
+    "Las Vegas",
+    "Henderson",
+    "Summerlin",
+    "North Las Vegas",
+    "Paradise",
+    "Spring Valley"
+  ]
+}
+</script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Commercial Electrical Services",
-        "provider": {
-          "@type": "Electrician",
-          "name": "Vegas Electrician",
-          "telephone": "+17028997099"
-        },
-        "areaServed": "Las Vegas, NV",
-        "description": "Commercial electrician in Las Vegas, NV. Panel upgrades, new construction wiring, tenant improvements, LED lighting, EV charger installation, and code compliance. All types of commercial spaces across Clark County.",
-        "serviceType": "Commercial Electrical"
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Commercial Electrical Services",
+  "provider": {
+    "@type": "Electrician",
+    "name": "Vegas Electrician",
+    "telephone": "+17028997099"
+  },
+  "areaServed": "Las Vegas, NV",
+  "description": "Commercial electrician in Las Vegas, NV. Panel upgrades, new construction wiring, tenant improvements, LED lighting, EV charger installation, and code compliance. All types of commercial spaces across Clark County.",
+  "serviceType": "Commercial Electrical"
+}
+</script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://vegaselectricianservice.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Electrical Services",
-            "item": "https://vegaselectricianservice.com/electrical-services-las-vegas"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Commercial Electrical Services",
-            "item": "https://vegaselectricianservice.com/commercial-electrical-services"
-          }
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://vegaselectricianservice.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Electrical Services",
+      "item": "https://vegaselectricianservice.com/electrical-services-las-vegas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Commercial Electrical Services",
+      "item": "https://vegaselectricianservice.com/commercial-electrical-services/"
+    }
+  ]
+}
+</script>
   </head>
   <body>
     <header class="site-header" role="banner">

@@ -47,11 +47,13 @@
       fetchpriority="high"
     />
     <link rel="stylesheet" href="/style.css" />  <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@type": "Electrician",
+  "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
-  "url": "https://vegaselectricianservice.com",
+  "url": "https://vegaselectricianservice.com/",
+  "image": "https://vegaselectricianservice.com/img/electrical-panel-upgrade-las-vegas.webp",
   "telephone": "+17028997099",
   "address": {
     "@type": "PostalAddress",
@@ -66,7 +68,20 @@
     "latitude": 36.1699,
     "longitude": -115.1398
   },
-  "openingHours": "Mo-Su 00:00-23:59",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
   "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
@@ -77,9 +92,9 @@
     "Spring Valley"
   ]
 }
-  </script>
+</script>
   <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Electrical Panel Upgrade Las Vegas",
@@ -92,18 +107,33 @@
   "description": "100A to 200A and 400A electrical panel upgrades in Las Vegas, NV. Permits handled, utility coordinated, done in one day.",
   "serviceType": "Electrical Panel Upgrade"
 }
-  </script>
+</script>
     <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vegaselectricianservice.com"},
-      {"@type": "ListItem", "position": 2, "name": "Electrical Services", "item": "https://vegaselectricianservice.com/electrical-services-las-vegas"},
-      {"@type": "ListItem", "position": 3, "name": "Electrical Panel Upgrade", "item": "https://vegaselectricianservice.com/electrical-panel-upgrade"}
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://vegaselectricianservice.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Electrical Services",
+      "item": "https://vegaselectricianservice.com/electrical-services-las-vegas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Electrical Panel Upgrade",
+      "item": "https://vegaselectricianservice.com/electrical-panel-upgrade/"
+    }
+  ]
+}
+</script>
 </head>
   <body>
       <header class="site-header" role="banner">
