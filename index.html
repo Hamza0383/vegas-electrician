@@ -50,6 +50,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
@@ -63,11 +68,11 @@
     <link rel="preload" href="/style.css" as="style" />
     <link rel="stylesheet" href="/style.css" />
 
-    <!-- JSON-LD: LocalBusiness -->
+    <!-- JSON-LD: Organization -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "Organization",
   "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
   "url": "https://vegaselectricianservice.com/",
@@ -100,7 +105,6 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
     "Henderson",
@@ -111,16 +115,59 @@
   ]
 }
 </script>
+      <!-- JSON-LD: FAQPage -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://vegaselectricianservice.com/"
+      "@type": "Question",
+      "name": "How much does an electrician cost in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rates run $80 to $200 per hour depending on the job. We give you the full price before anything starts. No surprise at the end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer same-day service in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Same-day and next-day slots are open for most jobs. Call in the morning. An electrician Las Vegas homeowners rely on can often be there that same afternoon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas do your electricians in Las Vegas serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cover the full valley. Henderson, Summerlin, North Las Vegas, Paradise, Spring Valley, Enterprise, and most of Clark County. Call to confirm your area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle residential and commercial work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our team works in homes and commercial buildings across the valley. Panel upgrades, rewires, tenant buildouts — we do it all."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if I have an electrical emergency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burning smell, sparking outlets, a breaker that won't hold — those are emergencies. So is sudden power loss. Call us right away. Stop resetting the breaker."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your electricians in Las Vegas available on weekends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We take calls and book jobs on weekends. Planned work and emergency calls both."
+      }
     }
   ]
 }

@@ -49,6 +49,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
@@ -62,7 +67,7 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "Organization",
   "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
   "url": "https://vegaselectricianservice.com/",
@@ -95,7 +100,6 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
     "Henderson",
@@ -112,7 +116,7 @@
   "@type": "Service",
   "name": "Electrical Inspection Las Vegas",
   "provider": {
-    "@type": "Electrician",
+    "@type": "Organization",
     "name": "Vegas Electrician",
     "telephone": "+17028997099"
   },
@@ -143,6 +147,63 @@
       "position": 3,
       "name": "Electrical Inspection & Troubleshooting",
       "item": "https://vegaselectricianservice.com/electrical-inspection-troubleshooting/"
+    }
+  ]
+}
+</script>
+      <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an electrical inspection cost in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A home electrical inspection typically costs $150 to $350. It depends on home size and scope. We give you a clear price before we visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an electrical inspection before buying a home in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — strongly recommended. It goes deeper than a general home inspection. It can uncover costly issues before you close."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a home electrical inspection take in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential inspections take 1 to 2 hours. Larger homes may take longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an electrician diagnose why my Las Vegas home keeps losing power?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Diagnostic tools find loose connections, overloaded circuits, or panel issues. Cause of power loss located fast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does owners insurance require electrical inspections in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some insurers require checks for older homes. We provide written reports that satisfy most insurance needs in Nevada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if an electrical inspection finds problems in a Las Vegas home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We give you a written report with clear findings and priorities. Minor issues can often be fixed the same day. Larger problems are quoted and scheduled separately."
+      }
     }
   ]
 }

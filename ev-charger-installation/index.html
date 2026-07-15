@@ -49,6 +49,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
@@ -62,7 +67,7 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "Organization",
   "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
   "url": "https://vegaselectricianservice.com/",
@@ -95,7 +100,6 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
     "Henderson",
@@ -112,7 +116,7 @@
   "@type": "Service",
   "name": "EV Charger Installation Las Vegas",
   "provider": {
-    "@type": "Electrician",
+    "@type": "Organization",
     "name": "Vegas Electrician",
     "telephone": "+17028997099"
   },
@@ -143,6 +147,63 @@
       "position": 3,
       "name": "EV Charger Installation",
       "item": "https://vegaselectricianservice.com/ev-charger-installation/"
+    }
+  ]
+}
+</script>
+      <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does EV charger installation cost in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most home installs cost $400 to $1,200 including labor and permits. Panel upgrades add more if needed. We give you the full price before we start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does EV charger installation take in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most home installs take 2 to 4 hours. Jobs that need a panel upgrade may take a full day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a panel upgrade for an EV charger in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. Panel checked first. Many homes here can support Level 2 without an upgrade. An EV charger installation Las Vegas assessment takes about 30 minutes. We'll tell you either way."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you install a Tesla Wall Connector in my Las Vegas home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tesla Wall Connector installs are one of our top jobs. We hardwire it to a dedicated 240V circuit. Fully permitted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there rebates for EV charger installation in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NV Energy and federal programs may cut your install cost. Ask us for current details — amounts change often."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you install EV chargers for a commercial property in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We handle commercial EV charging for apartments, offices, hotels, and parking lots throughout the valley."
+      }
     }
   ]
 }

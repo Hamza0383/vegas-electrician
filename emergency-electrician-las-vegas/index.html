@@ -37,6 +37,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
@@ -50,7 +55,7 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "Organization",
   "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
   "url": "https://vegaselectricianservice.com/",
@@ -83,7 +88,6 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
     "Henderson",
@@ -100,7 +104,7 @@
   "@type": "Service",
   "name": "Emergency Electrician Las Vegas",
   "provider": {
-    "@type": "Electrician",
+    "@type": "Organization",
     "name": "Vegas Electrician",
     "telephone": "+17028997099"
   },
@@ -131,6 +135,55 @@
       "position": 3,
       "name": "Emergency Electrician",
       "item": "https://vegaselectricianservice.com/emergency-electrician-las-vegas/"
+    }
+  ]
+}
+</script>
+      <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is there a 24-hour emergency electrician in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We run 24/7 emergency service throughout Las Vegas, Henderson, and the surrounding area. Call any time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What counts as an electrical emergency in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burning smells, sparks, exposed wire, repeated breaker trips, or a full power loss — all need fast action."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can an emergency electrician reach me in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most calls get a response within 60 to 90 minutes. It depends on your location and the time of day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I smell burning from an outlet in Las Vegas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop using the outlet. Turn off that circuit at the breaker. Call the emergency electrician Las Vegas residents trust. Don't wait."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you fix a panel problem the same night?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Common panel parts on every truck. Most panel jobs fixed on the first visit — day or night."
+      }
     }
   ]
 }

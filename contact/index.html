@@ -34,6 +34,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
@@ -47,7 +52,7 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "Organization",
   "@id": "https://vegaselectricianservice.com/#business",
   "name": "Vegas Electrician",
   "url": "https://vegaselectricianservice.com/",
@@ -80,7 +85,6 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "$$",
   "areaServed": [
     "Las Vegas",
     "Henderson",
@@ -429,6 +433,12 @@
             <!-- Contact Form -->
             <div class="contact-form animate-fade">
               <h2>Send Us a Message</h2>
+              <p style="color: var(--text-secondary); margin-bottom: 16px">
+                For the fastest response, call
+                <a href="tel:+17028997099" style="color: var(--blue); font-weight: 700"
+                  >(702) 899-7099</a
+                >. Our team answers the phone directly.
+              </p>
               <form action="#" method="POST" novalidate>
                 <div class="form-row">
                   <div class="form-group">
